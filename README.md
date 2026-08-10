@@ -2,6 +2,12 @@
 
 可分享的静态页：浏览器直接打开即可筛选、看排行、点「打开源站核对」。
 
+## 公开地址
+
+https://jerrypan-stack.github.io/nako-tungsten-price/
+
+仓库：https://github.com/jerrypan-stack/nako-tungsten-price
+
 ## 本地打开
 
 1. 进入本目录  
