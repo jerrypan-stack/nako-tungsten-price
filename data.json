@@ -23,9 +23,6 @@
         "tacklewarehouse.com": 225
       },
       "fail": {
-        "epicbaitsfishing.com": [
-          "product.json fail: https://epicbaitsfishing.com/products/tungsten-flipping-weight"
-        ],
         "tacklewarehouse.com_pages": [
           "https://www.tacklewarehouse.com/Strike_King_Tour_Grade_Tungsten_Weights/descpage-SKTGT.html",
           "https://www.tacklewarehouse.com/Evolution_Tungsten_Worm_Weights/descpage-EVWW.html",
