@@ -982,18 +982,6 @@
       "url": "https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Worm_Weights/descpage-FFTWW.html"
     },
     {
-      "brand": "Fitzgerald",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "1/4 oz",
-      "g": 7.087,
-      "qty": 1,
-      "packUsd": 39.99,
-      "unitCny": 269.93,
-      "yg": 38.086,
-      "url": "https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Flippin_Weights/descpage-FFTFW.html"
-    },
-    {
       "brand": "Nako",
       "channel": "官网",
       "cat": "Worm",
@@ -2710,7 +2698,7 @@
     },
     {
       "brand": "Fitzgerald",
-      "n": 8,
+      "n": 7,
       "sizes": "1/16 · 1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (7)",
       "sizeList": [
         "1/16 oz",
@@ -2723,7 +2711,7 @@
       ],
       "min": 5.289,
       "med": 6.029,
-      "max": 38.086,
+      "max": 9.135,
       "tier": "更贵"
     }
   ]
