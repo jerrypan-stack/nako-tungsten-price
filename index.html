@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Nako 钨钢贵不贵？一眼看懂</title>
+<style>
+  :root {
+    --bg: #f6f4ef;
+    --ink: #1c1b19;
+    --muted: #5c5852;
+    --line: #ddd8ce;
+    --card: #ffffff;
+    --nako: #0b5fff;
+    --nako-bg: #e8f0ff;
+    --cheap: #0f7a45;
+    --cheap-bg: #e8f6ee;
+    --dear: #b45309;
+    --dear-bg: #fff4e5;
+    --neutral: #6b6560;
+    --hint: #fff8e8;
+    --hint-border: #e8c96a;
+    --shadow: 0 1px 2px rgba(28,27,25,.06);
+    --radius: 10px;
+    --font: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+    --mono: "SF Mono", ui-monospace, Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: var(--font);
+    color: var(--ink);
+    background:
+      radial-gradient(1200px 500px at 10% -10%, #e7eefc 0%, transparent 55%),
+      radial-gradient(900px 400px at 100% 0%, #f3ebe0 0%, transparent 50%),
+      var(--bg);
+    line-height: 1.55;
+    font-size: 15px;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 20px 16px 64px; }
+  header.top {
+    display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center;
+    margin-bottom: 18px;
+  }
+  .chip {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 4px 10px; border-radius: 999px;
+    background: #fff; border: 1px solid var(--line);
+    font-size: 12px; color: var(--muted); box-shadow: var(--shadow);
+  }
+  .chip strong { color: var(--ink); font-weight: 600; }
+  h1 {
+    font-size: clamp(1.55rem, 3.5vw, 2rem);
+    line-height: 1.25; margin: 0 0 8px; letter-spacing: -0.02em;
+  }
+  h2 {
+    font-size: 1.15rem; margin: 0 0 8px; letter-spacing: -0.01em;
+  }
+  .lead { color: var(--muted); margin: 0 0 16px; max-width: 46em; }
+  .metric-box {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: var(--radius); padding: 14px 16px; margin-bottom: 14px;
+    box-shadow: var(--shadow);
+  }
+  .metric-box p { margin: 0; }
+  .metric-box .label { font-weight: 650; margin-bottom: 4px; }
+  .metric-box .why { color: var(--muted); font-size: 13.5px; }
+  .conclusion {
+    background: linear-gradient(180deg, #eef4ff, #fff);
+    border: 1px solid #c9d8f5;
+    border-radius: var(--radius); padding: 16px 18px; margin-bottom: 16px;
+    box-shadow: var(--shadow);
+  }
+  .conclusion .tag {
+    display: inline-block; font-size: 12px; font-weight: 700;
+    color: var(--nako); letter-spacing: .04em; margin-bottom: 6px;
+  }
+  .conclusion p { margin: 0; }
+  .howto {
+    background: var(--hint); border: 1px solid var(--hint-border);
+    border-radius: var(--radius); padding: 14px 16px; margin-bottom: 18px;
+  }
+  .howto ol { margin: 8px 0 0; padding-left: 1.2em; }
+  .howto li { margin: 4px 0; }
+  .howto .tip { margin-top: 8px; font-size: 13px; color: #7a5a10; }
+  .section { margin: 22px 0; }
+  .section-head {
+    display: flex; flex-wrap: wrap; gap: 8px 12px;
+    align-items: baseline; justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .muted { color: var(--muted); }
+  .small { font-size: 13px; }
+  .stats {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;
+    margin: 12px 0 16px;
+  }
+  @media (max-width: 720px) {
+    .stats { grid-template-columns: 1fr; }
+  }
+  .stat {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: var(--radius); padding: 14px 14px 12px;
+    box-shadow: var(--shadow);
+  }
+  .stat .v {
+    font-size: 1.45rem; font-weight: 700; letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+  }
+  .stat .l { font-size: 12.5px; color: var(--muted); margin-top: 4px; }
+  .stat.ok .v { color: var(--cheap); }
+  .stat.nako { border-color: #b7ccf8; background: var(--nako-bg); }
+  .stat.nako .v { color: var(--nako); }
+  .stat.warn .v { color: var(--dear); }
+
+  .filters {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: var(--radius); padding: 14px 14px 10px;
+    box-shadow: var(--shadow); margin-bottom: 14px;
+  }
+  .filt-row { margin-bottom: 12px; }
+  .filt-label {
+    display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+    font-weight: 650; margin-bottom: 8px; font-size: 13.5px;
+  }
+  .suggest {
+    font-size: 11.5px; font-weight: 700; color: #7a5a10;
+    background: #ffe9a8; border: 1px solid #e8c96a;
+    padding: 2px 8px; border-radius: 999px;
+  }
+  .pills { display: flex; flex-wrap: wrap; gap: 6px; }
+  .pill {
+    appearance: none; border: 1px solid var(--line); background: #fff;
+    color: var(--ink); border-radius: 999px; padding: 7px 12px;
+    font: inherit; font-size: 13px; cursor: pointer;
+  }
+  .pill:hover { border-color: #b8b2a6; }
+  .pill.active {
+    background: var(--ink); color: #fff; border-color: var(--ink);
+  }
+  .pill.rec:not(.active) {
+    border-color: #e8c96a; background: #fffaf0;
+  }
+  .pill .sub { display: block; font-size: 11px; opacity: .75; margin-top: 1px; }
+  .pill.active .sub { opacity: .85; }
+  .current {
+    margin-top: 4px; font-size: 13px; color: var(--muted);
+  }
+
+  .callout {
+    border-radius: var(--radius); padding: 12px 14px; margin: 10px 0 14px;
+    border: 1px solid var(--line); background: #fff;
+  }
+  .callout.ok { background: var(--cheap-bg); border-color: #b7e0c7; }
+  .callout.warn { background: var(--dear-bg); border-color: #f0d2a8; }
+  .callout.info { background: var(--nako-bg); border-color: #c9d8f5; }
+  .callout .t { font-weight: 700; margin-bottom: 4px; font-size: 13.5px; }
+
+  .table-wrap {
+    overflow-x: auto; -webkit-overflow-scrolling: touch;
+    border: 1px solid var(--line); border-radius: var(--radius);
+    background: var(--card); box-shadow: var(--shadow);
+  }
+  table {
+    width: 100%; border-collapse: collapse; min-width: 720px;
+    font-size: 13.5px;
+  }
+  th, td {
+    padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+  th {
+    background: #faf8f4; font-size: 12px; color: var(--muted);
+    font-weight: 650; white-space: nowrap; position: sticky; top: 0;
+  }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  tr.nako-row { background: var(--nako-bg); }
+  tr.nako-row td { border-bottom-color: #c9d8f5; }
+  tr:last-child td { border-bottom: 0; }
+  .brand-cell { font-weight: 650; }
+  .brand-cell .badge {
+    display: inline-block; margin-left: 6px; font-size: 11px; font-weight: 700;
+    color: var(--nako); background: #fff; border: 1px solid #b7ccf8;
+    padding: 1px 6px; border-radius: 999px; vertical-align: middle;
+  }
+  .vs {
+    display: flex; flex-wrap: wrap; gap: 6px; align-items: center;
+  }
+  .tagp {
+    display: inline-block; font-size: 11.5px; font-weight: 700;
+    padding: 2px 8px; border-radius: 999px; white-space: nowrap;
+  }
+  .tagp.cheap { background: var(--cheap-bg); color: var(--cheap); }
+  .tagp.dear { background: var(--dear-bg); color: var(--dear); }
+  .tagp.same { background: #f0eeea; color: var(--neutral); }
+  .tagp.base { background: #dce8ff; color: var(--nako); }
+  .vs-text { font-size: 12.5px; color: var(--muted); }
+  .sizes { font-size: 12.5px; color: var(--ink); line-height: 1.45; }
+  .sizes .miss { color: var(--muted); display: block; margin-top: 2px; }
+  a.link {
+    color: var(--nako); font-weight: 650; text-decoration: none;
+    white-space: nowrap;
+  }
+  a.link:hover { text-decoration: underline; }
+  .toolbar {
+    display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+    margin: 8px 0 10px;
+  }
+  details.optional {
+    border: 1px solid var(--line); border-radius: var(--radius);
+    background: var(--card); padding: 0; margin: 18px 0;
+    box-shadow: var(--shadow);
+  }
+  details.optional > summary {
+    cursor: pointer; padding: 14px 16px; font-weight: 700;
+    list-style: none;
+  }
+  details.optional > summary::-webkit-details-marker { display: none; }
+  details.optional > summary::after {
+    content: "展开"; float: right; font-weight: 600; color: var(--muted); font-size: 12.5px;
+  }
+  details.optional[open] > summary::after { content: "收起"; }
+  details.optional .inner { padding: 0 16px 16px; }
+  .rules {
+    background: #fff; border: 1px solid var(--line);
+    border-radius: var(--radius); padding: 16px 18px; margin-top: 22px;
+  }
+  .rules ul { margin: 8px 0 0; padding-left: 1.2em; }
+  .rules li { margin: 5px 0; color: var(--muted); }
+  .rules code {
+    font-family: var(--mono); font-size: 12px; background: #f0eeea;
+    padding: 1px 5px; border-radius: 4px; color: var(--ink);
+  }
+  footer {
+    margin-top: 28px; font-size: 12.5px; color: var(--muted);
+  }
+  .empty {
+    padding: 28px 16px; text-align: center; color: var(--muted);
+    border: 1px dashed var(--line); border-radius: var(--radius);
+    background: #fff;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top" id="metaChips"></header>
+
+    <h1>Nako 钨钢贵不贵？一眼看懂</h1>
+    <p class="lead">给老板 / 同事的对照页：用同一口径比各品牌「每克多少钱」，看 Nako 落在什么位置。不是促销页，是价格位置图。</p>
+
+    <div class="metric-box">
+      <p class="label">怎么比才公平？看「每克人民币价」，不要只看包装价</p>
+      <p class="why">不同品牌一包装的粒数、克重不一样——包装标 $8.99 不一定更便宜。所以统一折成：买 1 克钨钢要花多少人民币（¥/克）。数字越小越便宜。</p>
+    </div>
+
+    <section class="conclusion" id="conclusion">
+      <div class="tag">先看结论（30 秒）</div>
+      <p id="conclusionText">加载中…</p>
+    </section>
+
+    <section class="howto">
+      <strong>怎么用这一页</strong>
+      <ol>
+        <li>默认已选常用组合：<strong>Worm + 1/4 oz</strong>（下面有「建议从这里看」标记）。</li>
+        <li>先看三块数字：最便宜 / Nako / 最贵，再往下看排行表。</li>
+        <li>表格里 <strong>Nako 行会高亮</strong>；「比 Nako」直接写便宜/贵多少钱。</li>
+        <li>点「打开源站核对」会新开标签页，到卖家页面核价核库存。</li>
+      </ol>
+      <p class="tip">渠道中文名：美国大站 = Tackle Warehouse；折扣站 = DiscountTackle；品牌官网 = 品牌自己的网店。</p>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>① 先选看哪一类、哪个克重</h2>
+      </div>
+      <div class="filters">
+        <div class="filt-row">
+          <div class="filt-label">产品类型 <span class="muted small">（英文品名保留，和美站一致）</span></div>
+          <div class="pills" id="catPills"></div>
+        </div>
+        <div class="filt-row">
+          <div class="filt-label">
+            克重
+            <span class="suggest">建议从这里看 · Worm + 1/4 oz</span>
+          </div>
+          <div class="pills" id="sizePills"></div>
+        </div>
+        <p class="current" id="currentView"></p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>② 这一组合谁贵谁便宜</h2>
+        <span class="muted small" id="rankSub"></span>
+      </div>
+      <div class="stats" id="heroStats"></div>
+      <div id="readHint"></div>
+      <div class="toolbar">
+        <span class="muted small">排行表显示：</span>
+        <div class="pills" id="viewModePills"></div>
+      </div>
+      <div id="rankTable"></div>
+    </section>
+
+    <details class="optional" id="cheapPanel">
+      <summary>可选：哪些便宜品牌在具体克重上比 Nako 更低</summary>
+      <div class="inner">
+        <p class="muted small">只看「整体更便宜」档的品牌。对照范围 = 当前品类下 Nako 有货且单粒不超过约 14g（含 1/2 oz）的克重。没货的克重会标出来，不编造价格。</p>
+        <div class="toolbar">
+          <span class="muted small">品牌</span>
+          <div class="pills" id="cheapBrandPills"></div>
+        </div>
+        <div class="toolbar">
+          <span class="muted small">显示</span>
+          <div class="pills" id="cheapLensPills"></div>
+        </div>
+        <div id="cheapStats" class="stats"></div>
+        <div id="cheapTable"></div>
+      </div>
+    </details>
+
+    <details class="optional">
+      <summary>可选：品牌整体落在哪一档（按中位 ¥/克）</summary>
+      <div class="inner">
+        <p class="muted small">分档只用「现在有货 + 单粒不超过约 14g（含 1/2 oz）」SKU 的 ¥/克中位数；不含缺货，缺货不参与分档。样本数 n 很小的品牌档位更脆弱。Nako 区间上限含 1/32 oz（约 0.9g），会拉高 max，但不改中位。</p>
+        <div class="toolbar">
+          <div class="pills" id="tierPills"></div>
+        </div>
+        <div id="tierTable"></div>
+      </div>
+    </details>
+
+    <section class="rules">
+      <h2>口径说明（核对用）</h2>
+      <ul id="rulesList"></ul>
+    </section>
+
+    <footer>
+      数据来自美站公开标价折算；库存会变，汇报请以源站最新有货为准。本页可直接双击打开，也可丢到任意静态托管。
+    </footer>
+  </div>
+
+<script>
+const DATA = {"meta":{"title":"Nako vs 竞品 · 钨钢 ¥/克对比","asOf":"2026-08-10","fx":6.75,"ozToG":28.3495,"maxPieceG":14.2,"formula":"¥/g = pack USD × 6.75 ÷ (qty × oz × 28.3495)","rules":["仅有货（in-stock / available）","单粒克重不超过约 14g（含 1/2 oz ≈14.175g；更重规格已排除）","主排名：同品牌取更便宜渠道一条","有货克重 = 本数据集中该品牌+渠道+品类已录入的规格清单（含 1/2 oz）"],"urlCheck":{"checkedAt":"2026-08-11","method":"curl -L HTTP status","uniqueUrls":37,"allOk":true,"note":"全部 37 条验证链接此前/本次可访问（含新增 1/2 oz 相关页）"}},"rows":[{"brand":"Nako","channel":"官网","cat":"Worm","size":"1/32 oz","g":0.886,"qty":5,"packUsd":6.49,"unitCny":8.76,"yg":9.89,"url":"https://nakoshop.com/products/tungsten-worm-weights"},{"brand":"Epic Baits","channel":"官网","cat":"Worm","size":"1/16 oz","g":1.772,"qty":5,"packUsd":5.59,"unitCny":7.55,"yg":4.259,"url":"https://epicbaitsfishing.com/products/tungsten-worm-weight"},{"brand":"Departure","channel":"DiscountTackle","cat":"Worm","size":"1/16 oz","g":1.772,"qty":5,"packUsd":5.99,"unitCny":8.09,"yg":4.564,"url":"https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights"},{"brand":"Nako","channel":"官网","cat":"Flipping","size":"1/16 oz","g":1.772,"qty":5,"packUsd":7.99,"unitCny":10.79,"yg":6.088,"url":"https://nakoshop.com/products/nako-tungsten-flipping-weights"},{"brand":"Nako","channel":"TW","cat":"Worm","size":"1/16 oz","g":1.772,"qty":5,"packUsd":7.99,"unitCny":10.79,"yg":6.088,"url":"https://www.tacklewarehouse.com/Nako_Tungsten_Worm_Weights_5pk/descpage-NWW.html"},{"brand":"Nako","channel":"官网","cat":"Worm","size":"1/16 oz","g":1.772,"qty":5,"packUsd":7.99,"unitCny":10.79,"yg":6.088,"url":"https://nakoshop.com/products/tungsten-worm-weights"},{"brand":"Reaction Tackle","channel":"官网","cat":"Worm","size":"1/16 oz","g":1.772,"qty":12,"packUsd":19.98,"unitCny":11.24,"yg":6.343,"url":"https://reactiontackle.com/products/reaction-tackle-tungsten-worm-weights-bullet-shaped-sinkers"},{"brand":"WOO! Never Chip","channel":"官网","cat":"Flipping","size":"1/16 oz","g":1.772,"qty":5,"packUsd":9.99,"unitCny":13.49,"yg":7.612,"url":"https://wootungsten.com/collections/neverchip"},{"brand":"WOO!","channel":"TW","cat":"Flipping","size":"1/16 oz","g":1.772,"qty":5,"packUsd":10.49,"unitCny":14.16,"yg":7.993,"url":"https://www.tacklewarehouse.com/WOO_Tungsten_Flipping_Weights/descpage-WTFW.html"},{"brand":"WOO! Never Chip","channel":"TW","cat":"Flipping","size":"1/16 oz","g":1.772,"qty":5,"packUsd":10.79,"unitCny":14.57,"yg":8.221,"url":"https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights/descpage-WTNC.html"},{"brand":"Fitzgerald","channel":"TW","cat":"Worm","size":"1/16 oz","g":1.772,"qty":5,"packUsd":11.99,"unitCny":16.19,"yg":9.135,"url":"https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Worm_Weights/descpage-FFTWW.html"},{"brand":"Nako","channel":"官网","cat":"Flipping","size":"3/32 oz","g":2.658,"qty":5,"packUsd":9.99,"unitCny":13.49,"yg":5.074,"url":"https://nakoshop.com/products/nako-tungsten-flipping-weights"},{"brand":"Nako","channel":"官网","cat":"Worm","size":"3/32 oz","g":2.658,"qty":5,"packUsd":9.99,"unitCny":13.49,"yg":5.074,"url":"https://nakoshop.com/products/tungsten-worm-weights"},{"brand":"Departure","channel":"DiscountTackle","cat":"Worm","size":"1/8 oz","g":3.544,"qty":5,"packUsd":5.99,"unitCny":8.09,"yg":2.282,"url":"https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights"},{"brand":"Denali","channel":"TW","cat":"Flipping","size":"1/8 oz","g":3.544,"qty":3,"packUsd":4.49,"unitCny":10.1,"yg":2.851,"url":"https://www.tacklewarehouse.com/Denali_Kovert_Tungsten_Flipping_Weights/descpage-DENTFW.html"},{"brand":"1st Contact","channel":"TW","cat":"Flipping","size":"1/8 oz","g":3.544,"qty":4,"packUsd":6.99,"unitCny":11.8,"yg":3.329,"url":"https://www.tacklewarehouse.com/1st_Contact_Tungsten_Flipping_Weights/descpage-FCTFW.html"},{"brand":"1st Contact","channel":"TW","cat":"Worm","size":"1/8 oz","g":3.544,"qty":4,"packUsd":6.99,"unitCny":11.8,"yg":3.329,"url":"https://www.tacklewarehouse.com/1st_Contact_Tungsten_Worm_Weights/descpage-FCTW.html"},{"brand":"Eagle Claw","channel":"TW","cat":"Worm","size":"1/8 oz","g":3.544,"qty":4,"packUsd":6.99,"unitCny":11.8,"yg":3.329,"url":"https://www.tacklewarehouse.com/Eagle_Claw_Lazer_Sharp_Tungsten_Worm_Weight/descpage-ECLTGW.html"},{"brand":"Epic Baits","channel":"官网","cat":"Worm","size":"1/8 oz","g":3.544,"qty":4,"packUsd":7.49,"unitCny":12.64,"yg":3.567,"url":"https://epicbaitsfishing.com/products/tungsten-worm-weight"},{"brand":"Strike King","channel":"DiscountTackle","cat":"Worm","size":"1/8 oz","g":3.544,"qty":4,"packUsd":7.64,"unitCny":12.89,"yg":3.638,"url":"https://discounttackle.com/products/strike-king-tungsten-weights"},{"brand":"Arsenal Fishing","channel":"TW","cat":"Flipping","size":"1/8 oz","g":3.544,"qty":5,"packUsd":9.99,"unitCny":13.49,"yg":3.806,"url":"https://www.tacklewarehouse.com/Arsenal_Fishing_Flipping_Weight_Black_Out_Tungsten/descpage-AFBOF.html"},{"brand":"Bullet Weights","channel":"TW","cat":"Worm","size":"1/8 oz","g":3.544,"qty":4,"packUsd":8.49,"unitCny":14.33,"yg":4.043,"url":"https://www.tacklewarehouse.com/Bullet_Weights_Tungsten_Bullet_Weights/descpage-BWTBW.html"},{"brand":"Strike King","channel":"TW","cat":"Other","size":"1/8 oz","g":3.544,"qty":4,"packUsd":8.99,"unitCny":15.17,"yg":4.281,"url":"https://www.tacklewarehouse.com/Strike_King_Tour_Grade_Tungsten_Weights/descpage-SKTGT.html"},{"brand":"Xzone","channel":"TW","cat":"Worm","size":"1/8 oz","g":3.544,"qty":4,"packUsd":8.99,"unitCny":15.17,"yg":4.281,"url":"https://www.tacklewarehouse.com/Xzone_Tungsten_Worm_Weights/descpage-XRTW.html"},{"brand":"Nako","channel":"TW","cat":"Flipping","size":"1/8 oz","g":3.544,"qty":5,"packUsd":11.49,"unitCny":15.51,"yg":4.377,"url":"https://www.tacklewarehouse.com/Nako_Tungsten_Flipping_Weights/descpage-NTFW.html"},{"brand":"Nako","channel":"官网","cat":"Flipping","size":"1/8 oz","g":3.544,"qty":5,"packUsd":11.49,"unitCny":15.51,"yg":4.377,"url":"https://nakoshop.com/products/nako-tungsten-flipping-weights"},{"brand":"Nako","channel":"官网","cat":"Worm","size":"1/8 oz","g":3.544,"qty":5,"packUsd":11.49,"unitCny":15.51,"yg":4.377,"url":"https://nakoshop.com/products/tungsten-worm-weights"},{"brand":"Reaction Tackle","channel":"官网","cat":"Worm","size":"1/8 oz","g":3.544,"qty":8,"packUsd":19.99,"unitCny":16.87,"yg":4.76,"url":"https://reactiontackle.com/products/reaction-tackle-tungsten-worm-weights-bullet-shaped-sinkers"},{"brand":"WOO! Never Chip","channel":"官网","cat":"Flipping","size":"1/8 oz","g":3.544,"qty":4,"packUsd":10.99,"unitCny":18.55,"yg":5.233,"url":"https://wootungsten.com/collections/neverchip"},{"brand":"WOO!","channel":"TW","cat":"Flipping","size":"1/8 oz","g":3.544,"qty":4,"packUsd":12.29,"unitCny":20.74,"yg":5.852,"url":"https://www.tacklewarehouse.com/WOO_Tungsten_Flipping_Weights/descpage-WTFW.html"},{"brand":"WOO! Never Chip","channel":"TW","cat":"Flipping","size":"1/8 oz","g":3.544,"qty":4,"packUsd":12.49,"unitCny":21.08,"yg":5.948,"url":"https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights/descpage-WTNC.html"},{"brand":"TMO","channel":"TW","cat":"Flipping","size":"1/8 oz","g":3.544,"qty":4,"packUsd":13.49,"unitCny":22.76,"yg":6.424,"url":"https://www.tacklewarehouse.com/TMO_Tungsten_Flipping_Weights/descpage-TMOTF.html"},{"brand":"TMO","channel":"TW","cat":"Worm","size":"1/8 oz","g":3.544,"qty":4,"packUsd":13.49,"unitCny":22.76,"yg":6.424,"url":"https://www.tacklewarehouse.com/TMO_Tungsten_Worm_Weights/descpage-TMOTW.html"},{"brand":"Epic Baits","channel":"TW","cat":"Worm","size":"1/8 oz","g":3.544,"qty":4,"packUsd":13.99,"unitCny":23.61,"yg":6.662,"url":"https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Worm_Weights/descpage-EBTW.html"},{"brand":"Fitzgerald","channel":"TW","cat":"Worm","size":"1/8 oz","g":3.544,"qty":4,"packUsd":14.99,"unitCny":25.3,"yg":7.138,"url":"https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Worm_Weights/descpage-FFTWW.html"},{"brand":"Queen Tackle","channel":"TW","cat":"Worm","size":"1/8 oz","g":3.544,"qty":3,"packUsd":11.99,"unitCny":26.98,"yg":7.613,"url":"https://www.tacklewarehouse.com/Queen_Tackle_Tungsten_Worm_Weights/descpage-QTWW.html"},{"brand":"Mustad","channel":"TW","cat":"Worm","size":"3/16 oz","g":5.316,"qty":4,"packUsd":6.49,"unitCny":10.95,"yg":2.06,"url":"https://www.tacklewarehouse.com/Mustad_Tungsten_TitanX_Worm_Weights/descpage-MTXT.html"},{"brand":"Departure","channel":"DiscountTackle","cat":"Worm","size":"3/16 oz","g":5.316,"qty":5,"packUsd":8.99,"unitCny":12.14,"yg":2.283,"url":"https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights"},{"brand":"Bullet Weights","channel":"TW","cat":"Worm","size":"3/16 oz","g":5.316,"qty":4,"packUsd":7.99,"unitCny":13.48,"yg":2.537,"url":"https://www.tacklewarehouse.com/Bullet_Weights_Tungsten_Bullet_Weights/descpage-BWTBW.html"},{"brand":"Eagle Claw","channel":"TW","cat":"Worm","size":"3/16 oz","g":5.316,"qty":4,"packUsd":7.99,"unitCny":13.48,"yg":2.537,"url":"https://www.tacklewarehouse.com/Eagle_Claw_Lazer_Sharp_Tungsten_Worm_Weight/descpage-ECLTGW.html"},{"brand":"1st Contact","channel":"TW","cat":"Flipping","size":"3/16 oz","g":5.316,"qty":4,"packUsd":8.99,"unitCny":15.17,"yg":2.854,"url":"https://www.tacklewarehouse.com/1st_Contact_Tungsten_Flipping_Weights/descpage-FCTFW.html"},{"brand":"1st Contact","channel":"TW","cat":"Worm","size":"3/16 oz","g":5.316,"qty":4,"packUsd":8.99,"unitCny":15.17,"yg":2.854,"url":"https://www.tacklewarehouse.com/1st_Contact_Tungsten_Worm_Weights/descpage-FCTW.html"},{"brand":"Denali","channel":"TW","cat":"Flipping","size":"3/16 oz","g":5.316,"qty":3,"packUsd":6.89,"unitCny":15.5,"yg":2.916,"url":"https://www.tacklewarehouse.com/Denali_Kovert_Tungsten_Flipping_Weights/descpage-DENTFW.html"},{"brand":"Epic Baits","channel":"官网","cat":"Worm","size":"3/16 oz","g":5.316,"qty":4,"packUsd":11.19,"unitCny":18.88,"yg":3.552,"url":"https://epicbaitsfishing.com/products/tungsten-worm-weight"},{"brand":"Xzone","channel":"TW","cat":"Worm","size":"3/16 oz","g":5.316,"qty":4,"packUsd":11.99,"unitCny":20.23,"yg":3.806,"url":"https://www.tacklewarehouse.com/Xzone_Tungsten_Worm_Weights/descpage-XRTW.html"},{"brand":"Nako","channel":"TW","cat":"Flipping","size":"3/16 oz","g":5.316,"qty":5,"packUsd":14.99,"unitCny":20.24,"yg":3.807,"url":"https://www.tacklewarehouse.com/Nako_Tungsten_Flipping_Weights/descpage-NTFW.html"},{"brand":"Nako","channel":"官网","cat":"Flipping","size":"3/16 oz","g":5.316,"qty":5,"packUsd":14.99,"unitCny":20.24,"yg":3.807,"url":"https://nakoshop.com/products/nako-tungsten-flipping-weights"},{"brand":"Nako","channel":"TW","cat":"Worm","size":"3/16 oz","g":5.316,"qty":5,"packUsd":14.99,"unitCny":20.24,"yg":3.807,"url":"https://www.tacklewarehouse.com/Nako_Tungsten_Worm_Weights_5pk/descpage-NWW.html"},{"brand":"Nako","channel":"官网","cat":"Worm","size":"3/16 oz","g":5.316,"qty":5,"packUsd":14.99,"unitCny":20.24,"yg":3.807,"url":"https://nakoshop.com/products/tungsten-worm-weights"},{"brand":"Reaction Tackle","channel":"官网","cat":"Worm","size":"3/16 oz","g":5.316,"qty":8,"packUsd":24.99,"unitCny":21.09,"yg":3.967,"url":"https://reactiontackle.com/products/reaction-tackle-tungsten-worm-weights-bullet-shaped-sinkers"},{"brand":"WOO!","channel":"TW","cat":"Flipping","size":"3/16 oz","g":5.316,"qty":4,"packUsd":14.29,"unitCny":24.11,"yg":4.537,"url":"https://www.tacklewarehouse.com/WOO_Tungsten_Flipping_Weights/descpage-WTFW.html"},{"brand":"Queen Tackle","channel":"TW","cat":"Worm","size":"3/16 oz","g":5.316,"qty":3,"packUsd":11.99,"unitCny":26.98,"yg":5.075,"url":"https://www.tacklewarehouse.com/Queen_Tackle_Tungsten_Worm_Weights/descpage-QTWW.html"},{"brand":"TMO","channel":"TW","cat":"Flipping","size":"3/16 oz","g":5.316,"qty":4,"packUsd":16.49,"unitCny":27.83,"yg":5.235,"url":"https://www.tacklewarehouse.com/TMO_Tungsten_Flipping_Weights/descpage-TMOTF.html"},{"brand":"TMO","channel":"TW","cat":"Worm","size":"3/16 oz","g":5.316,"qty":4,"packUsd":16.49,"unitCny":27.83,"yg":5.235,"url":"https://www.tacklewarehouse.com/TMO_Tungsten_Worm_Weights/descpage-TMOTW.html"},{"brand":"Fitzgerald","channel":"TW","cat":"Worm","size":"3/16 oz","g":5.316,"qty":4,"packUsd":18.99,"unitCny":32.05,"yg":6.029,"url":"https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Worm_Weights/descpage-FFTWW.html"},{"brand":"Epic Baits","channel":"TW","cat":"Worm","size":"3/16 oz","g":5.316,"qty":4,"packUsd":20.99,"unitCny":35.42,"yg":6.664,"url":"https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Worm_Weights/descpage-EBTW.html"},{"brand":"Departure","channel":"DiscountTackle","cat":"Worm","size":"1/4 oz","g":7.087,"qty":5,"packUsd":8.99,"unitCny":12.14,"yg":1.712,"url":"https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights"},{"brand":"Bullet Weights","channel":"TW","cat":"Flipping","size":"1/4 oz","g":7.087,"qty":3,"packUsd":7.99,"unitCny":17.98,"yg":2.537,"url":"https://www.tacklewarehouse.com/Bullet_Weights_Tactical_Tungsten_Flipping_Weights/descpage-BWCT.html"},{"brand":"Eagle Claw","channel":"TW","cat":"Worm","size":"1/4 oz","g":7.087,"qty":3,"packUsd":7.99,"unitCny":17.98,"yg":2.537,"url":"https://www.tacklewarehouse.com/Eagle_Claw_Lazer_Sharp_Tungsten_Worm_Weight/descpage-ECLTGW.html"},{"brand":"Bullet Weights","channel":"TW","cat":"Worm","size":"1/4 oz","g":7.087,"qty":3,"packUsd":8.49,"unitCny":19.1,"yg":2.695,"url":"https://www.tacklewarehouse.com/Bullet_Weights_Tungsten_Bullet_Weights/descpage-BWTBW.html"},{"brand":"Strike King","channel":"DiscountTackle","cat":"Worm","size":"1/4 oz","g":7.087,"qty":3,"packUsd":8.49,"unitCny":19.1,"yg":2.695,"url":"https://discounttackle.com/products/strike-king-tungsten-weights"},{"brand":"1st Contact","channel":"TW","cat":"Flipping","size":"1/4 oz","g":7.087,"qty":3,"packUsd":8.99,"unitCny":20.23,"yg":2.854,"url":"https://www.tacklewarehouse.com/1st_Contact_Tungsten_Flipping_Weights/descpage-FCTFW.html"},{"brand":"1st Contact","channel":"TW","cat":"Worm","size":"1/4 oz","g":7.087,"qty":3,"packUsd":8.99,"unitCny":20.23,"yg":2.854,"url":"https://www.tacklewarehouse.com/1st_Contact_Tungsten_Worm_Weights/descpage-FCTW.html"},{"brand":"Omega","channel":"TW","cat":"Flipping","size":"1/4 oz","g":7.087,"qty":3,"packUsd":8.99,"unitCny":20.23,"yg":2.854,"url":"https://www.tacklewarehouse.com/Omega_Tungsten_Flip_Weights/descpage-OTF.html"},{"brand":"Nako","channel":"TW","cat":"Flipping","size":"1/4 oz","g":7.087,"qty":5,"packUsd":16.49,"unitCny":22.26,"yg":3.141,"url":"https://www.tacklewarehouse.com/Nako_Tungsten_Flipping_Weights/descpage-NTFW.html"},{"brand":"Nako","channel":"官网","cat":"Flipping","size":"1/4 oz","g":7.087,"qty":5,"packUsd":16.49,"unitCny":22.26,"yg":3.141,"url":"https://nakoshop.com/products/nako-tungsten-flipping-weights"},{"brand":"Nako","channel":"TW","cat":"Worm","size":"1/4 oz","g":7.087,"qty":5,"packUsd":16.49,"unitCny":22.26,"yg":3.141,"url":"https://www.tacklewarehouse.com/Nako_Tungsten_Worm_Weights_5pk/descpage-NWW.html"},{"brand":"Nako","channel":"官网","cat":"Worm","size":"1/4 oz","g":7.087,"qty":5,"packUsd":16.49,"unitCny":22.26,"yg":3.141,"url":"https://nakoshop.com/products/tungsten-worm-weights"},{"brand":"Xzone","channel":"TW","cat":"Flipping","size":"1/4 oz","g":7.087,"qty":3,"packUsd":10.99,"unitCny":24.73,"yg":3.489,"url":"https://www.tacklewarehouse.com/Xzone_Tungsten_Flipping_Weights/descpage-XRTF.html"},{"brand":"Epic Baits","channel":"TW","cat":"Flipping","size":"1/4 oz","g":7.087,"qty":3,"packUsd":11.09,"unitCny":24.95,"yg":3.521,"url":"https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Flipping_Weights/descpage-EBFW.html"},{"brand":"Epic Baits","channel":"官网","cat":"Flipping","size":"1/4 oz","g":7.087,"qty":3,"packUsd":11.09,"unitCny":24.95,"yg":3.521,"url":"https://epicbaitsfishing.com/products/tungsten-flipping-weight"},{"brand":"Epic Baits","channel":"官网","cat":"Worm","size":"1/4 oz","g":7.087,"qty":3,"packUsd":11.09,"unitCny":24.95,"yg":3.521,"url":"https://epicbaitsfishing.com/products/tungsten-worm-weight"},{"brand":"Reaction Tackle","channel":"官网","cat":"Worm","size":"1/4 oz","g":7.087,"qty":6,"packUsd":24.99,"unitCny":28.11,"yg":3.967,"url":"https://reactiontackle.com/products/reaction-tackle-tungsten-worm-weights-bullet-shaped-sinkers"},{"brand":"WOO! Never Chip","channel":"官网","cat":"Flipping","size":"1/4 oz","g":7.087,"qty":3,"packUsd":13.99,"unitCny":31.48,"yg":4.441,"url":"https://wootungsten.com/collections/neverchip"},{"brand":"TMO","channel":"TW","cat":"Flipping","size":"1/4 oz","g":7.087,"qty":3,"packUsd":15.49,"unitCny":34.85,"yg":4.918,"url":"https://www.tacklewarehouse.com/TMO_Tungsten_Flipping_Weights/descpage-TMOTF.html"},{"brand":"TMO","channel":"TW","cat":"Worm","size":"1/4 oz","g":7.087,"qty":3,"packUsd":15.49,"unitCny":34.85,"yg":4.918,"url":"https://www.tacklewarehouse.com/TMO_Tungsten_Worm_Weights/descpage-TMOTW.html"},{"brand":"WOO!","channel":"TW","cat":"Flipping","size":"1/4 oz","g":7.087,"qty":3,"packUsd":15.99,"unitCny":35.98,"yg":5.076,"url":"https://www.tacklewarehouse.com/WOO_Tungsten_Flipping_Weights/descpage-WTFW.html"},{"brand":"Queen Tackle","channel":"TW","cat":"Flipping","size":"1/4 oz","g":7.087,"qty":2,"packUsd":11.99,"unitCny":40.47,"yg":5.71,"url":"https://www.tacklewarehouse.com/Queen_Tackle_Tungsten_Flipping_Weights/descpage-JHSDFHD.html"},{"brand":"Queen Tackle","channel":"TW","cat":"Worm","size":"1/4 oz","g":7.087,"qty":2,"packUsd":11.99,"unitCny":40.47,"yg":5.71,"url":"https://www.tacklewarehouse.com/Queen_Tackle_Tungsten_Worm_Weights/descpage-QTWW.html"},{"brand":"Fitzgerald","channel":"TW","cat":"Worm","size":"1/4 oz","g":7.087,"qty":3,"packUsd":18.99,"unitCny":42.73,"yg":6.029,"url":"https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Worm_Weights/descpage-FFTWW.html"},{"brand":"Nako","channel":"官网","cat":"Flipping","size":"5/16 oz","g":8.859,"qty":5,"packUsd":20.99,"unitCny":28.34,"yg":3.199,"url":"https://nakoshop.com/products/nako-tungsten-flipping-weights"},{"brand":"Nako","channel":"TW","cat":"Worm","size":"5/16 oz","g":8.859,"qty":5,"packUsd":20.99,"unitCny":28.34,"yg":3.199,"url":"https://www.tacklewarehouse.com/Nako_Tungsten_Worm_Weights_5pk/descpage-NWW.html"},{"brand":"Nako","channel":"官网","cat":"Worm","size":"5/16 oz","g":8.859,"qty":5,"packUsd":20.99,"unitCny":28.34,"yg":3.199,"url":"https://nakoshop.com/products/tungsten-worm-weights"},{"brand":"Epic Baits","channel":"TW","cat":"Flipping","size":"5/16 oz","g":8.859,"qty":3,"packUsd":13.69,"unitCny":30.8,"yg":3.477,"url":"https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Flipping_Weights/descpage-EBFW.html"},{"brand":"Epic Baits","channel":"官网","cat":"Flipping","size":"5/16 oz","g":8.859,"qty":3,"packUsd":13.69,"unitCny":30.8,"yg":3.477,"url":"https://epicbaitsfishing.com/products/tungsten-flipping-weight"},{"brand":"Epic Baits","channel":"官网","cat":"Worm","size":"5/16 oz","g":8.859,"qty":3,"packUsd":13.69,"unitCny":30.8,"yg":3.477,"url":"https://epicbaitsfishing.com/products/tungsten-worm-weight"},{"brand":"Xzone","channel":"TW","cat":"Worm","size":"5/16 oz","g":8.859,"qty":3,"packUsd":13.99,"unitCny":31.48,"yg":3.553,"url":"https://www.tacklewarehouse.com/Xzone_Tungsten_Worm_Weights/descpage-XRTW.html"},{"brand":"WOO! Never Chip","channel":"官网","cat":"Flipping","size":"5/16 oz","g":8.859,"qty":3,"packUsd":14.99,"unitCny":33.73,"yg":3.807,"url":"https://wootungsten.com/collections/neverchip"},{"brand":"Reaction Tackle","channel":"官网","cat":"Worm","size":"5/16 oz","g":8.859,"qty":6,"packUsd":29.99,"unitCny":33.74,"yg":3.808,"url":"https://reactiontackle.com/products/reaction-tackle-tungsten-worm-weights-bullet-shaped-sinkers"},{"brand":"WOO!","channel":"TW","cat":"Flipping","size":"5/16 oz","g":8.859,"qty":3,"packUsd":17.69,"unitCny":39.8,"yg":4.493,"url":"https://www.tacklewarehouse.com/WOO_Tungsten_Flipping_Weights/descpage-WTFW.html"},{"brand":"Fitzgerald","channel":"TW","cat":"Worm","size":"5/16 oz","g":8.859,"qty":3,"packUsd":21.99,"unitCny":49.48,"yg":5.585,"url":"https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Worm_Weights/descpage-FFTWW.html"},{"brand":"Googan Baits","channel":"TW","cat":"Worm","size":"3/8 oz","g":10.631,"qty":3,"packUsd":6.99,"unitCny":15.73,"yg":1.479,"url":"https://www.tacklewarehouse.com/Googan_Baits_Green_Series_Tungsten_Worm_Weights/descpage-GBTW.html"},{"brand":"Denali","channel":"TW","cat":"Flipping","size":"3/8 oz","g":10.631,"qty":3,"packUsd":7.99,"unitCny":17.98,"yg":1.691,"url":"https://www.tacklewarehouse.com/Denali_Kovert_Tungsten_Flipping_Weights/descpage-DENTFW.html"},{"brand":"Googan Baits","channel":"TW","cat":"Flipping","size":"3/8 oz","g":10.631,"qty":3,"packUsd":8.99,"unitCny":20.23,"yg":1.903,"url":"https://www.tacklewarehouse.com/Googan_Baits_Green_Series_Tungsten_Flipping_Weights/descpage-GBTT.html"},{"brand":"Eagle Claw","channel":"TW","cat":"Worm","size":"3/8 oz","g":10.631,"qty":3,"packUsd":11.99,"unitCny":26.98,"yg":2.538,"url":"https://www.tacklewarehouse.com/Eagle_Claw_Lazer_Sharp_Tungsten_Worm_Weight/descpage-ECLTGW.html"},{"brand":"1st Contact","channel":"TW","cat":"Flipping","size":"3/8 oz","g":10.631,"qty":3,"packUsd":12.99,"unitCny":29.23,"yg":2.749,"url":"https://www.tacklewarehouse.com/1st_Contact_Tungsten_Flipping_Weights/descpage-FCTFW.html"},{"brand":"1st Contact","channel":"TW","cat":"Worm","size":"3/8 oz","g":10.631,"qty":3,"packUsd":12.99,"unitCny":29.23,"yg":2.749,"url":"https://www.tacklewarehouse.com/1st_Contact_Tungsten_Worm_Weights/descpage-FCTW.html"},{"brand":"Nako","channel":"TW","cat":"Flipping","size":"3/8 oz","g":10.631,"qty":5,"packUsd":24.49,"unitCny":33.06,"yg":3.11,"url":"https://www.tacklewarehouse.com/Nako_Tungsten_Flipping_Weights/descpage-NTFW.html"},{"brand":"Nako","channel":"官网","cat":"Flipping","size":"3/8 oz","g":10.631,"qty":5,"packUsd":24.49,"unitCny":33.06,"yg":3.11,"url":"https://nakoshop.com/products/nako-tungsten-flipping-weights"},{"brand":"Nako","channel":"TW","cat":"Worm","size":"3/8 oz","g":10.631,"qty":5,"packUsd":24.49,"unitCny":33.06,"yg":3.11,"url":"https://www.tacklewarehouse.com/Nako_Tungsten_Worm_Weights_5pk/descpage-NWW.html"},{"brand":"Nako","channel":"官网","cat":"Worm","size":"3/8 oz","g":10.631,"qty":5,"packUsd":24.49,"unitCny":33.06,"yg":3.11,"url":"https://nakoshop.com/products/tungsten-worm-weights"},{"brand":"Epic Baits","channel":"TW","cat":"Flipping","size":"3/8 oz","g":10.631,"qty":3,"packUsd":16.29,"unitCny":36.65,"yg":3.448,"url":"https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Flipping_Weights/descpage-EBFW.html"},{"brand":"Epic Baits","channel":"官网","cat":"Flipping","size":"3/8 oz","g":10.631,"qty":3,"packUsd":16.29,"unitCny":36.65,"yg":3.448,"url":"https://epicbaitsfishing.com/products/tungsten-flipping-weight"},{"brand":"Epic Baits","channel":"TW","cat":"Worm","size":"3/8 oz","g":10.631,"qty":3,"packUsd":16.29,"unitCny":36.65,"yg":3.448,"url":"https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Worm_Weights/descpage-EBTW.html"},{"brand":"Epic Baits","channel":"官网","cat":"Worm","size":"3/8 oz","g":10.631,"qty":3,"packUsd":16.29,"unitCny":36.65,"yg":3.448,"url":"https://epicbaitsfishing.com/products/tungsten-worm-weight"},{"brand":"Xzone","channel":"TW","cat":"Flipping","size":"3/8 oz","g":10.631,"qty":2,"packUsd":10.99,"unitCny":37.09,"yg":3.489,"url":"https://www.tacklewarehouse.com/Xzone_Tungsten_Flipping_Weights/descpage-XRTF.html"},{"brand":"Xzone","channel":"TW","cat":"Worm","size":"3/8 oz","g":10.631,"qty":2,"packUsd":10.99,"unitCny":37.09,"yg":3.489,"url":"https://www.tacklewarehouse.com/Xzone_Tungsten_Worm_Weights/descpage-XRTW.html"},{"brand":"WOO! Never Chip","channel":"官网","cat":"Flipping","size":"3/8 oz","g":10.631,"qty":3,"packUsd":16.99,"unitCny":38.23,"yg":3.596,"url":"https://wootungsten.com/collections/neverchip"},{"brand":"Elite Tungsten","channel":"TW","cat":"Worm","size":"3/8 oz","g":10.631,"qty":3,"packUsd":17.99,"unitCny":40.48,"yg":3.807,"url":"https://www.tacklewarehouse.com/Elite_Tungsten_Worm_Weights/descpage-ELTUNWM.html"},{"brand":"WOO!","channel":"TW","cat":"Flipping","size":"3/8 oz","g":10.631,"qty":3,"packUsd":17.99,"unitCny":40.48,"yg":3.807,"url":"https://www.tacklewarehouse.com/WOO_Tungsten_Flipping_Weights/descpage-WTFW.html"},{"brand":"Bullet Weights","channel":"TW","cat":"Worm","size":"3/8 oz","g":10.631,"qty":3,"packUsd":18.99,"unitCny":42.73,"yg":4.019,"url":"https://www.tacklewarehouse.com/Bullet_Weights_Tungsten_Bullet_Weights/descpage-BWTBW.html"},{"brand":"Reaction Tackle","channel":"官网","cat":"Worm","size":"3/8 oz","g":10.631,"qty":6,"packUsd":39.99,"unitCny":44.99,"yg":4.232,"url":"https://reactiontackle.com/products/reaction-tackle-tungsten-worm-weights-bullet-shaped-sinkers"},{"brand":"Queen Tackle","channel":"TW","cat":"Flipping","size":"3/8 oz","g":10.631,"qty":2,"packUsd":13.99,"unitCny":47.22,"yg":4.441,"url":"https://www.tacklewarehouse.com/Queen_Tackle_Tungsten_Flipping_Weights/descpage-JHSDFHD.html"},{"brand":"TMO","channel":"TW","cat":"Flipping","size":"3/8 oz","g":10.631,"qty":3,"packUsd":21.99,"unitCny":49.48,"yg":4.654,"url":"https://www.tacklewarehouse.com/TMO_Tungsten_Flipping_Weights/descpage-TMOTF.html"},{"brand":"TMO","channel":"TW","cat":"Worm","size":"3/8 oz","g":10.631,"qty":3,"packUsd":21.99,"unitCny":49.48,"yg":4.654,"url":"https://www.tacklewarehouse.com/TMO_Tungsten_Worm_Weights/descpage-TMOTW.html"},{"brand":"Fitzgerald","channel":"TW","cat":"Worm","size":"3/8 oz","g":10.631,"qty":3,"packUsd":24.99,"unitCny":56.23,"yg":5.289,"url":"https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Worm_Weights/descpage-FFTWW.html"},{"brand":"Googan Baits","channel":"TW","cat":"Worm","size":"1/2 oz","g":14.175,"qty":2,"packUsd":6.99,"unitCny":23.59,"yg":1.664,"url":"https://www.tacklewarehouse.com/Googan_Baits_Green_Series_Tungsten_Worm_Weights/descpage-GBTW.html"},{"brand":"Denali","channel":"TW","cat":"Flipping","size":"1/2 oz","g":14.175,"qty":2,"packUsd":7.99,"unitCny":26.97,"yg":1.902,"url":"https://www.tacklewarehouse.com/Denali_Kovert_Tungsten_Flipping_Weights/descpage-DENTFW.html"},{"brand":"Googan Baits","channel":"TW","cat":"Flipping","size":"1/2 oz","g":14.175,"qty":2,"packUsd":8.99,"unitCny":30.34,"yg":2.141,"url":"https://www.tacklewarehouse.com/Googan_Baits_Green_Series_Tungsten_Flipping_Weights/descpage-GBTT.html"},{"brand":"Strike King","channel":"DiscountTackle","cat":"Worm","size":"1/2 oz","g":14.175,"qty":2,"packUsd":9.34,"unitCny":31.52,"yg":2.224,"url":"https://discounttackle.com/products/strike-king-tungsten-weights"},{"brand":"Bullet Weights","channel":"TW","cat":"Flipping","size":"1/2 oz","g":14.175,"qty":2,"packUsd":9.99,"unitCny":33.72,"yg":2.379,"url":"https://www.tacklewarehouse.com/Bullet_Weights_Tactical_Tungsten_Flipping_Weights/descpage-BWCT.html"},{"brand":"Bullet Weights","channel":"TW","cat":"Worm","size":"1/2 oz","g":14.175,"qty":2,"packUsd":9.99,"unitCny":33.72,"yg":2.379,"url":"https://www.tacklewarehouse.com/Bullet_Weights_Tungsten_Bullet_Weights/descpage-BWTBW.html"},{"brand":"Eagle Claw","channel":"TW","cat":"Worm","size":"1/2 oz","g":14.175,"qty":2,"packUsd":9.99,"unitCny":33.72,"yg":2.379,"url":"https://www.tacklewarehouse.com/Eagle_Claw_Lazer_Sharp_Tungsten_Worm_Weight/descpage-ECLTGW.html"},{"brand":"Omega","channel":"TW","cat":"Flipping","size":"1/2 oz","g":14.175,"qty":2,"packUsd":9.99,"unitCny":33.72,"yg":2.379,"url":"https://www.tacklewarehouse.com/Omega_Tungsten_Flip_Weights/descpage-OTF.html"},{"brand":"1st Contact","channel":"TW","cat":"Flipping","size":"1/2 oz","g":14.175,"qty":2,"packUsd":10.99,"unitCny":37.09,"yg":2.617,"url":"https://www.tacklewarehouse.com/1st_Contact_Tungsten_Flipping_Weights/descpage-FCTFW.html"},{"brand":"1st Contact","channel":"TW","cat":"Worm","size":"1/2 oz","g":14.175,"qty":2,"packUsd":10.99,"unitCny":37.09,"yg":2.617,"url":"https://www.tacklewarehouse.com/1st_Contact_Tungsten_Worm_Weights/descpage-FCTW.html"},{"brand":"Nako","channel":"官网","cat":"Flipping","size":"1/2 oz","g":14.175,"qty":5,"packUsd":32.49,"unitCny":43.86,"yg":3.094,"url":"https://nakoshop.com/products/nako-tungsten-flipping-weights"},{"brand":"Nako","channel":"TW","cat":"Worm","size":"1/2 oz","g":14.175,"qty":5,"packUsd":32.49,"unitCny":43.86,"yg":3.094,"url":"https://www.tacklewarehouse.com/Nako_Tungsten_Worm_Weights_5pk/descpage-NWW.html"},{"brand":"Nako","channel":"官网","cat":"Worm","size":"1/2 oz","g":14.175,"qty":5,"packUsd":32.49,"unitCny":43.86,"yg":3.094,"url":"https://nakoshop.com/products/tungsten-worm-weights"},{"brand":"Flat Out","channel":"TW","cat":"Punch","size":"1/2 oz","g":14.175,"qty":2,"packUsd":13.99,"unitCny":47.22,"yg":3.331,"url":"https://www.tacklewarehouse.com/Flat_Out_Tungsten_Skirted_Punch_Weights/descpage-FOP.html"},{"brand":"Xzone","channel":"TW","cat":"Flipping","size":"1/2 oz","g":14.175,"qty":2,"packUsd":13.99,"unitCny":47.22,"yg":3.331,"url":"https://www.tacklewarehouse.com/Xzone_Tungsten_Flipping_Weights/descpage-XRTF.html"},{"brand":"Xzone","channel":"TW","cat":"Worm","size":"1/2 oz","g":14.175,"qty":2,"packUsd":13.99,"unitCny":47.22,"yg":3.331,"url":"https://www.tacklewarehouse.com/Xzone_Tungsten_Worm_Weights/descpage-XRTW.html"},{"brand":"Epic Baits","channel":"TW","cat":"Flipping","size":"1/2 oz","g":14.175,"qty":2,"packUsd":14.49,"unitCny":48.9,"yg":3.45,"url":"https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Flipping_Weights/descpage-EBFW.html"},{"brand":"Epic Baits","channel":"官网","cat":"Flipping","size":"1/2 oz","g":14.175,"qty":2,"packUsd":14.49,"unitCny":48.9,"yg":3.45,"url":"https://epicbaitsfishing.com/products/tungsten-flipping-weight"},{"brand":"Epic Baits","channel":"TW","cat":"Worm","size":"1/2 oz","g":14.175,"qty":2,"packUsd":14.49,"unitCny":48.9,"yg":3.45,"url":"https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Worm_Weights/descpage-EBTW.html"},{"brand":"Epic Baits","channel":"官网","cat":"Worm","size":"1/2 oz","g":14.175,"qty":2,"packUsd":14.49,"unitCny":48.9,"yg":3.45,"url":"https://epicbaitsfishing.com/products/tungsten-worm-weight"},{"brand":"Queen Tackle","channel":"TW","cat":"Flipping","size":"1/2 oz","g":14.175,"qty":2,"packUsd":14.99,"unitCny":50.59,"yg":3.569,"url":"https://www.tacklewarehouse.com/Queen_Tackle_Tungsten_Flipping_Weights/descpage-JHSDFHD.html"},{"brand":"Queen Tackle","channel":"TW","cat":"Worm","size":"1/2 oz","g":14.175,"qty":2,"packUsd":14.99,"unitCny":50.59,"yg":3.569,"url":"https://www.tacklewarehouse.com/Queen_Tackle_Tungsten_Worm_Weights/descpage-QTWW.html"},{"brand":"WOO! Never Chip","channel":"官网","cat":"Flipping","size":"1/2 oz","g":14.175,"qty":2,"packUsd":14.99,"unitCny":50.59,"yg":3.569,"url":"https://wootungsten.com/collections/neverchip"},{"brand":"Reaction Tackle","channel":"官网","cat":"Worm","size":"1/2 oz","g":14.175,"qty":4,"packUsd":29.99,"unitCny":50.61,"yg":3.57,"url":"https://reactiontackle.com/products/reaction-tackle-tungsten-worm-weights-bullet-shaped-sinkers"},{"brand":"TMO","channel":"TW","cat":"Punch","size":"1/2 oz","g":14.175,"qty":1,"packUsd":7.99,"unitCny":53.93,"yg":3.805,"url":"https://www.tacklewarehouse.com/TMO_Tungsten_Punching_Weights/descpage-TMOTP.html"},{"brand":"Elite Tungsten","channel":"TW","cat":"Flipping","size":"1/2 oz","g":14.175,"qty":2,"packUsd":15.99,"unitCny":53.97,"yg":3.807,"url":"https://www.tacklewarehouse.com/Elite_Tungsten_Flippin_Weights/descpage-ELTNGFL.html"},{"brand":"Elite Tungsten","channel":"TW","cat":"Worm","size":"1/2 oz","g":14.175,"qty":2,"packUsd":15.99,"unitCny":53.97,"yg":3.807,"url":"https://www.tacklewarehouse.com/Elite_Tungsten_Worm_Weights/descpage-ELTUNWM.html"},{"brand":"WOO!","channel":"TW","cat":"Flipping","size":"1/2 oz","g":14.175,"qty":2,"packUsd":17.69,"unitCny":59.7,"yg":4.212,"url":"https://www.tacklewarehouse.com/WOO_Tungsten_Flipping_Weights/descpage-WTFW.html"},{"brand":"WOO! Never Chip","channel":"TW","cat":"Flipping","size":"1/2 oz","g":14.175,"qty":2,"packUsd":17.99,"unitCny":60.72,"yg":4.283,"url":"https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights/descpage-WTNC.html"},{"brand":"TMO","channel":"TW","cat":"Flipping","size":"1/2 oz","g":14.175,"qty":2,"packUsd":19.49,"unitCny":65.78,"yg":4.641,"url":"https://www.tacklewarehouse.com/TMO_Tungsten_Flipping_Weights/descpage-TMOTF.html"},{"brand":"TMO","channel":"TW","cat":"Worm","size":"1/2 oz","g":14.175,"qty":2,"packUsd":19.49,"unitCny":65.78,"yg":4.641,"url":"https://www.tacklewarehouse.com/TMO_Tungsten_Worm_Weights/descpage-TMOTW.html"},{"brand":"Fitzgerald","channel":"TW","cat":"Worm","size":"1/2 oz","g":14.175,"qty":2,"packUsd":24.99,"unitCny":84.34,"yg":5.95,"url":"https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Worm_Weights/descpage-FFTWW.html"}],"brandStats":[{"brand":"Googan Baits","n":4,"min":1.479,"med":1.784,"max":2.141,"tier":"更便宜"},{"brand":"Mustad","n":1,"min":2.06,"med":2.06,"max":2.06,"tier":"更便宜"},{"brand":"Departure","n":4,"min":1.712,"med":2.282,"max":4.564,"tier":"更便宜"},{"brand":"Denali","n":4,"min":1.691,"med":2.377,"max":2.916,"tier":"更便宜"},{"brand":"Bullet Weights","n":7,"min":2.379,"med":2.537,"max":4.043,"tier":"更便宜"},{"brand":"Eagle Claw","n":5,"min":2.379,"med":2.537,"max":3.329,"tier":"更便宜"},{"brand":"Omega","n":2,"min":2.379,"med":2.617,"max":2.854,"tier":"差不多"},{"brand":"Strike King","n":3,"min":2.224,"med":2.695,"max":3.638,"tier":"差不多"},{"brand":"1st Contact","n":10,"min":2.617,"med":2.854,"max":3.329,"tier":"差不多"},{"brand":"Nako","n":27,"min":3.094,"med":3.199,"max":9.89,"tier":"差不多"},{"brand":"Flat Out","n":1,"min":3.331,"med":3.331,"max":3.331,"tier":"差不多"},{"brand":"Epic Baits","n":19,"min":3.448,"med":3.477,"max":6.664,"tier":"差不多"},{"brand":"Xzone","n":8,"min":3.331,"med":3.489,"max":4.281,"tier":"差不多"},{"brand":"Arsenal Fishing","n":1,"min":3.806,"med":3.806,"max":3.806,"tier":"差不多"},{"brand":"Elite Tungsten","n":3,"min":3.807,"med":3.807,"max":3.807,"tier":"差不多"},{"brand":"Reaction Tackle","n":7,"min":3.57,"med":3.967,"max":6.343,"tier":"更贵"},{"brand":"WOO! Never Chip","n":9,"min":3.569,"med":4.441,"max":8.221,"tier":"更贵"},{"brand":"WOO!","n":7,"min":3.807,"med":4.537,"max":7.993,"tier":"更贵"},{"brand":"TMO","n":11,"min":3.805,"med":4.918,"max":6.424,"tier":"更贵"},{"brand":"Queen Tackle","n":7,"min":3.569,"med":5.075,"max":7.613,"tier":"更贵"},{"brand":"Fitzgerald","n":7,"min":5.289,"med":6.029,"max":9.135,"tier":"更贵"}]};
+
+const SIZE_ORDER = ["1/32 oz","1/16 oz","3/32 oz","1/8 oz","3/16 oz","1/4 oz","5/16 oz","3/8 oz","1/2 oz"];
+const MAX_PIECE_G = (DATA.meta && DATA.meta.maxPieceG) || 14.2;
+const SIZE_HINT = {
+  "1/32 oz": "约 0.9 克",
+  "1/16 oz": "约 1.8 克",
+  "3/32 oz": "约 2.7 克",
+  "1/8 oz": "约 3.5 克 · 常用轻",
+  "3/16 oz": "约 5.3 克",
+  "1/4 oz": "约 7.1 克 · 最常用",
+  "5/16 oz": "约 8.9 克",
+  "3/8 oz": "约 10.6 克",
+  "1/2 oz": "约 14.2 克"
+};
+const MAX_G = Number(DATA.meta.maxPieceG) || 14.2;
+
+const CAT_HINT = {
+  Worm: "虫钓子弹坠",
+  Flipping: "翻草 / 翻盖坠",
+  Punch: "打草 Punch（多见 1/2 oz）"
+};
+
+const state = {
+  cat: "Worm",
+  size: "1/4 oz",
+  viewMode: "brand", // brand | all
+  cheapBrand: "全部",
+  cheapLens: "全部",
+  tier: "全部"
+};
+
+function esc(s) {
+  return String(s ?? "").replace(/[&<>"']/g, c => ({
+    "&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"
+  })[c]);
+}
+
+function channelName(ch) {
+  if (ch === "TW") return "美国大站";
+  if (ch === "DiscountTackle") return "折扣站";
+  if (ch === "官网") return "品牌官网";
+  return ch;
+}
+
+function channelFull(ch) {
+  if (ch === "TW") return "美国大站（Tackle Warehouse）";
+  if (ch === "DiscountTackle") return "折扣站（DiscountTackle）";
+  if (ch === "官网") return "品牌官网";
+  return ch;
+}
+
+function moneyG(n) {
+  return "¥" + Number(n).toFixed(2) + "/克";
+}
+
+function shortSize(size) {
+  return String(size).replace(/\s*oz$/i, "");
+}
+
+function sizeSort(a, b) {
+  const ia = SIZE_ORDER.indexOf(a);
+  const ib = SIZE_ORDER.indexOf(b);
+  const ra = ia === -1 ? 999 : ia;
+  const rb = ib === -1 ? 999 : ib;
+  if (ra !== rb) return ra - rb;
+  return a.localeCompare(b);
+}
+
+function vsNako(yg, nakoYg, isNako) {
+  if (isNako) return { tier: "基准", text: "这就是 Nako 本价" };
+  if (!nakoYg) return { tier: "差不多", text: "—" };
+  const diff = yg - nakoYg;
+  const pct = (diff / nakoYg) * 100;
+  if (Math.abs(pct) < 3) return { tier: "差不多", text: "和 Nako 差不多" };
+  if (diff < 0) {
+    return {
+      tier: "更便宜",
+      text: "便宜 ¥" + Math.abs(diff).toFixed(2) + "/克（约 " + Math.abs(pct).toFixed(0) + "%）"
+    };
+  }
+  return {
+    tier: "更贵",
+    text: "贵 ¥" + diff.toFixed(2) + "/克（约 " + pct.toFixed(0) + "%）"
+  };
+}
+
+function vsHtml(yg, nakoYg, isNako) {
+  const v = vsNako(yg, nakoYg, isNako);
+  const cls = v.tier === "更便宜" ? "cheap" : v.tier === "更贵" ? "dear" : v.tier === "基准" ? "base" : "same";
+  return `<div class="vs"><span class="tagp ${cls}">${esc(v.tier)}</span><span class="vs-text">${esc(v.text)}</span></div>`;
+}
+
+function inStockSizes(brand, channel, cat) {
+  const set = new Set();
+  for (const r of DATA.rows) {
+    if (r.brand === brand && r.channel === channel && r.cat === cat && r.g <= MAX_PIECE_G) {
+      set.add(r.size);
+    }
+  }
+  return [...set].sort(sizeSort);
+}
+
+function sizeUniverseForCategory(cat) {
+  const fromData = new Set();
+  for (const r of DATA.rows) {
+    if (r.cat === cat && r.g <= MAX_PIECE_G) fromData.add(r.size);
+  }
+  const covered = SIZE_ORDER.filter(s => fromData.has(s));
+  const extras = [...fromData].filter(s => !SIZE_ORDER.includes(s)).sort(sizeSort);
+  return covered.concat(extras);
+}
+
+function nakoSizesInCategory(cat) {
+  const set = new Set();
+  for (const r of DATA.rows) {
+    if (r.brand === "Nako" && r.cat === cat && r.g <= MAX_PIECE_G) set.add(r.size);
+  }
+  return [...set].sort(sizeSort);
+}
+
+function stockCell(brand, channel, cat) {
+  const universe = sizeUniverseForCategory(cat);
+  const sizes = inStockSizes(brand, channel, cat);
+  const haveSet = new Set(sizes);
+  const missing = universe.filter(s => !haveSet.has(s));
+  const have = sizes.length
+    ? "有货：" + sizes.map(shortSize).join(" · ")
+    : "有货：无";
+  const miss = missing.length
+    ? "没货：" + missing.map(shortSize).join(" · ")
+    : "没货：无";
+  return `<div class="sizes">${esc(have)}<span class="miss">${esc(miss)}</span></div>`;
+}
+
+function verifyLink(url) {
+  if (!url) return `<span class="muted">待补</span>`;
+  return `<a class="link" href="${esc(url)}" target="_blank" rel="noopener noreferrer">打开源站核对</a>`;
+}
+
+function bestSku(brand, cat, size) {
+  const hits = DATA.rows.filter(r => r.brand === brand && r.cat === cat && r.size === size);
+  if (!hits.length) return null;
+  return hits.slice().sort((a,b) => a.yg - b.yg)[0];
+}
+
+function renderChips() {
+  const m = DATA.meta;
+  const urlNote = m.urlCheck && m.urlCheck.allOk
+    ? `链接已核 ${m.urlCheck.uniqueUrls} 条`
+    : "链接待核";
+  document.getElementById("metaChips").innerHTML = [
+    `<span class="chip">数据日期 <strong>${esc(m.asOf)}</strong></span>`,
+    `<span class="chip">汇率 <strong>1 USD = ¥${esc(m.fx)}</strong></span>`,
+    `<span class="chip">范围 <strong>单粒不超过约 14g（含 1/2 oz）· 仅有货</strong></span>`,
+    `<span class="chip">${esc(urlNote)}</span>`
+  ].join("");
+}
+
+function renderRules() {
+  const m = DATA.meta;
+  const items = [
+    `比较单位：<strong>每克人民币价（¥/克）</strong> = 包装美元价 × ${m.fx} ÷（粒数 × 盎司 × ${m.ozToG}）。`,
+    `公式：<code>${esc(m.formula)}</code>`,
+    `只纳入：现在还能买到的货（仅有货）；单粒克重不超过约 14g（<strong>含 1/2 oz</strong>；更重已排除）。`,
+    `主排行默认：同一品牌只留<strong>更便宜的那条渠道</strong>，避免同品牌刷屏。`,
+    `「有货 / 没货」= 当前品类对照范围（至 1/2 oz）内，按本表是否录入有货价标注；没货不编造价格。`,
+    `渠道：美国大站（Tackle Warehouse）/ 折扣站（DiscountTackle）/ 品牌官网。`,
+    `「比 Nako」：便宜或贵多少 ¥/克；差距不到 3% 算差不多。`,
+    m.urlCheck ? `源站链接抽检：${esc(m.urlCheck.checkedAt)}，${esc(m.urlCheck.note || "")}。` : ""
+  ].filter(Boolean);
+  document.getElementById("rulesList").innerHTML = items.map(t => `<li>${t}</li>`).join("");
+}
+
+function renderPills(el, items, active, onClick, opts = {}) {
+  el.innerHTML = items.map(it => {
+    const val = typeof it === "string" ? it : it.value;
+    const label = typeof it === "string" ? it : it.label;
+    const sub = typeof it === "object" && it.sub ? `<span class="sub">${esc(it.sub)}</span>` : "";
+    const rec = opts.recommend && opts.recommend === val ? " rec" : "";
+    const act = active === val ? " active" : "";
+    return `<button type="button" class="pill${act}${rec}" data-v="${esc(val)}">${label}${sub}</button>`;
+  }).join("");
+  el.querySelectorAll("button").forEach(btn => {
+    btn.addEventListener("click", () => onClick(btn.getAttribute("data-v")));
+  });
+}
+
+function filteredRows() {
+  return DATA.rows
+    .filter(r => r.cat === state.cat && r.size === state.size && r.g <= (DATA.meta.maxPieceG || 14.2))
+    .slice()
+    .sort((a,b) => a.yg - b.yg);
+}
+
+function uniqueByBrand(rows) {
+  const seen = new Set();
+  const out = [];
+  for (const r of rows) {
+    if (seen.has(r.brand)) continue;
+    seen.add(r.brand);
+    out.push(r);
+  }
+  return out;
+}
+
+function nakoVsOther(nakoYg, otherYg, otherName) {
+  const pct = ((nakoYg - otherYg) / otherYg) * 100;
+  if (Math.abs(pct) < 3) return `和 ${otherName} 差不多`;
+  if (pct > 0) return `比 ${otherName} 贵约 ${pct.toFixed(0)}%`;
+  return `比 ${otherName} 便宜约 ${Math.abs(pct).toFixed(0)}%`;
+}
+
+function renderConclusion() {
+  document.getElementById("conclusionText").textContent =
+    "市场上有人卖得更便宜（尤其折扣站、美国大站上的平价牌），也有人卖得更贵（如 WOO、Queen、Fitzgerald 等）。Nako 处在中间：不是最低价，也不走高溢价。常见 Worm 1/4 oz 大约 ¥3.1/克。本页统计单粒不超过约 14g（含 1/2 oz）、现在还能买到的货。";
+}
+
+function renderHeroAndTable() {
+  const all = filteredRows();
+  const byBrand = uniqueByBrand(all);
+  const source = state.viewMode === "all" ? all : byBrand;
+  const nakoRow = all.find(r => r.brand === "Nako");
+  const nakoYg = nakoRow ? nakoRow.yg : null;
+  const nakoRank = byBrand.findIndex(r => r.brand === "Nako") + 1;
+  const cheapest = byBrand[0];
+  const priciest = byBrand[byBrand.length - 1];
+
+  const hint = SIZE_HINT[state.size] || "";
+  document.getElementById("currentView").textContent =
+    `当前看的是：${state.cat}${CAT_HINT[state.cat] ? "（" + CAT_HINT[state.cat] + "）" : ""} · ${state.size}${hint ? "（" + hint + "）" : ""} · 仅有货 · 单粒不超过约 14g（含 1/2 oz）`;
+
+  document.getElementById("rankSub").textContent =
+    source.length ? `${state.cat} · ${state.size} · ${source.length} 条` : "";
+
+  const hero = document.getElementById("heroStats");
+  const read = document.getElementById("readHint");
+
+  if (state.cat === "Punch" && !byBrand.length) {
+    hero.innerHTML = "";
+    read.innerHTML = `<div class="callout warn"><div class="t">Punch：当前克重暂无有货规格</div>Punch 样本主要在 1/2 oz。可先切到 1/2 oz，或改选 Worm / Flipping。</div>`;
+    document.getElementById("rankTable").innerHTML = `<div class="empty">试试 1/2 oz，或换 Worm / Flipping</div>`;
+    return;
+  }
+
+  if (!byBrand.length) {
+    hero.innerHTML = "";
+    read.innerHTML = `<div class="callout warn"><div class="t">本组合暂无有货数据</div>换一个克重或品类再试（含至 1/2 oz）。</div>`;
+    document.getElementById("rankTable").innerHTML = `<div class="empty">没有可排行的有货 SKU</div>`;
+    return;
+  }
+
+  hero.innerHTML = `
+    <div class="stat ok">
+      <div class="v">${esc(moneyG(cheapest.yg))}</div>
+      <div class="l">最便宜：${esc(cheapest.brand)} · ${esc(channelName(cheapest.channel))}</div>
+    </div>
+    <div class="stat nako">
+      <div class="v">${nakoRow ? esc(moneyG(nakoYg)) : "本组合无货"}</div>
+      <div class="l">${nakoRank ? `Nako 排第 ${nakoRank} / ${byBrand.length} 个品牌` : "Nako（本组合暂无）"}</div>
+    </div>
+    <div class="stat warn">
+      <div class="v">${esc(moneyG(priciest.yg))}</div>
+      <div class="l">最贵：${esc(priciest.brand)} · ${esc(channelName(priciest.channel))}</div>
+    </div>`;
+
+  if (cheapest && nakoRow) {
+    read.innerHTML = `<div class="callout ok"><div class="t">怎么读这一屏</div>最便宜是 ${esc(cheapest.brand)}（${esc(moneyG(cheapest.yg))}）。Nako 是 ${esc(moneyG(nakoYg))}，${esc(nakoVsOther(nakoYg, cheapest.yg, cheapest.brand))}，在当前列表排第 ${nakoRank} 名（共 ${byBrand.length} 个品牌）。点右侧「打开源站核对」去卖家页核价。</div>`;
+  } else {
+    read.innerHTML = `<div class="callout info"><div class="t">本组合没有 Nako 有货 SKU</div>下面仍可看竞品价位。想对照 Nako，可切回 Worm + 1/4 oz。</div>`;
+  }
+
+  const rowsHtml = source.map((r, i) => {
+    const isNako = r.brand === "Nako";
+    const brand = isNako
+      ? `<span class="brand-cell">${esc(r.brand)}<span class="badge">基准</span></span>`
+      : `<span class="brand-cell">${esc(r.brand)}</span>`;
+    return `<tr class="${isNako ? "nako-row" : ""}">
+      <td class="num">${i + 1}</td>
+      <td>${brand}</td>
+      <td title="${esc(channelFull(r.channel))}">${esc(channelFull(r.channel))}</td>
+      <td class="num"><strong>${esc(moneyG(r.yg))}</strong></td>
+      <td>${vsHtml(r.yg, nakoYg, isNako)}</td>
+      <td class="num muted">$${r.packUsd.toFixed(2)} / ${r.qty}粒<br/>≈ ¥${r.unitCny.toFixed(1)}/粒</td>
+      <td>${stockCell(r.brand, r.channel, r.cat)}</td>
+      <td>${verifyLink(r.url)}</td>
+    </tr>`;
+  }).join("");
+
+  document.getElementById("rankTable").innerHTML = `
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th class="num">名次</th>
+            <th>品牌</th>
+            <th>哪里买</th>
+            <th class="num">每克价</th>
+            <th>比 Nako</th>
+            <th class="num">包装参考</th>
+            <th>有货 / 没货克重</th>
+            <th>核对</th>
+          </tr>
+        </thead>
+        <tbody>${rowsHtml}</tbody>
+      </table>
+    </div>
+    <p class="muted small" style="margin-top:8px">「包装参考」只作背景；比价请看「每克价」。有货 / 没货按品类对照范围（至 1/2 oz）标注。</p>`;
+}
+
+function cheapBrands() {
+  return DATA.brandStats.filter(b => b.tier === "更便宜").map(b => b.brand);
+}
+
+function buildCheapBreakdown() {
+  const brands = state.cheapBrand === "全部"
+    ? cheapBrands()
+    : cheapBrands().filter(b => b === state.cheapBrand);
+  const nakoSizes = nakoSizesInCategory(state.cat);
+  const out = [];
+  for (const brand of brands) {
+    for (const size of nakoSizes) {
+      const nako = bestSku("Nako", state.cat, size);
+      const rival = bestSku(brand, state.cat, size);
+      if (!nako) continue;
+      if (!rival) {
+        out.push({ brand, size, inStock: false, nakoYg: nako.yg });
+        continue;
+      }
+      if (rival.yg < nako.yg) {
+        out.push({
+          brand, size, inStock: true,
+          brandYg: rival.yg, nakoYg: nako.yg,
+          saveYg: nako.yg - rival.yg,
+          saveUnit: nako.unitCny - rival.unitCny,
+          channel: rival.channel, url: rival.url
+        });
+      }
+    }
+  }
+  out.sort((a,b) => {
+    if (a.inStock !== b.inStock) return a.inStock ? -1 : 1;
+    if (a.inStock && b.inStock) {
+      const d = (b.saveYg||0) - (a.saveYg||0);
+      if (d) return d;
+    }
+    if (a.brand !== b.brand) return a.brand.localeCompare(b.brand);
+    return sizeSort(a.size, b.size);
+  });
+  return out;
+}
+
+function renderCheap() {
+  const nakoSizes = nakoSizesInCategory(state.cat);
+  const brands = cheapBrands();
+  renderPills(
+    document.getElementById("cheapBrandPills"),
+    ["全部", ...brands],
+    state.cheapBrand,
+    v => { state.cheapBrand = v; renderCheap(); }
+  );
+  renderPills(
+    document.getElementById("cheapLensPills"),
+    [
+      { value: "全部", label: "全部" },
+      { value: "有货更便宜", label: "有货且更便宜" },
+      { value: "没货", label: "Nako有货、对方没货" }
+    ],
+    state.cheapLens,
+    v => { state.cheapLens = v; renderCheap(); }
+  );
+
+  if (!nakoSizes.length) {
+    document.getElementById("cheapStats").innerHTML = "";
+    document.getElementById("cheapTable").innerHTML =
+      `<div class="callout warn"><div class="t">${esc(state.cat)}：Nako 当前无有货 SKU</div>无法做「比 Nako 便宜多少」拆解。请切到 Worm 或 Flipping。</div>`;
+    return;
+  }
+
+  const all = buildCheapBreakdown();
+  const rows = state.cheapLens === "有货更便宜"
+    ? all.filter(r => r.inStock)
+    : state.cheapLens === "没货"
+      ? all.filter(r => !r.inStock)
+      : all;
+  const inCnt = all.filter(r => r.inStock).length;
+  const oosCnt = all.filter(r => !r.inStock).length;
+
+  document.getElementById("cheapStats").innerHTML = `
+    <div class="stat ok"><div class="v">${inCnt}</div><div class="l">有货且比 Nako 更便宜的规格数</div></div>
+    <div class="stat warn"><div class="v">${oosCnt}</div><div class="l">Nako 有货、对方当前没货</div></div>
+    <div class="stat nako"><div class="v">${nakoSizes.length}</div><div class="l">Nako ${esc(state.cat)} 可对照克重数</div></div>`;
+
+  if (!rows.length) {
+    document.getElementById("cheapTable").innerHTML = `<div class="empty">当前筛选下没有行</div>`;
+    return;
+  }
+
+  const body = rows.map(r => {
+    if (r.inStock) {
+      return `<tr>
+        <td class="brand-cell">${esc(r.brand)}</td>
+        <td>${esc(r.size)}</td>
+        <td><span class="tagp cheap">有货</span></td>
+        <td class="num">${esc(moneyG(r.brandYg))}</td>
+        <td class="num">${esc(moneyG(r.nakoYg))}</td>
+        <td class="num">便宜 ¥${r.saveYg.toFixed(2)}/克</td>
+        <td class="num">便宜 ¥${r.saveUnit.toFixed(1)}/粒</td>
+        <td>${esc(channelFull(r.channel))}</td>
+        <td>${stockCell(r.brand, r.channel, state.cat)}</td>
+        <td>${verifyLink(r.url)}</td>
+      </tr>`;
+    }
+    return `<tr>
+      <td class="brand-cell">${esc(r.brand)}</td>
+      <td>${esc(r.size)}</td>
+      <td><span class="tagp dear">没货</span></td>
+      <td class="num">—</td>
+      <td class="num">${esc(moneyG(r.nakoYg))}</td>
+      <td class="num">—</td>
+      <td class="num">—</td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>`;
+  }).join("");
+
+  document.getElementById("cheapTable").innerHTML = `
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>品牌</th><th>克重</th><th>有货?</th>
+            <th class="num">竞品每克价</th><th class="num">Nako每克价</th>
+            <th class="num">便宜多少</th><th class="num">单粒差价</th>
+            <th>哪里买</th><th>有货 / 没货克重</th><th>核对</th>
+          </tr>
+        </thead>
+        <tbody>${body}</tbody>
+      </table>
+    </div>
+    <p class="muted small" style="margin-top:8px">绿色「有货」= 真有价且比 Nako 便宜。橙色「没货」= 该克重 Nako 有、对方当前没录入有货价（不编造）。</p>`;
+}
+
+function renderTiers() {
+  renderPills(
+    document.getElementById("tierPills"),
+    ["全部", "更便宜", "差不多", "更贵"],
+    state.tier,
+    v => { state.tier = v; renderTiers(); }
+  );
+  const list = DATA.brandStats.filter(b => state.tier === "全部" || b.tier === state.tier);
+  const body = list.map(b => {
+    const isNako = b.brand === "Nako";
+    const cls = b.tier === "更便宜" ? "cheap" : b.tier === "更贵" ? "dear" : "same";
+    return `<tr class="${isNako ? "nako-row" : ""}">
+      <td><span class="tagp ${isNako ? "base" : cls}">${esc(isNako ? "基准档附近" : b.tier)}</span></td>
+      <td class="brand-cell">${esc(b.brand)}${isNako ? '<span class="badge">Nako</span>' : ""}</td>
+      <td class="num">${esc(moneyG(b.med))}</td>
+      <td class="num muted">¥${b.min.toFixed(2)}–${b.max.toFixed(2)}</td>
+      <td class="num muted">${b.n} 条有货 SKU</td>
+    </tr>`;
+  }).join("");
+  document.getElementById("tierTable").innerHTML = `
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>相对 Nako</th><th>品牌</th>
+            <th class="num">大概每克价（中位）</th>
+            <th class="num">常见区间</th>
+            <th class="num">样本数</th>
+          </tr>
+        </thead>
+        <tbody>${body}</tbody>
+      </table>
+    </div>`;
+}
+
+function renderFilters() {
+  renderPills(
+    document.getElementById("catPills"),
+    [
+      { value: "Worm", label: "Worm", sub: "虫钓子弹" },
+      { value: "Flipping", label: "Flipping", sub: "翻草坠" },
+      { value: "Punch", label: "Punch", sub: "多见 1/2 oz" }
+    ],
+    state.cat,
+    v => { state.cat = v; renderAll(); }
+  );
+
+  const sizeItems = SIZE_ORDER.map(s => ({
+    value: s,
+    label: s,
+    sub: SIZE_HINT[s] || ""
+  }));
+  renderPills(
+    document.getElementById("sizePills"),
+    sizeItems,
+    state.size,
+    v => { state.size = v; renderAll(); },
+    { recommend: state.cat === "Worm" ? "1/4 oz" : null }
+  );
+
+  renderPills(
+    document.getElementById("viewModePills"),
+    [
+      { value: "brand", label: "每品牌一条（推荐）" },
+      { value: "all", label: "显示全部渠道" }
+    ],
+    state.viewMode,
+    v => { state.viewMode = v; renderHeroAndTable(); }
+  );
+}
+
+function renderAll() {
+  renderFilters();
+  renderHeroAndTable();
+  renderCheap();
+  renderTiers();
+}
+
+renderChips();
+renderRules();
+renderConclusion();
+renderAll();
+</script>
+</body>
+</html>
