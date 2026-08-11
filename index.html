@@ -478,7 +478,7 @@
     <section class="howto">
       <strong>怎么用这一页</strong>
       <ol>
-        <li>默认已选常用组合：<strong>Worm + 1/4 oz</strong>（下面有「建议从这里看」标记）。</li>
+        <li>默认已选：<strong>Worm + 所有克重 / All sizes</strong>（下面有「建议从这里看」标记）。想快速看常用单规格，可再点 1/4 oz。</li>
         <li>单克重：先看三块数字（最便宜 / Nako / 最贵），再看排行表。</li>
         <li>「所有克重」：按克重分段，每段先看 Nako 本价，再看同克重谁更便宜/更贵。</li>
         <li>表格里 <strong>Nako 行会高亮</strong>；「比 Nako」直接写便宜/贵多少钱。</li>
@@ -499,7 +499,7 @@
         <div class="filt-row">
           <div class="filt-label">
             克重
-            <span class="suggest">建议从这里看 · Worm + 1/4 oz</span>
+            <span class="suggest">建议从这里看 · 所有克重 / All sizes</span>
           </div>
           <div class="pills" id="sizePills"></div>
         </div>
@@ -586,7 +586,7 @@ const FX_SEEN_KEY = "seenCurrencyToggle";
 
 const state = {
   cat: "Worm",
-  size: "1/4 oz",
+  size: ALL_SIZES,
   viewMode: "brand", // brand | all
   cheapBrand: "全部",
   cheapLens: "全部",
@@ -1513,7 +1513,7 @@ function renderFilters() {
     sizeItems,
     state.size,
     v => { state.size = v; renderAll(); },
-    { recommend: state.cat === "Worm" ? "1/4 oz" : (state.cat === "Nail" ? "1/16 oz" : null) }
+    { recommend: ALL_SIZES }
   );
 
   renderPills(
