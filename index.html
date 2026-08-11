@@ -240,33 +240,67 @@
     border: 1px dashed var(--line); border-radius: var(--radius);
     background: #fff;
   }
-  .size-blocks { display: flex; flex-direction: column; gap: 18px; }
+  .size-blocks { display: flex; flex-direction: column; gap: 28px; }
   .size-block {
     border: 1px solid var(--line); border-radius: var(--radius);
     background: var(--card); box-shadow: var(--shadow); overflow: hidden;
   }
   .size-block-head {
-    padding: 12px 14px 10px;
-    background: #faf8f4;
+    position: sticky; top: 0; z-index: 2;
+    padding: 16px 16px 14px 18px;
+    background: linear-gradient(180deg, #eef3fb 0%, #f7f5f0 100%);
     border-bottom: 1px solid var(--line);
+    border-left: 4px solid var(--nako);
+    box-shadow: 0 1px 0 rgba(28,27,25,.04);
   }
-  .size-block-head h3 {
-    margin: 0 0 4px; font-size: 1.05rem; letter-spacing: -0.01em;
+  .size-block-title {
+    display: flex; flex-wrap: wrap; align-items: baseline;
+    gap: 6px 12px; margin: 0 0 10px;
+  }
+  .size-block-title .size-oz {
+    margin: 0;
+    font-size: clamp(1.35rem, 4.2vw, 1.75rem);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1.15;
+    color: var(--ink);
+  }
+  .size-block-title .size-g {
+    font-size: clamp(0.95rem, 2.8vw, 1.1rem);
+    font-weight: 650;
+    color: var(--muted);
+    letter-spacing: -0.01em;
+  }
+  .size-block-title .size-note {
+    font-size: 12px; font-weight: 700; color: #7a5a10;
+    background: #ffe9a8; border: 1px solid #e8c96a;
+    padding: 2px 8px; border-radius: 999px;
+  }
+  .size-block-meta {
+    padding-top: 8px;
+    border-top: 1px dashed #d5d0c6;
   }
   .size-block-head .nako-base {
-    margin: 0; font-size: 13.5px; color: var(--ink);
+    margin: 0; font-size: 13px; color: var(--muted); font-weight: 500;
   }
-  .size-block-head .nako-base strong { color: var(--nako); }
+  .size-block-head .nako-base strong {
+    color: var(--nako); font-weight: 700;
+  }
   .size-block-head .mini-sum {
-    margin: 6px 0 0; font-size: 12.5px; color: var(--muted); line-height: 1.45;
+    margin: 5px 0 0; font-size: 12.5px; color: var(--muted); line-height: 1.45;
   }
   .size-block-head .oos-note {
-    margin: 0; font-size: 13.5px; color: var(--dear); font-weight: 650;
+    margin: 0; font-size: 13px; color: var(--dear); font-weight: 650;
   }
   .size-block .table-wrap {
     border: 0; border-radius: 0; box-shadow: none;
   }
   .size-block table { min-width: 640px; }
+  @media (max-width: 520px) {
+    .size-blocks { gap: 22px; }
+    .size-block-head { padding: 14px 12px 12px 14px; }
+    .size-block-title { margin-bottom: 8px; }
+  }
 </style>
 </head>
 <body>
@@ -425,6 +459,16 @@ function moneyG(n) {
 
 function shortSize(size) {
   return String(size).replace(/\s*oz$/i, "");
+}
+
+/** Split SIZE_HINT into grams line + optional note (e.g. 最常用). */
+function sizeHintParts(size) {
+  const raw = SIZE_HINT[size] || "";
+  if (!raw || size === ALL_SIZES) return { grams: "", note: "" };
+  const parts = raw.split(/\s*·\s*/);
+  const grams = parts[0] || "";
+  const note = parts.slice(1).join(" · ");
+  return { grams, note };
 }
 
 function sizeSort(a, b) {
@@ -665,18 +709,28 @@ function renderSizeBlock(size, rows) {
     .slice()
     .sort((a, b) => a.yg - b.yg || a.brand.localeCompare(b.brand));
 
-  const hint = SIZE_HINT[size] || "";
+  const { grams, note } = sizeHintParts(size);
+  const titleHtml = `
+    <div class="size-block-title">
+      <h3 class="size-oz">${esc(size)}</h3>
+      ${grams ? `<span class="size-g">${esc(grams)}</span>` : ""}
+      ${note ? `<span class="size-note">${esc(note)}</span>` : ""}
+    </div>`;
   let headInner;
   if (nakoBase) {
     headInner = `
-      <h3>${esc(size)}${hint ? ` <span class="muted small">（${esc(hint)}）</span>` : ""}</h3>
-      <p class="nako-base">Nako 基准：<strong>${esc(moneyG(nakoBase.yg))}</strong> · ${esc(channelFull(nakoBase.channel))}</p>
-      <p class="mini-sum">${esc(sizeBlockMiniSum(peers, nakoYg))}</p>`;
+      ${titleHtml}
+      <div class="size-block-meta">
+        <p class="nako-base">Nako 基准：<strong>${esc(moneyG(nakoBase.yg))}</strong> · ${esc(channelFull(nakoBase.channel))}</p>
+        <p class="mini-sum">${esc(sizeBlockMiniSum(peers, nakoYg))}</p>
+      </div>`;
   } else {
     headInner = `
-      <h3>${esc(size)}${hint ? ` <span class="muted small">（${esc(hint)}）</span>` : ""}</h3>
-      <p class="oos-note">本克重暂无 Nako 有货</p>
-      <p class="mini-sum">下面仍列同克重竞品价，不编造 Nako 对照。</p>`;
+      ${titleHtml}
+      <div class="size-block-meta">
+        <p class="oos-note">本克重暂无 Nako 有货</p>
+        <p class="mini-sum">下面仍列同克重竞品价，不编造 Nako 对照。</p>
+      </div>`;
   }
 
   const body = ordered.map((r, i) => {
