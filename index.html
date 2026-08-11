@@ -296,6 +296,9 @@
     border: 0; border-radius: 0; box-shadow: none;
   }
   .size-block table { min-width: 640px; }
+  .size-cell { white-space: nowrap; }
+  .size-cell .size-g-txt { color: var(--muted); font-weight: 500; }
+  th.size-col, td.size-col { white-space: nowrap; min-width: 7.2em; }
   @media (max-width: 520px) {
     .size-blocks { gap: 22px; }
     .size-block-head { padding: 14px 12px 12px 14px; }
@@ -459,6 +462,29 @@ function moneyG(n) {
 
 function shortSize(size) {
   return String(size).replace(/\s*oz$/i, "");
+}
+
+const OZ_TO_G = Number((DATA.meta && DATA.meta.ozToG) || 28.3495);
+
+/** Compact grams for labels, e.g. "3.5" from "1/8 oz" (1 decimal, same as SIZE_HINT). */
+function sizeGramsCompact(size) {
+  const m = String(size).trim().match(/^(\d+)\s*\/\s*(\d+)\s*oz$/i);
+  if (!m) return null;
+  const g = (Number(m[1]) / Number(m[2])) * OZ_TO_G;
+  return (Math.round(g * 10) / 10).toFixed(1);
+}
+
+/** Plain text: `1/8 oz（3.5g）` */
+function sizeLabelWithG(size) {
+  const g = sizeGramsCompact(size);
+  return g == null ? String(size) : `${size}（${g}g）`;
+}
+
+/** Table cell HTML: oz + muted （Xg）, nowrap to avoid orphan "oz". */
+function sizeCellHtml(size) {
+  const g = sizeGramsCompact(size);
+  if (g == null) return esc(size);
+  return `<span class="size-cell"><span class="size-oz-txt">${esc(size)}</span><span class="size-g-txt">（${esc(g)}g）</span></span>`;
 }
 
 /** Split SIZE_HINT into grams line + optional note (e.g. 最常用). */
@@ -1002,7 +1028,7 @@ function renderCheap() {
     if (r.inStock) {
       return `<tr>
         <td class="brand-cell">${esc(r.brand)}</td>
-        <td>${esc(r.size)}</td>
+        <td class="size-col">${sizeCellHtml(r.size)}</td>
         <td><span class="tagp cheap">有货</span></td>
         <td class="num">${esc(moneyG(r.brandYg))}</td>
         <td class="num">${esc(moneyG(r.nakoYg))}</td>
@@ -1015,7 +1041,7 @@ function renderCheap() {
     }
     return `<tr>
       <td class="brand-cell">${esc(r.brand)}</td>
-      <td>${esc(r.size)}</td>
+      <td class="size-col">${sizeCellHtml(r.size)}</td>
       <td><span class="tagp dear">没货</span></td>
       <td class="num">—</td>
       <td class="num">${esc(moneyG(r.nakoYg))}</td>
@@ -1032,7 +1058,7 @@ function renderCheap() {
       <table>
         <thead>
           <tr>
-            <th>品牌</th><th>克重</th><th>有货?</th>
+            <th>品牌</th><th class="size-col">克重</th><th>有货?</th>
             <th class="num">竞品每克价</th><th class="num">Nako每克价</th>
             <th class="num">便宜多少</th><th class="num">单粒差价</th>
             <th>哪里买</th><th>有货 / 没货克重</th><th>核对</th>
@@ -1110,8 +1136,11 @@ function renderFilters() {
     { value: ALL_SIZES, label: ALL_SIZES, sub: "All sizes" },
     ...SIZE_ORDER.map(s => ({
       value: s,
-      label: s,
-      sub: SIZE_HINT[s] || ""
+      label: sizeLabelWithG(s),
+      sub: (() => {
+        const { note } = sizeHintParts(s);
+        return note || "";
+      })()
     }))
   ];
   renderPills(
