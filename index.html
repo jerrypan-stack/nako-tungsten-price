@@ -240,6 +240,33 @@
     border: 1px dashed var(--line); border-radius: var(--radius);
     background: #fff;
   }
+  .size-blocks { display: flex; flex-direction: column; gap: 18px; }
+  .size-block {
+    border: 1px solid var(--line); border-radius: var(--radius);
+    background: var(--card); box-shadow: var(--shadow); overflow: hidden;
+  }
+  .size-block-head {
+    padding: 12px 14px 10px;
+    background: #faf8f4;
+    border-bottom: 1px solid var(--line);
+  }
+  .size-block-head h3 {
+    margin: 0 0 4px; font-size: 1.05rem; letter-spacing: -0.01em;
+  }
+  .size-block-head .nako-base {
+    margin: 0; font-size: 13.5px; color: var(--ink);
+  }
+  .size-block-head .nako-base strong { color: var(--nako); }
+  .size-block-head .mini-sum {
+    margin: 6px 0 0; font-size: 12.5px; color: var(--muted); line-height: 1.45;
+  }
+  .size-block-head .oos-note {
+    margin: 0; font-size: 13.5px; color: var(--dear); font-weight: 650;
+  }
+  .size-block .table-wrap {
+    border: 0; border-radius: 0; box-shadow: none;
+  }
+  .size-block table { min-width: 640px; }
 </style>
 </head>
 <body>
@@ -263,7 +290,8 @@
       <strong>怎么用这一页</strong>
       <ol>
         <li>默认已选常用组合：<strong>Worm + 1/4 oz</strong>（下面有「建议从这里看」标记）。</li>
-        <li>先看三块数字：最便宜 / Nako / 最贵，再往下看排行表。</li>
+        <li>单克重：先看三块数字（最便宜 / Nako / 最贵），再看排行表。</li>
+        <li>「所有克重」：按克重分段，每段先看 Nako 本价，再看同克重谁更便宜/更贵。</li>
         <li>表格里 <strong>Nako 行会高亮</strong>；「比 Nako」直接写便宜/贵多少钱。</li>
         <li>点「打开源站核对」会新开标签页，到卖家页面核价核库存。</li>
       </ol>
@@ -582,6 +610,129 @@ function renderConclusion() {
     "市场上有人卖得更便宜（尤其折扣站、美国大站上的平价牌），也有人卖得更贵（如 WOO、Queen、Fitzgerald 等）。Nako 处在中间：不是最低价，也不走高溢价。常见 Worm 1/4 oz 大约 ¥3.1/克。本页统计单粒不超过约 14g（含 1/2 oz）、现在还能买到的货。";
 }
 
+function rowsForSize(size) {
+  const maxG = DATA.meta.maxPieceG || 14.2;
+  const rows = DATA.rows
+    .filter(r => r.cat === state.cat && r.size === size && r.g <= maxG)
+    .slice()
+    .sort((a, b) => a.yg - b.yg || a.brand.localeCompare(b.brand));
+  if (state.viewMode === "all") return rows;
+  const seen = new Set();
+  const out = [];
+  for (const r of rows) {
+    if (seen.has(r.brand)) continue;
+    seen.add(r.brand);
+    out.push(r);
+  }
+  return out;
+}
+
+function sizeGroupOrder(cat) {
+  const present = new Set(
+    DATA.rows.filter(r => r.cat === cat && r.g <= MAX_PIECE_G).map(r => r.size)
+  );
+  return SIZE_ORDER.filter(s => present.has(s)).concat(
+    [...present].filter(s => !SIZE_ORDER.includes(s)).sort(sizeSort)
+  );
+}
+
+function sizeBlockMiniSum(peers, nakoYg) {
+  if (nakoYg == null || !(nakoYg > 0)) return "";
+  if (!peers.length) return "本克重暂无其他品牌有货对照";
+  const cheaper = [];
+  const dearer = [];
+  for (const r of peers) {
+    const v = vsNako(r.yg, nakoYg, false);
+    if (v.tier === "更便宜") cheaper.push(r.brand);
+    else if (v.tier === "更贵") dearer.push(r.brand);
+  }
+  const parts = [];
+  if (cheaper.length) parts.push("比 Nako 更便宜：" + cheaper.join("、"));
+  if (dearer.length) parts.push("更贵：" + dearer.join("、"));
+  return parts.length ? parts.join(" · ") : "同克重竞品与 Nako 差不多";
+}
+
+function renderSizeBlock(size, rows) {
+  const nakoHits = rows.filter(r => r.brand === "Nako").slice().sort((a, b) => a.yg - b.yg);
+  const nakoBase = nakoHits[0] || null;
+  const nakoYg = nakoBase ? nakoBase.yg : null;
+  const peers = rows
+    .filter(r => r.brand !== "Nako")
+    .slice()
+    .sort((a, b) => a.yg - b.yg || a.brand.localeCompare(b.brand));
+  // Baseline Nako first; extra Nako channels (viewMode=all) then other brands by ¥/g
+  const extraNako = nakoHits.slice(1);
+  const ordered = nakoBase
+    ? [nakoBase, ...[...extraNako, ...peers].sort((a, b) => a.yg - b.yg || a.brand.localeCompare(b.brand))]
+    : peers;
+
+  const hint = SIZE_HINT[size] || "";
+  let headInner;
+  if (nakoBase) {
+    headInner = `
+      <h3>${esc(size)}${hint ? ` <span class="muted small">（${esc(hint)}）</span>` : ""}</h3>
+      <p class="nako-base">Nako 基准：<strong>${esc(moneyG(nakoBase.yg))}</strong> · ${esc(channelFull(nakoBase.channel))}</p>
+      <p class="mini-sum">${esc(sizeBlockMiniSum(peers, nakoYg))}</p>`;
+  } else {
+    headInner = `
+      <h3>${esc(size)}${hint ? ` <span class="muted small">（${esc(hint)}）</span>` : ""}</h3>
+      <p class="oos-note">本克重暂无 Nako 有货</p>
+      <p class="mini-sum">下面仍列同克重竞品价，不编造 Nako 对照。</p>`;
+  }
+
+  const body = ordered.map((r, i) => {
+    const isNako = r.brand === "Nako";
+    const isBase = !!(nakoBase && r === nakoBase);
+    const brand = isNako
+      ? `<span class="brand-cell">${esc(r.brand)}<span class="badge">${isBase ? "基准" : "Nako"}</span></span>`
+      : `<span class="brand-cell">${esc(r.brand)}</span>`;
+    return `<tr class="${isNako ? "nako-row" : ""}">
+      <td class="num">${i + 1}</td>
+      <td>${brand}</td>
+      <td title="${esc(channelFull(r.channel))}">${esc(channelFull(r.channel))}</td>
+      <td class="num"><strong>${esc(moneyG(r.yg))}</strong></td>
+      <td>${vsHtml(r.yg, nakoYg, isBase)}</td>
+      <td class="num muted">$${r.packUsd.toFixed(2)} / ${r.qty}粒<br/>≈ ¥${r.unitCny.toFixed(1)}/粒</td>
+      <td>${verifyLink(r.url)}</td>
+    </tr>`;
+  }).join("");
+
+  return `<div class="size-block">
+    <div class="size-block-head">${headInner}</div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th class="num">#</th>
+            <th>品牌</th>
+            <th>哪里买</th>
+            <th class="num">每克价</th>
+            <th>比本克重 Nako</th>
+            <th class="num">包装参考</th>
+            <th>核对</th>
+          </tr>
+        </thead>
+        <tbody>${body}</tbody>
+      </table>
+    </div>
+  </div>`;
+}
+
+function renderAllSizesGrouped() {
+  const sizes = sizeGroupOrder(state.cat);
+  const blocks = [];
+  let withNako = 0;
+  let rowCount = 0;
+  for (const size of sizes) {
+    const rows = rowsForSize(size);
+    if (!rows.length) continue;
+    if (rows.some(r => r.brand === "Nako")) withNako++;
+    rowCount += rows.length;
+    blocks.push(renderSizeBlock(size, rows));
+  }
+  return { blocks, withNako, rowCount, sizeCount: blocks.length };
+}
+
 function renderHeroAndTable() {
   const all = filteredRows();
   const byBrand = uniqueByBrand(all);
@@ -592,17 +743,11 @@ function renderHeroAndTable() {
   const nakoRank = allSizes ? 0 : byBrand.findIndex(r => r.brand === "Nako") + 1;
   const cheapest = byBrand[0];
   const priciest = byBrand[byBrand.length - 1];
-  const nakoSizeCount = new Set(
-    all.filter(r => r.brand === "Nako").map(r => r.size)
-  ).size;
 
   const hint = SIZE_HINT[state.size] || "";
   const sizeText = sizeLabel(state.size);
   document.getElementById("currentView").textContent =
     `当前看的是：${state.cat} · ${sizeText}${hint ? "（" + hint + "）" : ""} · 仅有货 · 单粒不超过约 14g（含 1/2 oz）`;
-
-  document.getElementById("rankSub").textContent =
-    source.length ? `${state.cat} · ${sizeText} · ${source.length} 条` : "";
 
   const hero = document.getElementById("heroStats");
   const read = document.getElementById("readHint");
@@ -611,6 +756,7 @@ function renderHeroAndTable() {
     hero.innerHTML = "";
     read.innerHTML = `<div class="callout warn"><div class="t">Punch：当前克重暂无有货规格</div>Punch 样本主要在 1/2 oz。可先切到 1/2 oz / 所有克重，或改选 Worm / Flipping。</div>`;
     document.getElementById("rankTable").innerHTML = `<div class="empty">试试 1/2 oz 或「所有克重」，或换 Worm / Flipping</div>`;
+    document.getElementById("rankSub").textContent = "";
     return;
   }
 
@@ -618,32 +764,56 @@ function renderHeroAndTable() {
     hero.innerHTML = "";
     read.innerHTML = `<div class="callout warn"><div class="t">本组合暂无有货数据</div>换一个克重或品类再试（含至 1/2 oz）。</div>`;
     document.getElementById("rankTable").innerHTML = `<div class="empty">没有可排行的有货 SKU</div>`;
+    document.getElementById("rankSub").textContent = "";
     return;
   }
 
-  const cheapSizeBit = allSizes ? ` · ${esc(shortSize(cheapest.size))}` : "";
-  const dearSizeBit = allSizes ? ` · ${esc(shortSize(priciest.size))}` : "";
+  if (allSizes) {
+    const grouped = renderAllSizesGrouped();
+    document.getElementById("rankSub").textContent =
+      `${state.cat} · 按克重分组 · ${grouped.sizeCount} 个克重 · ${grouped.rowCount} 条`;
+
+    hero.innerHTML = `
+      <div class="stat nako">
+        <div class="v">${grouped.withNako}</div>
+        <div class="l">共 ${grouped.withNako} 个克重有 Nako 对照</div>
+      </div>
+      <div class="stat">
+        <div class="v">按克重</div>
+        <div class="l">分组对照 Nako（不再混排跨克重极值）</div>
+      </div>
+      <div class="stat ok">
+        <div class="v">${grouped.sizeCount}</div>
+        <div class="l">${esc(state.cat)} 有货克重段 · 至 1/2 oz</div>
+      </div>`;
+
+    read.innerHTML = `<div class="callout ok"><div class="t">怎么读「所有克重」</div>下面按克重分段（从轻到重）。每段先看 <strong>Nako 基准价</strong>，再看同克重谁更便宜/更贵。某克重 Nako 没货会标明「本克重暂无 Nako 有货」，不编造对照。想快速看常用规格，可切回 Worm + 1/4 oz。</div>`;
+
+    document.getElementById("rankTable").innerHTML = grouped.blocks.length
+      ? `<div class="size-blocks">${grouped.blocks.join("")}</div>
+         <p class="muted small" style="margin-top:10px">每段「比本克重 Nako」只和<strong>同克重</strong>对照；包装参考只作背景。</p>`
+      : `<div class="empty">没有可分组的有货 SKU</div>`;
+    return;
+  }
+
+  document.getElementById("rankSub").textContent =
+    source.length ? `${state.cat} · ${sizeText} · ${source.length} 条` : "";
+
   hero.innerHTML = `
     <div class="stat ok">
       <div class="v">${esc(moneyG(cheapest.yg))}</div>
-      <div class="l">最便宜：${esc(cheapest.brand)}${cheapSizeBit} · ${esc(channelName(cheapest.channel))}</div>
+      <div class="l">最便宜：${esc(cheapest.brand)} · ${esc(channelName(cheapest.channel))}</div>
     </div>
     <div class="stat nako">
-      <div class="v">${allSizes
-        ? (nakoSizeCount ? nakoSizeCount + " 个克重" : "本类无货")
-        : (nakoRow ? esc(moneyG(nakoYg)) : "本组合无货")}</div>
-      <div class="l">${allSizes
-        ? (nakoSizeCount ? `Nako ${esc(state.cat)} 有货克重数 · 「比 Nako」按同行同克重` : "Nako（本类暂无）")
-        : (nakoRank ? `Nako 排第 ${nakoRank} / ${byBrand.length} 个品牌` : "Nako（本组合暂无）")}</div>
+      <div class="v">${nakoRow ? esc(moneyG(nakoYg)) : "本组合无货"}</div>
+      <div class="l">${nakoRank ? `Nako 排第 ${nakoRank} / ${byBrand.length} 个品牌` : "Nako（本组合暂无）"}</div>
     </div>
     <div class="stat warn">
       <div class="v">${esc(moneyG(priciest.yg))}</div>
-      <div class="l">最贵：${esc(priciest.brand)}${dearSizeBit} · ${esc(channelName(priciest.channel))}</div>
+      <div class="l">最贵：${esc(priciest.brand)} · ${esc(channelName(priciest.channel))}</div>
     </div>`;
 
-  if (allSizes) {
-    read.innerHTML = `<div class="callout ok"><div class="t">怎么读「所有克重」</div>按 ¥/克从低到高混排（含至 1/2 oz）。「比 Nako」= 与 <strong>同克重</strong> 的 Nako 对照；该克重 Nako 没货则显示 —。默认仍建议先看 Worm + 1/4 oz。</div>`;
-  } else if (cheapest && nakoRow) {
+  if (cheapest && nakoRow) {
     read.innerHTML = `<div class="callout ok"><div class="t">怎么读这一屏</div>最便宜是 ${esc(cheapest.brand)}（${esc(moneyG(cheapest.yg))}）。Nako 是 ${esc(moneyG(nakoYg))}，${esc(nakoVsOther(nakoYg, cheapest.yg, cheapest.brand))}，在当前列表排第 ${nakoRank} 名（共 ${byBrand.length} 个品牌）。点右侧「打开源站核对」去卖家页核价。</div>`;
   } else {
     read.innerHTML = `<div class="callout info"><div class="t">本组合没有 Nako 有货 SKU</div>下面仍可看竞品价位。想对照 Nako，可切回 Worm + 1/4 oz。</div>`;
@@ -651,28 +821,21 @@ function renderHeroAndTable() {
 
   const rowsHtml = source.map((r, i) => {
     const isNako = r.brand === "Nako";
-    const rowNakoYg = allSizes ? nakoYgAtSize(r.size) : nakoYg;
     const brand = isNako
       ? `<span class="brand-cell">${esc(r.brand)}<span class="badge">基准</span></span>`
       : `<span class="brand-cell">${esc(r.brand)}</span>`;
-    const sizeCell = allSizes ? `<td class="num">${esc(r.size)}</td>` : "";
     return `<tr class="${isNako ? "nako-row" : ""}">
       <td class="num">${i + 1}</td>
       <td>${brand}</td>
-      ${sizeCell}
       <td title="${esc(channelFull(r.channel))}">${esc(channelFull(r.channel))}</td>
       <td class="num"><strong>${esc(moneyG(r.yg))}</strong></td>
-      <td>${vsHtml(r.yg, rowNakoYg, isNako)}</td>
+      <td>${vsHtml(r.yg, nakoYg, isNako)}</td>
       <td class="num muted">$${r.packUsd.toFixed(2)} / ${r.qty}粒<br/>≈ ¥${r.unitCny.toFixed(1)}/粒</td>
       <td>${stockCell(r.brand, r.channel, r.cat)}</td>
       <td>${verifyLink(r.url)}</td>
     </tr>`;
   }).join("");
 
-  const sizeTh = allSizes ? `<th class="num">克重</th>` : "";
-  const vsNote = allSizes
-    ? `「比 Nako」按<strong>同行同克重</strong>对照；该克重 Nako 无有货则 —。`
-    : `有货 / 没货按品类对照范围（至 1/2 oz）标注。`;
   document.getElementById("rankTable").innerHTML = `
     <div class="table-wrap">
       <table>
@@ -680,7 +843,6 @@ function renderHeroAndTable() {
           <tr>
             <th class="num">名次</th>
             <th>品牌</th>
-            ${sizeTh}
             <th>哪里买</th>
             <th class="num">每克价</th>
             <th>比 Nako</th>
@@ -692,7 +854,7 @@ function renderHeroAndTable() {
         <tbody>${rowsHtml}</tbody>
       </table>
     </div>
-    <p class="muted small" style="margin-top:8px">「包装参考」只作背景；比价请看「每克价」。${vsNote}</p>`;
+    <p class="muted small" style="margin-top:8px">「包装参考」只作背景；比价请看「每克价」。有货 / 没货按品类对照范围（至 1/2 oz）标注。</p>`;
 }
 
 function cheapBrands() {
