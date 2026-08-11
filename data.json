@@ -2,7 +2,7 @@
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
     "asOf": "2026-08-11",
-    "updatedAt": "2026-08-11T12:36:27+08:00",
+    "updatedAt": "2026-08-11T12:39:03+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -39,7 +39,7 @@
       },
       "notes": []
     },
-    "validatedAt": "2026-08-11T12:36:27+08:00",
+    "validatedAt": "2026-08-11T12:39:03+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -2142,6 +2142,42 @@
       "note": "缺货（未计入有货比价）"
     },
     {
+      "brand": "Epic Baits",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "1/16 oz",
+      "qty": 5,
+      "packUsd": 9.99,
+      "color": "Black",
+      "title": "Epic Baits Tungsten Worm Weights Black 5pk 1/16",
+      "url": "https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Worm_Weights/descpage-EBTW.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Epic Baits",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "1/4 oz",
+      "qty": 3,
+      "packUsd": 11.09,
+      "color": "Green Pumpkin",
+      "title": "Epic Baits Tungsten Worm Weights Grn Pumpkin 3pk 1/4",
+      "url": "https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Worm_Weights/descpage-EBTW.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Epic Baits",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "5/16 oz",
+      "qty": 3,
+      "packUsd": 13.69,
+      "color": "Green Pumpkin",
+      "title": "Epic Baits Tungsten Worm Weights Grn Pumpkin 3pk 5/16",
+      "url": "https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Worm_Weights/descpage-EBTW.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
       "brand": "Elite Tungsten",
       "channel": "TW",
       "cat": "Worm",
@@ -2187,42 +2223,6 @@
       "color": "Black",
       "title": "Elite Tungsten Worm Weights Black 1/4 3pk",
       "url": "https://www.tacklewarehouse.com/Elite_Tungsten_Worm_Weights/descpage-ELTUNWM.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "Epic Baits",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "1/16 oz",
-      "qty": 5,
-      "packUsd": 9.99,
-      "color": "Black",
-      "title": "Epic Baits Tungsten Worm Weights Black 5pk 1/16",
-      "url": "https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Worm_Weights/descpage-EBTW.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "Epic Baits",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "1/4 oz",
-      "qty": 3,
-      "packUsd": 11.09,
-      "color": "Green Pumpkin",
-      "title": "Epic Baits Tungsten Worm Weights Grn Pumpkin 3pk 1/4",
-      "url": "https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Worm_Weights/descpage-EBTW.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "Epic Baits",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "5/16 oz",
-      "qty": 3,
-      "packUsd": 13.69,
-      "color": "Green Pumpkin",
-      "title": "Epic Baits Tungsten Worm Weights Grn Pumpkin 3pk 5/16",
-      "url": "https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Worm_Weights/descpage-EBTW.html",
       "note": "缺货（未计入有货比价）"
     },
     {
@@ -2406,18 +2406,6 @@
       "note": "缺货（未计入有货比价）"
     },
     {
-      "brand": "Bullet Weights",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "3/8 oz",
-      "qty": 3,
-      "packUsd": 9.99,
-      "color": "Black",
-      "title": "Bullet Tungsten Flipping Weights Black 3/8oz 3pk",
-      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tactical_Tungsten_Flipping_Weights/descpage-BWCT.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
       "brand": "Arsenal Fishing",
       "channel": "TW",
       "cat": "Flipping",
@@ -2478,6 +2466,18 @@
       "note": "缺货（未计入有货比价）"
     },
     {
+      "brand": "Bullet Weights",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "3/8 oz",
+      "qty": 3,
+      "packUsd": 9.99,
+      "color": "Black",
+      "title": "Bullet Tungsten Flipping Weights Black 3/8oz 3pk",
+      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tactical_Tungsten_Flipping_Weights/descpage-BWCT.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
       "brand": "Elite Tungsten",
       "channel": "TW",
       "cat": "Flipping",
@@ -2514,18 +2514,6 @@
       "note": "缺货（未计入有货比价）"
     },
     {
-      "brand": "Omega",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "3/8 oz",
-      "qty": 3,
-      "packUsd": 9.99,
-      "color": "Black",
-      "title": "Omega Tungsten Flip Weights Black 3/8oz 3pk",
-      "url": "https://www.tacklewarehouse.com/Omega_Tungsten_Flip_Weights/descpage-OTF.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
       "brand": "Nako",
       "channel": "TW",
       "cat": "Flipping",
@@ -2535,6 +2523,18 @@
       "color": "",
       "title": "Nako Tungsten Flipping Weights 1/2oz 5pk",
       "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Flipping_Weights/descpage-NTFW.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Omega",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "3/8 oz",
+      "qty": 3,
+      "packUsd": 9.99,
+      "color": "Black",
+      "title": "Omega Tungsten Flip Weights Black 3/8oz 3pk",
+      "url": "https://www.tacklewarehouse.com/Omega_Tungsten_Flip_Weights/descpage-OTF.html",
       "note": "缺货（未计入有货比价）"
     },
     {
