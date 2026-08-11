@@ -54,6 +54,10 @@
           "raw": 15,
           "new_instock": 11,
           "merged_total": 153
+        },
+        "nail_patch": {
+          "instock": 30,
+          "oos": 20
         }
       },
       "fail": {},
@@ -64,6 +68,78 @@
     }
   },
   "rows": [
+    {
+      "brand": "Epic Baits",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/64 oz",
+      "g": 0.443,
+      "qty": 18,
+      "packUsd": 7.69,
+      "unitCny": 2.88,
+      "yg": 6.51,
+      "url": "https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Nail_Weights_/descpage-EBNW.html"
+    },
+    {
+      "brand": "Nako",
+      "channel": "官网",
+      "cat": "Nail",
+      "size": "1/64 oz",
+      "g": 0.443,
+      "qty": 10,
+      "packUsd": 4.99,
+      "unitCny": 3.37,
+      "yg": 7.604,
+      "url": "https://nakoshop.com/products/tungsten-nail-weights"
+    },
+    {
+      "brand": "Nako",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/64 oz",
+      "g": 0.443,
+      "qty": 10,
+      "packUsd": 4.99,
+      "unitCny": 3.37,
+      "yg": 7.604,
+      "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Nail_Weights_10pk/descpage-NTNW.html"
+    },
+    {
+      "brand": "Eagle Claw",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/32 oz",
+      "g": 0.886,
+      "qty": 9,
+      "packUsd": 4.49,
+      "unitCny": 3.37,
+      "yg": 3.801,
+      "url": "https://www.tacklewarehouse.com/Eagle_Claw_Lazer_Sharp_Tungsten_Pagoda_Nail_Weight/descpage-ECLTP.html"
+    },
+    {
+      "brand": "Epic Baits",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/32 oz",
+      "g": 0.886,
+      "qty": 15,
+      "packUsd": 7.69,
+      "unitCny": 3.46,
+      "yg": 3.906,
+      "url": "https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Nail_Weights_/descpage-EBNW.html"
+    },
+    {
+      "brand": "Nako",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/32 oz",
+      "g": 0.886,
+      "qty": 10,
+      "packUsd": 6.49,
+      "unitCny": 4.38,
+      "yg": 4.945,
+      "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Nail_Weights_10pk/descpage-NTNW.html"
+    },
     {
       "brand": "Nako",
       "channel": "官网",
@@ -77,6 +153,114 @@
       "url": "https://nakoshop.com/products/tungsten-worm-weights"
     },
     {
+      "brand": "TMO",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/32 oz",
+      "g": 0.886,
+      "qty": 9,
+      "packUsd": 12.49,
+      "unitCny": 9.37,
+      "yg": 10.574,
+      "url": "https://www.tacklewarehouse.com/TMO_Tungsten_Nail_Weights/descpage-TMOTN.html"
+    },
+    {
+      "brand": "Nako",
+      "channel": "官网",
+      "cat": "Nail",
+      "size": "1/32 oz",
+      "g": 0.886,
+      "qty": 5,
+      "packUsd": 7.49,
+      "unitCny": 10.11,
+      "yg": 11.414,
+      "url": "https://nakoshop.com/products/tungsten-skirted-nail-weights"
+    },
+    {
+      "brand": "Googan Baits",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "3/64 oz",
+      "g": 1.329,
+      "qty": 10,
+      "packUsd": 5.99,
+      "unitCny": 4.04,
+      "yg": 3.043,
+      "url": "https://www.tacklewarehouse.com/Googan_Baits_Green_Series_Tungsten_Nail_Weights/descpage-GBTN.html"
+    },
+    {
+      "brand": "Eagle Claw",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "3/64 oz",
+      "g": 1.329,
+      "qty": 7,
+      "packUsd": 4.49,
+      "unitCny": 4.33,
+      "yg": 3.258,
+      "url": "https://www.tacklewarehouse.com/Eagle_Claw_Lazer_Sharp_Tungsten_Pagoda_Nail_Weight/descpage-ECLTP.html"
+    },
+    {
+      "brand": "Nako",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "3/64 oz",
+      "g": 1.329,
+      "qty": 10,
+      "packUsd": 7.99,
+      "unitCny": 5.39,
+      "yg": 4.058,
+      "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Nail_Weights_10pk/descpage-NTNW.html"
+    },
+    {
+      "brand": "Xzone",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "3/64 oz",
+      "g": 1.329,
+      "qty": 6,
+      "packUsd": 4.99,
+      "unitCny": 5.61,
+      "yg": 4.224,
+      "url": "https://www.tacklewarehouse.com/Xzone_Tungsten_Nail_Pagoda_Nail_Weights/descpage-XRNNP.html"
+    },
+    {
+      "brand": "Nako",
+      "channel": "官网",
+      "cat": "Nail",
+      "size": "3/64 oz",
+      "g": 1.329,
+      "qty": 5,
+      "packUsd": 8.99,
+      "unitCny": 12.14,
+      "yg": 9.133,
+      "url": "https://nakoshop.com/products/tungsten-skirted-nail-weights"
+    },
+    {
+      "brand": "Eagle Claw",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/16 oz",
+      "g": 1.772,
+      "qty": 6,
+      "packUsd": 4.49,
+      "unitCny": 5.05,
+      "yg": 2.851,
+      "url": "https://www.tacklewarehouse.com/Eagle_Claw_Lazer_Sharp_Tungsten_Pagoda_Nail_Weight/descpage-ECLTP.html"
+    },
+    {
+      "brand": "Googan Baits",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/16 oz",
+      "g": 1.772,
+      "qty": 8,
+      "packUsd": 5.99,
+      "unitCny": 5.05,
+      "yg": 2.852,
+      "url": "https://www.tacklewarehouse.com/Googan_Baits_Green_Series_Tungsten_Nail_Weights/descpage-GBTN.html"
+    },
+    {
       "brand": "Departure",
       "channel": "DiscountTackle",
       "cat": "Worm",
@@ -87,6 +271,18 @@
       "unitCny": 8.09,
       "yg": 4.564,
       "url": "https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights"
+    },
+    {
+      "brand": "Cipher Fishing",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/16 oz",
+      "g": 1.772,
+      "qty": 5,
+      "packUsd": 7.83,
+      "unitCny": 10.57,
+      "yg": 5.966,
+      "url": "https://www.tacklewarehouse.com/Cipher_Fishing_Tungsten_Nail_Weights_5pk/descpage-CFTN.html"
     },
     {
       "brand": "Nako",
@@ -125,6 +321,18 @@
       "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Worm_Weights_5pk/descpage-NWW.html"
     },
     {
+      "brand": "Queen Tackle",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/16 oz",
+      "g": 1.772,
+      "qty": 6,
+      "packUsd": 9.99,
+      "unitCny": 11.24,
+      "yg": 6.343,
+      "url": "https://www.tacklewarehouse.com/Queen_Line_Through_Tungsten_Nail_Weights/descpage-QLTNW.html"
+    },
+    {
       "brand": "Reaction Tackle",
       "channel": "官网",
       "cat": "Worm",
@@ -135,6 +343,30 @@
       "unitCny": 11.24,
       "yg": 6.343,
       "url": "https://reactiontackle.com/products/reaction-tackle-tungsten-worm-weights-bullet-shaped-sinkers"
+    },
+    {
+      "brand": "Nako",
+      "channel": "官网",
+      "cat": "Nail",
+      "size": "1/16 oz",
+      "g": 1.772,
+      "qty": 5,
+      "packUsd": 9.99,
+      "unitCny": 13.49,
+      "yg": 7.612,
+      "url": "https://nakoshop.com/products/tungsten-skirted-nail-weights"
+    },
+    {
+      "brand": "Nako",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/16 oz",
+      "g": 1.772,
+      "qty": 5,
+      "packUsd": 9.99,
+      "unitCny": 13.49,
+      "yg": 7.612,
+      "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Skirted_Nail_Weights_5pk/descpage-NTSN.html"
     },
     {
       "brand": "WOO! Never Chip",
@@ -185,6 +417,18 @@
       "url": "https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Worm_Weights/descpage-FFTWW.html"
     },
     {
+      "brand": "Cipher Fishing",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "3/32 oz",
+      "g": 2.658,
+      "qty": 5,
+      "packUsd": 8.16,
+      "unitCny": 11.02,
+      "yg": 4.145,
+      "url": "https://www.tacklewarehouse.com/Cipher_Fishing_Tungsten_Nail_Weights_5pk/descpage-CFTN.html"
+    },
+    {
       "brand": "Nako",
       "channel": "官网",
       "cat": "Worm",
@@ -207,6 +451,42 @@
       "unitCny": 13.49,
       "yg": 5.074,
       "url": "https://nakoshop.com/products/nako-tungsten-flipping-weights"
+    },
+    {
+      "brand": "Queen Tackle",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "3/32 oz",
+      "g": 2.658,
+      "qty": 5,
+      "packUsd": 9.99,
+      "unitCny": 13.49,
+      "yg": 5.074,
+      "url": "https://www.tacklewarehouse.com/Queen_Line_Through_Tungsten_Nail_Weights/descpage-QLTNW.html"
+    },
+    {
+      "brand": "Nako",
+      "channel": "官网",
+      "cat": "Nail",
+      "size": "3/32 oz",
+      "g": 2.658,
+      "qty": 5,
+      "packUsd": 12.49,
+      "unitCny": 16.86,
+      "yg": 6.344,
+      "url": "https://nakoshop.com/products/tungsten-skirted-nail-weights"
+    },
+    {
+      "brand": "Nako",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "3/32 oz",
+      "g": 2.658,
+      "qty": 5,
+      "packUsd": 12.49,
+      "unitCny": 16.86,
+      "yg": 6.344,
+      "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Skirted_Nail_Weights_5pk/descpage-NTSN.html"
     },
     {
       "brand": "Departure",
@@ -365,6 +645,18 @@
       "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Flipping_Weights/descpage-NTFW.html"
     },
     {
+      "brand": "Queen Tackle",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/8 oz",
+      "g": 3.544,
+      "qty": 4,
+      "packUsd": 9.99,
+      "unitCny": 16.86,
+      "yg": 4.757,
+      "url": "https://www.tacklewarehouse.com/Queen_Line_Through_Tungsten_Nail_Weights/descpage-QLTNW.html"
+    },
+    {
       "brand": "Reaction Tackle",
       "channel": "官网",
       "cat": "Worm",
@@ -389,6 +681,30 @@
       "url": "https://wootungsten.com/products/never-chip-1-8-oz-tungsten-flipping-weight-4-pack"
     },
     {
+      "brand": "Nako",
+      "channel": "官网",
+      "cat": "Nail",
+      "size": "1/8 oz",
+      "g": 3.544,
+      "qty": 5,
+      "packUsd": 14.99,
+      "unitCny": 20.24,
+      "yg": 5.711,
+      "url": "https://nakoshop.com/products/tungsten-skirted-nail-weights"
+    },
+    {
+      "brand": "Nako",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/8 oz",
+      "g": 3.544,
+      "qty": 5,
+      "packUsd": 14.99,
+      "unitCny": 20.24,
+      "yg": 5.711,
+      "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Skirted_Nail_Weights_5pk/descpage-NTSN.html"
+    },
+    {
       "brand": "WOO!",
       "channel": "TW",
       "cat": "Flipping",
@@ -411,6 +727,18 @@
       "unitCny": 21.08,
       "yg": 5.948,
       "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights/descpage-WTNC.html"
+    },
+    {
+      "brand": "TMO",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/8 oz",
+      "g": 3.544,
+      "qty": 4,
+      "packUsd": 12.99,
+      "unitCny": 21.92,
+      "yg": 6.186,
+      "url": "https://www.tacklewarehouse.com/TMO_Tungsten_Nail_Weights/descpage-TMOTN.html"
     },
     {
       "brand": "TMO",
@@ -639,6 +967,18 @@
       "unitCny": 21.09,
       "yg": 3.967,
       "url": "https://reactiontackle.com/products/reaction-tackle-tungsten-worm-weights-bullet-shaped-sinkers"
+    },
+    {
+      "brand": "Queen Tackle",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "3/16 oz",
+      "g": 5.316,
+      "qty": 3,
+      "packUsd": 9.99,
+      "unitCny": 22.48,
+      "yg": 4.229,
+      "url": "https://www.tacklewarehouse.com/Queen_Line_Through_Tungsten_Nail_Weights/descpage-QLTNW.html"
     },
     {
       "brand": "WOO!",
@@ -927,6 +1267,18 @@
       "unitCny": 33.23,
       "yg": 4.688,
       "url": "https://www.tacklewarehouse.com/Gamakatsu_G-Shield_Tungsten_Worm_Weights/descpage-GTWM.html"
+    },
+    {
+      "brand": "Queen Tackle",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/4 oz",
+      "g": 7.087,
+      "qty": 2,
+      "packUsd": 9.99,
+      "unitCny": 33.72,
+      "yg": 4.757,
+      "url": "https://www.tacklewarehouse.com/Queen_Line_Through_Tungsten_Nail_Weights/descpage-QLTNW.html"
     },
     {
       "brand": "TMO",
@@ -1419,6 +1771,18 @@
       "unitCny": 47.22,
       "yg": 4.441,
       "url": "https://www.tacklewarehouse.com/Queen_Tackle_Tungsten_Flipping_Weights/descpage-JHSDFHD.html"
+    },
+    {
+      "brand": "Queen Tackle",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "3/8 oz",
+      "g": 10.631,
+      "qty": 2,
+      "packUsd": 13.99,
+      "unitCny": 47.22,
+      "yg": 4.441,
+      "url": "https://www.tacklewarehouse.com/Queen_Line_Through_Tungsten_Nail_Weights/descpage-QLTNW.html"
     },
     {
       "brand": "TMO",
@@ -2561,6 +2925,246 @@
       "title": "Omega Tungsten Flip Weights Black 3/8oz 3pk",
       "url": "https://www.tacklewarehouse.com/Omega_Tungsten_Flip_Weights/descpage-OTF.html",
       "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Epic Baits",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/16 oz",
+      "qty": 10,
+      "packUsd": 10.29,
+      "color": "",
+      "title": "Epic Baits Nail Weights Plain 1/16 10pk",
+      "url": "https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Nail_Weights_/descpage-EBNW.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Epic Baits",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "3/32 oz",
+      "qty": 8,
+      "packUsd": 12.19,
+      "color": "",
+      "title": "Epic Baits Nail Weights Plain 3/32 8pk",
+      "url": "https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Nail_Weights_/descpage-EBNW.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "WOO!",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "3/32 oz",
+      "qty": 6,
+      "packUsd": 11.99,
+      "color": "",
+      "title": "WOO! Tungsten Nail Weight Unpainted 3/32oz 6pk",
+      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Nail_Weights/descpage-WTNW.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Real Deal",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "3/64 oz",
+      "qty": 7,
+      "packUsd": 3.49,
+      "color": "",
+      "title": "Real Deal Tungsten Nail Weight 3/64 7pk",
+      "url": "https://www.tacklewarehouse.com/Real_Deal_Tungsten_Nail_Weights/descpage-RDNL.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Real Deal",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/16 oz",
+      "qty": 6,
+      "packUsd": 3.59,
+      "color": "",
+      "title": "Real Deal Tungsten Nail Weight 1/16oz 6pk",
+      "url": "https://www.tacklewarehouse.com/Real_Deal_Tungsten_Nail_Weights/descpage-RDNL.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Real Deal",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "3/32 oz",
+      "qty": 5,
+      "packUsd": 3.79,
+      "color": "",
+      "title": "Real Deal Tungsten Nail Weight 3/32oz 5pk",
+      "url": "https://www.tacklewarehouse.com/Real_Deal_Tungsten_Nail_Weights/descpage-RDNL.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Xzone",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/64 oz",
+      "qty": 8,
+      "packUsd": 4.99,
+      "color": "",
+      "title": "Xzone Tung Nail Pagoda Nail Weight 1/64 8pk",
+      "url": "https://www.tacklewarehouse.com/Xzone_Tungsten_Nail_Pagoda_Nail_Weights/descpage-XRNNP.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Xzone",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/32 oz",
+      "qty": 7,
+      "packUsd": 4.99,
+      "color": "",
+      "title": "Xzone Tung Nail Pagoda Nail Weight 1/32 7pk",
+      "url": "https://www.tacklewarehouse.com/Xzone_Tungsten_Nail_Pagoda_Nail_Weights/descpage-XRNNP.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Xzone",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/16 oz",
+      "qty": 5,
+      "packUsd": 5.99,
+      "color": "",
+      "title": "Xzone Tung Nail Pagoda Nail Weight 1/16 5pk",
+      "url": "https://www.tacklewarehouse.com/Xzone_Tungsten_Nail_Pagoda_Nail_Weights/descpage-XRNNP.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Xzone",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "3/32 oz",
+      "qty": 4,
+      "packUsd": 5.99,
+      "color": "",
+      "title": "Xzone Tung Nail Pagoda Nail Weight 3/32 4pk",
+      "url": "https://www.tacklewarehouse.com/Xzone_Tungsten_Nail_Pagoda_Nail_Weights/descpage-XRNNP.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "TD Pur",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/32 oz",
+      "qty": 10,
+      "packUsd": 6.79,
+      "color": "",
+      "title": "TD Tungsten Nail Weights 1/32 10pk",
+      "url": "https://www.tacklewarehouse.com/TD_Pur_Tungsten_Nail_Weights_10_pk/descpage-TDTNAIL.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "TD Pur",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/16 oz",
+      "qty": 10,
+      "packUsd": 6.79,
+      "color": "",
+      "title": "TD Tungsten Nail Weights 1/16 10pk",
+      "url": "https://www.tacklewarehouse.com/TD_Pur_Tungsten_Nail_Weights_10_pk/descpage-TDTNAIL.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "TD Pur",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "3/32 oz",
+      "qty": 10,
+      "packUsd": 6.79,
+      "color": "",
+      "title": "TD Tungsten Nail Weights 3/32 10pk",
+      "url": "https://www.tacklewarehouse.com/TD_Pur_Tungsten_Nail_Weights_10_pk/descpage-TDTNAIL.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Zappu",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "3/64 oz",
+      "qty": 7,
+      "packUsd": 3.99,
+      "color": "",
+      "title": "Zappu Nail Sinkers 3/64",
+      "url": "https://www.tacklewarehouse.com/Zappu_Tungsten_Nail_Sinkers/descpage-ZTNS.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Zappu",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/16 oz",
+      "qty": 6,
+      "packUsd": 3.99,
+      "color": "",
+      "title": "Zappu Nail Sinkers 1/16",
+      "url": "https://www.tacklewarehouse.com/Zappu_Tungsten_Nail_Sinkers/descpage-ZTNS.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Reins",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/64 oz",
+      "qty": 14,
+      "packUsd": 8.59,
+      "color": "",
+      "title": "Reins Tungsten Nail Sinker 1/64 14pk",
+      "url": "https://www.tacklewarehouse.com/Reins_Tungsten_Nail_Sinker/descpage-RTNS.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Reins",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/32 oz",
+      "qty": 9,
+      "packUsd": 8.59,
+      "color": "",
+      "title": "Reins Tungsten Nail Sinker 1/32 9pk",
+      "url": "https://www.tacklewarehouse.com/Reins_Tungsten_Nail_Sinker/descpage-RTNS.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Reins",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/16 oz",
+      "qty": 6,
+      "packUsd": 8.59,
+      "color": "",
+      "title": "Reins Tungsten Nail Sinker 1/16 6pk",
+      "url": "https://www.tacklewarehouse.com/Reins_Tungsten_Nail_Sinker/descpage-RTNS.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Reins",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "3/32 oz",
+      "qty": 4,
+      "packUsd": 8.89,
+      "color": "",
+      "title": "Reins Tungsten Nail Sinker 3/32 4pk",
+      "url": "https://www.tacklewarehouse.com/Reins_Tungsten_Nail_Sinker/descpage-RTNS.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Reins",
+      "channel": "TW",
+      "cat": "Nail",
+      "size": "1/8 oz",
+      "qty": 3,
+      "packUsd": 9.89,
+      "color": "",
+      "title": "Reins Tungsten Nail Sinker 1/8 3pk",
+      "url": "https://www.tacklewarehouse.com/Reins_Tungsten_Nail_Sinker/descpage-RTNS.html",
+      "note": "缺货（未计入有货比价）"
     }
   ],
   "brandStats": [
@@ -2577,19 +3181,6 @@
       "tier": "更便宜"
     },
     {
-      "brand": "Googan Baits",
-      "n": 3,
-      "sizes": "3/8 · 1/2 (2)",
-      "sizeList": [
-        "3/8 oz",
-        "1/2 oz"
-      ],
-      "min": 1.664,
-      "med": 1.903,
-      "max": 2.141,
-      "tier": "更便宜"
-    },
-    {
       "brand": "Mustad",
       "n": 1,
       "sizes": "3/16 (1)",
@@ -2599,6 +3190,21 @@
       "min": 2.06,
       "med": 2.06,
       "max": 2.06,
+      "tier": "更便宜"
+    },
+    {
+      "brand": "Googan Baits",
+      "n": 5,
+      "sizes": "3/64 · 1/16 · 3/8 · 1/2 (4)",
+      "sizeList": [
+        "3/64 oz",
+        "1/16 oz",
+        "3/8 oz",
+        "1/2 oz"
+      ],
+      "min": 1.664,
+      "med": 2.141,
+      "max": 3.043,
       "tier": "更便宜"
     },
     {
@@ -2614,22 +3220,6 @@
       "min": 1.712,
       "med": 2.282,
       "max": 4.564,
-      "tier": "更便宜"
-    },
-    {
-      "brand": "Eagle Claw",
-      "n": 5,
-      "sizes": "1/8 · 3/16 · 1/4 · 3/8 · 1/2 (5)",
-      "sizeList": [
-        "1/8 oz",
-        "3/16 oz",
-        "1/4 oz",
-        "3/8 oz",
-        "1/2 oz"
-      ],
-      "min": 2.379,
-      "med": 2.537,
-      "max": 3.329,
       "tier": "更便宜"
     },
     {
@@ -2659,6 +3249,25 @@
       "min": 2.379,
       "med": 2.617,
       "max": 2.854,
+      "tier": "更便宜"
+    },
+    {
+      "brand": "Eagle Claw",
+      "n": 8,
+      "sizes": "1/32 · 3/64 · 1/16 · 1/8 · 3/16 · 1/4 · 3/8 · 1/2 (8)",
+      "sizeList": [
+        "1/32 oz",
+        "3/64 oz",
+        "1/16 oz",
+        "1/8 oz",
+        "3/16 oz",
+        "1/4 oz",
+        "3/8 oz",
+        "1/2 oz"
+      ],
+      "min": 2.379,
+      "med": 2.694,
+      "max": 3.801,
       "tier": "更便宜"
     },
     {
@@ -2705,27 +3314,7 @@
       "min": 2.224,
       "med": 3.167,
       "max": 4.281,
-      "tier": "差不多"
-    },
-    {
-      "brand": "Nako",
-      "n": 29,
-      "sizes": "1/32 · 1/16 · 3/32 · 1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (9)",
-      "sizeList": [
-        "1/32 oz",
-        "1/16 oz",
-        "3/32 oz",
-        "1/8 oz",
-        "3/16 oz",
-        "1/4 oz",
-        "5/16 oz",
-        "3/8 oz",
-        "1/2 oz"
-      ],
-      "min": 3.094,
-      "med": 3.199,
-      "max": 9.89,
-      "tier": "差不多"
+      "tier": "更便宜"
     },
     {
       "brand": "Flat Out",
@@ -2737,30 +3326,14 @@
       "min": 3.331,
       "med": 3.426,
       "max": 9.043,
-      "tier": "更贵"
-    },
-    {
-      "brand": "Epic Baits",
-      "n": 8,
-      "sizes": "1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (6)",
-      "sizeList": [
-        "1/8 oz",
-        "3/16 oz",
-        "1/4 oz",
-        "5/16 oz",
-        "3/8 oz",
-        "1/2 oz"
-      ],
-      "min": 3.448,
-      "med": 3.463,
-      "max": 6.664,
-      "tier": "更贵"
+      "tier": "更便宜"
     },
     {
       "brand": "Xzone",
-      "n": 8,
-      "sizes": "1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (6)",
+      "n": 9,
+      "sizes": "3/64 · 1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (7)",
       "sizeList": [
+        "3/64 oz",
         "1/8 oz",
         "3/16 oz",
         "1/4 oz",
@@ -2771,7 +3344,26 @@
       "min": 3.331,
       "med": 3.489,
       "max": 4.281,
-      "tier": "更贵"
+      "tier": "更便宜"
+    },
+    {
+      "brand": "Epic Baits",
+      "n": 10,
+      "sizes": "1/64 · 1/32 · 1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (8)",
+      "sizeList": [
+        "1/64 oz",
+        "1/32 oz",
+        "1/8 oz",
+        "3/16 oz",
+        "1/4 oz",
+        "5/16 oz",
+        "3/8 oz",
+        "1/2 oz"
+      ],
+      "min": 3.448,
+      "med": 3.499,
+      "max": 6.664,
+      "tier": "更便宜"
     },
     {
       "brand": "Arsenal Fishing",
@@ -2783,7 +3375,7 @@
       "min": 3.806,
       "med": 3.806,
       "max": 3.806,
-      "tier": "更贵"
+      "tier": "更便宜"
     },
     {
       "brand": "Elite Tungsten",
@@ -2796,7 +3388,7 @@
       "min": 3.807,
       "med": 3.807,
       "max": 3.807,
-      "tier": "更贵"
+      "tier": "更便宜"
     },
     {
       "brand": "Reaction Tackle",
@@ -2814,7 +3406,29 @@
       "min": 3.57,
       "med": 3.967,
       "max": 6.343,
-      "tier": "更贵"
+      "tier": "更便宜"
+    },
+    {
+      "brand": "Nako",
+      "n": 41,
+      "sizes": "1/64 · 1/32 · 3/64 · 1/16 · 3/32 · 1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (11)",
+      "sizeList": [
+        "1/64 oz",
+        "1/32 oz",
+        "3/64 oz",
+        "1/16 oz",
+        "3/32 oz",
+        "1/8 oz",
+        "3/16 oz",
+        "1/4 oz",
+        "5/16 oz",
+        "3/8 oz",
+        "1/2 oz"
+      ],
+      "min": 3.094,
+      "med": 4.377,
+      "max": 11.414,
+      "tier": "差不多"
     },
     {
       "brand": "WOO! Never Chip",
@@ -2831,7 +3445,7 @@
       "min": 3.569,
       "med": 4.441,
       "max": 8.221,
-      "tier": "更贵"
+      "tier": "差不多"
     },
     {
       "brand": "WOO!",
@@ -2852,26 +3466,12 @@
       "tier": "更贵"
     },
     {
-      "brand": "TMO",
-      "n": 12,
-      "sizes": "1/8 · 3/16 · 1/4 · 3/8 · 1/2 (5)",
-      "sizeList": [
-        "1/8 oz",
-        "3/16 oz",
-        "1/4 oz",
-        "3/8 oz",
-        "1/2 oz"
-      ],
-      "min": 3.805,
-      "med": 4.918,
-      "max": 14.276,
-      "tier": "更贵"
-    },
-    {
       "brand": "Queen Tackle",
-      "n": 7,
-      "sizes": "1/8 · 3/16 · 1/4 · 3/8 · 1/2 (5)",
+      "n": 13,
+      "sizes": "1/16 · 3/32 · 1/8 · 3/16 · 1/4 · 3/8 · 1/2 (7)",
       "sizeList": [
+        "1/16 oz",
+        "3/32 oz",
         "1/8 oz",
         "3/16 oz",
         "1/4 oz",
@@ -2879,8 +3479,38 @@
         "1/2 oz"
       ],
       "min": 3.569,
-      "med": 5.075,
+      "med": 4.757,
       "max": 7.613,
+      "tier": "更贵"
+    },
+    {
+      "brand": "Cipher Fishing",
+      "n": 2,
+      "sizes": "1/16 · 3/32 (2)",
+      "sizeList": [
+        "1/16 oz",
+        "3/32 oz"
+      ],
+      "min": 4.145,
+      "med": 5.056,
+      "max": 5.966,
+      "tier": "更贵"
+    },
+    {
+      "brand": "TMO",
+      "n": 14,
+      "sizes": "1/32 · 1/8 · 3/16 · 1/4 · 3/8 · 1/2 (6)",
+      "sizeList": [
+        "1/32 oz",
+        "1/8 oz",
+        "3/16 oz",
+        "1/4 oz",
+        "3/8 oz",
+        "1/2 oz"
+      ],
+      "min": 3.805,
+      "med": 5.077,
+      "max": 14.276,
       "tier": "更贵"
     },
     {
