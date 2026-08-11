@@ -660,11 +660,10 @@ function renderSizeBlock(size, rows) {
     .filter(r => r.brand !== "Nako")
     .slice()
     .sort((a, b) => a.yg - b.yg || a.brand.localeCompare(b.brand));
-  // Baseline Nako first; extra Nako channels (viewMode=all) then other brands by ¥/g
-  const extraNako = nakoHits.slice(1);
-  const ordered = nakoBase
-    ? [nakoBase, ...[...extraNako, ...peers].sort((a, b) => a.yg - b.yg || a.brand.localeCompare(b.brand))]
-    : peers;
+  // All rows by ¥/g ascending (Nako included; keep highlight via badge / nako-row)
+  const ordered = rows
+    .slice()
+    .sort((a, b) => a.yg - b.yg || a.brand.localeCompare(b.brand));
 
   const hint = SIZE_HINT[size] || "";
   let headInner;
