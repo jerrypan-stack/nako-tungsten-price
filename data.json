@@ -65,6 +65,37 @@
         "no parseable ≤1/2oz rows (or missing qty): https://www.tacklewarehouse.com/Evolution_Tungsten_Worm_Weights/descpage-EVWW.html",
         "no parseable ≤1/2oz rows (or missing qty): https://www.tacklewarehouse.com/Evolution_Tungsten_Flipping_Weights/descpage-EVFW.html"
       ]
+    },
+    "updatedAt": "2026-08-11T11:50:59+08:00",
+    "validatedAt": "2026-08-11T11:50:59+08:00",
+    "validation": {
+      "rounds": 4,
+      "methodCount": 4,
+      "methods": [
+        {
+          "id": "primary_parse",
+          "label": "主解析（已发布抓取结果）"
+        },
+        {
+          "id": "derived_formula",
+          "label": "公式闭合（USD×汇率÷粒数÷oz÷28.3495；oz↔g）"
+        },
+        {
+          "id": "peer_outlier",
+          "label": "同规格同伴 $/g 离群检测"
+        },
+        {
+          "id": "availability",
+          "label": "有货标记与标价一致性"
+        }
+      ],
+      "minAgree": 2,
+      "disagreements": 0,
+      "needsReview": 0,
+      "published": 183,
+      "excluded": 0,
+      "method": "offline multi-method (≥2 of 4; full alternate_endpoint on live scrape)",
+      "note": "旁路端点(Shopify.js/TW次级)在 GitHub Action / update.sh 完整抓取时启用"
     }
   },
   "rows": [
