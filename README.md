@@ -12,9 +12,11 @@ https://jerrypan-stack.github.io/nako-tungsten-price/
 
 页面顶部按钮会打开 GitHub Actions 工作流页：点 **Run workflow**，约 8–15 分钟后刷新本页。
 
-- Actions：https://github.com/jerrypan-stack/nako-tungsten-price/actions/workflows/update-prices.yml  
-- 本地：`./update.sh`（同源抓取 → 写 `data.json` → 同步进 `index.html`）  
-- 定时：每天 09:00（中国时间）自动跑一次 cron  
+- 本地一键：`./update.sh`（同源抓取 → 多方法交叉验证 → 写 `data.json` → 同步 `index.html`）  
+- 定时：工作流文件见仓库本地 `.github/workflows/update-prices.yml`（需带 `workflow` scope 的 token 才能推送该文件；推送后每天 09:00 中国时间自动跑）  
+- 手动：将本地 `update-prices.yml` 加到 GitHub 后，打开 Actions → Update prices → Run workflow  
+
+仓库网页（部署后）：https://github.com/jerrypan-stack/nako-tungsten-price/actions
 
 ### 交叉验证（≥3 种不同方法，不是同脚本连跑 3 次）
 
