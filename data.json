@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-08-15",
-    "updatedAt": "2026-08-15T11:24:15+08:00",
+    "asOf": "2026-08-16",
+    "updatedAt": "2026-08-16T11:36:38+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -21,7 +21,7 @@
         "discounttackle.com": 36,
         "reactiontackle.com": 56,
         "wootungsten.com": 7,
-        "tacklewarehouse.com": 238
+        "tacklewarehouse.com": 236
       },
       "fail": {
         "tacklewarehouse.com_pages": [
@@ -38,7 +38,7 @@
       },
       "notes": []
     },
-    "validatedAt": "2026-08-15T11:24:15+08:00",
+    "validatedAt": "2026-08-16T11:36:38+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -67,7 +67,7 @@
       "minAgree": 2,
       "disagreements": 0,
       "needsReview": 0,
-      "published": 187,
+      "published": 186,
       "excluded": 0,
       "alternateFetches": 51,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
@@ -447,18 +447,6 @@
       "url": "https://www.tacklewarehouse.com/Arsenal_Fishing_Flipping_Weight_Black_Out_Tungsten/descpage-AFBOF.html"
     },
     {
-      "brand": "Bullet Weights",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "1/8 oz",
-      "g": 3.544,
-      "qty": 4,
-      "packUsd": 8.49,
-      "unitCny": 14.33,
-      "yg": 4.043,
-      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Colored_Tungsten_Bullet_Weight/descpage-BWCTBW.html"
-    },
-    {
       "brand": "Flat Out",
       "channel": "TW",
       "cat": "Flipping",
@@ -469,18 +457,6 @@
       "unitCny": 14.5,
       "yg": 4.091,
       "url": "https://www.tacklewarehouse.com/Flat_Out_Tungsten_Flipping_Weights/descpage-FLO.html"
-    },
-    {
-      "brand": "Strike King",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "1/8 oz",
-      "g": 3.544,
-      "qty": 4,
-      "packUsd": 8.99,
-      "unitCny": 15.17,
-      "yg": 4.281,
-      "url": "https://www.tacklewarehouse.com/Strike_King_Tour_Grade_Tungsten_Weights/descpage-SKTGT.html"
     },
     {
       "brand": "Xzone",
@@ -565,6 +541,18 @@
       "unitCny": 16.87,
       "yg": 4.76,
       "url": "https://reactiontackle.com/products/reaction-tackle-tungsten-worm-weights-bullet-shaped-sinkers"
+    },
+    {
+      "brand": "Bullet Weights",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "1/8 oz",
+      "g": 3.544,
+      "qty": 4,
+      "packUsd": 10.99,
+      "unitCny": 18.55,
+      "yg": 5.233,
+      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tactical_Tungsten_Bullet_Weights/descpage-BWCTT.html"
     },
     {
       "brand": "WOO! Never Chip",
@@ -1011,18 +999,6 @@
       "url": "https://www.tacklewarehouse.com/Eagle_Claw_Lazer_Sharp_Tungsten_Worm_Weight/descpage-ECLTGW.html"
     },
     {
-      "brand": "Bullet Weights",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "1/4 oz",
-      "g": 7.087,
-      "qty": 3,
-      "packUsd": 8.49,
-      "unitCny": 19.1,
-      "yg": 2.695,
-      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Colored_Tungsten_Bullet_Weight/descpage-BWCTBW.html"
-    },
-    {
       "brand": "Strike King",
       "channel": "DiscountTackle",
       "cat": "Worm",
@@ -1249,6 +1225,18 @@
       "unitCny": 33.23,
       "yg": 4.688,
       "url": "https://www.tacklewarehouse.com/Gamakatsu_G-Shield_Tungsten_Worm_Weights/descpage-GTWM.html"
+    },
+    {
+      "brand": "Bullet Weights",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "1/4 oz",
+      "g": 7.087,
+      "qty": 3,
+      "packUsd": 14.99,
+      "unitCny": 33.73,
+      "yg": 4.759,
+      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tactical_Tungsten_Bullet_Weights/descpage-BWCTT.html"
     },
     {
       "brand": "TMO",
@@ -2381,6 +2369,18 @@
       "note": "缺货（未计入有货比价）"
     },
     {
+      "brand": "Strike King",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "1/8 oz",
+      "qty": 4,
+      "packUsd": 8.99,
+      "color": "Black",
+      "title": "SK Tour Grade Tungsten Black 1/8",
+      "url": "https://www.tacklewarehouse.com/Strike_King_Tour_Grade_Tungsten_Weights/descpage-SKTGT.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
       "brand": "Elite Tungsten",
       "channel": "TW",
       "cat": "Worm",
@@ -2738,7 +2738,7 @@
       ],
       "min": 2.114,
       "med": 2.458,
-      "max": 4.043,
+      "max": 5.233,
       "tier": "更便宜"
     },
     {
@@ -2771,6 +2771,20 @@
       "tier": "更便宜"
     },
     {
+      "brand": "Strike King",
+      "n": 3,
+      "sizes": "1/8 · 1/4 · 1/2 (3)",
+      "sizeList": [
+        "1/8 oz",
+        "1/4 oz",
+        "1/2 oz"
+      ],
+      "min": 2.224,
+      "med": 2.695,
+      "max": 3.638,
+      "tier": "更便宜"
+    },
+    {
       "brand": "1st Contact",
       "n": 10,
       "sizes": "1/8 · 3/16 · 1/4 · 3/8 · 1/2 (5)",
@@ -2797,20 +2811,6 @@
       "min": 2.441,
       "med": 3.051,
       "max": 3.662,
-      "tier": "更便宜"
-    },
-    {
-      "brand": "Strike King",
-      "n": 4,
-      "sizes": "1/8 · 1/4 · 1/2 (3)",
-      "sizeList": [
-        "1/8 oz",
-        "1/4 oz",
-        "1/2 oz"
-      ],
-      "min": 2.224,
-      "med": 3.167,
-      "max": 4.281,
       "tier": "更便宜"
     },
     {
