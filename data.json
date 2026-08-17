@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-08-16",
-    "updatedAt": "2026-08-16T11:36:38+08:00",
+    "asOf": "2026-08-17",
+    "updatedAt": "2026-08-17T11:37:39+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -21,7 +21,7 @@
         "discounttackle.com": 36,
         "reactiontackle.com": 56,
         "wootungsten.com": 7,
-        "tacklewarehouse.com": 236
+        "tacklewarehouse.com": 232
       },
       "fail": {
         "tacklewarehouse.com_pages": [
@@ -33,12 +33,13 @@
           "https://www.tacklewarehouse.com/Gamakatsu_G-Shield_Tungsten_Punch_Weights_1pk/descpage-GTPW.html",
           "https://www.tacklewarehouse.com/Red_One_System_Miller_Tungsten_Power_Punch_Shot_Weight/descpage-MPPS.html",
           "https://www.tacklewarehouse.com/Red_One_Systems_Miller_Tungsten_Punchin_Shots_Weights/descpage-PS.html",
-          "https://www.tacklewarehouse.com/VMC_Tungsten_Flippin_Weights/descpage-VMCTFW.html"
+          "https://www.tacklewarehouse.com/VMC_Tungsten_Flippin_Weights/descpage-VMCTFW.html",
+          "https://www.tacklewarehouse.com/Mustad_Tungsten_TitanX_Worm_Weights/descpage-MTXT.html"
         ]
       },
       "notes": []
     },
-    "validatedAt": "2026-08-16T11:36:38+08:00",
+    "validatedAt": "2026-08-17T11:37:39+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -67,9 +68,9 @@
       "minAgree": 2,
       "disagreements": 0,
       "needsReview": 0,
-      "published": 186,
+      "published": 182,
       "excluded": 0,
-      "alternateFetches": 51,
+      "alternateFetches": 50,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
     }
   },
@@ -447,6 +448,18 @@
       "url": "https://www.tacklewarehouse.com/Arsenal_Fishing_Flipping_Weight_Black_Out_Tungsten/descpage-AFBOF.html"
     },
     {
+      "brand": "Bullet Weights",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "1/8 oz",
+      "g": 3.544,
+      "qty": 4,
+      "packUsd": 8.49,
+      "unitCny": 14.33,
+      "yg": 4.043,
+      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Colored_Tungsten_Bullet_Weight/descpage-BWCTBW.html"
+    },
+    {
       "brand": "Flat Out",
       "channel": "TW",
       "cat": "Flipping",
@@ -519,18 +532,6 @@
       "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Flipping_Weights/descpage-NTFW.html"
     },
     {
-      "brand": "Flat Out",
-      "channel": "TW",
-      "cat": "Other",
-      "size": "1/8 oz",
-      "g": 3.544,
-      "qty": 4,
-      "packUsd": 9.99,
-      "unitCny": 16.86,
-      "yg": 4.757,
-      "url": "https://www.tacklewarehouse.com/Flat_Out_Tungsten_Screw_In_Weights/descpage-FSI.html"
-    },
-    {
       "brand": "Reaction Tackle",
       "channel": "官网",
       "cat": "Worm",
@@ -541,18 +542,6 @@
       "unitCny": 16.87,
       "yg": 4.76,
       "url": "https://reactiontackle.com/products/reaction-tackle-tungsten-worm-weights-bullet-shaped-sinkers"
-    },
-    {
-      "brand": "Bullet Weights",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "1/8 oz",
-      "g": 3.544,
-      "qty": 4,
-      "packUsd": 10.99,
-      "unitCny": 18.55,
-      "yg": 5.233,
-      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tactical_Tungsten_Bullet_Weights/descpage-BWCTT.html"
     },
     {
       "brand": "WOO! Never Chip",
@@ -663,18 +652,6 @@
       "url": "https://www.tacklewarehouse.com/Gamakatsu_G-Shield_Tungsten_Worm_Weights/descpage-GTWM.html"
     },
     {
-      "brand": "Mustad",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "3/16 oz",
-      "g": 5.316,
-      "qty": 4,
-      "packUsd": 6.49,
-      "unitCny": 10.95,
-      "yg": 2.06,
-      "url": "https://www.tacklewarehouse.com/Mustad_Tungsten_TitanX_Worm_Weights/descpage-MTXT.html"
-    },
-    {
       "brand": "Departure",
       "channel": "DiscountTackle",
       "cat": "Worm",
@@ -769,18 +746,6 @@
       "unitCny": 18.88,
       "yg": 3.552,
       "url": "https://epicbaitsfishing.com/products/tungsten-worm-weight"
-    },
-    {
-      "brand": "Flat Out",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "3/16 oz",
-      "g": 5.316,
-      "qty": 4,
-      "packUsd": 11.79,
-      "unitCny": 19.9,
-      "yg": 3.743,
-      "url": "https://www.tacklewarehouse.com/Flat_Out_Tungsten_Flipping_Weights/descpage-FLO.html"
     },
     {
       "brand": "Elite Tungsten",
@@ -2021,18 +1986,6 @@
     {
       "brand": "Flat Out",
       "channel": "TW",
-      "cat": "Flipping",
-      "size": "1/2 oz",
-      "g": 14.175,
-      "qty": 2,
-      "packUsd": 13.69,
-      "unitCny": 46.2,
-      "yg": 3.26,
-      "url": "https://www.tacklewarehouse.com/Flat_Out_Tungsten_Flipping_Weights/descpage-FLO.html"
-    },
-    {
-      "brand": "Flat Out",
-      "channel": "TW",
       "cat": "Punch",
       "size": "1/2 oz",
       "g": 14.175,
@@ -2684,18 +2637,6 @@
       "tier": "更便宜"
     },
     {
-      "brand": "Mustad",
-      "n": 1,
-      "sizes": "3/16 (1)",
-      "sizeList": [
-        "3/16 oz"
-      ],
-      "min": 2.06,
-      "med": 2.06,
-      "max": 2.06,
-      "tier": "更便宜"
-    },
-    {
       "brand": "Departure",
       "n": 4,
       "sizes": "1/16 · 1/8 · 3/16 · 1/4 (4)",
@@ -2738,7 +2679,7 @@
       ],
       "min": 2.114,
       "med": 2.458,
-      "max": 5.233,
+      "max": 4.759,
       "tier": "更便宜"
     },
     {
@@ -2815,7 +2756,7 @@
     },
     {
       "brand": "Flat Out",
-      "n": 13,
+      "n": 10,
       "sizes": "1/16 · 1/8 · 3/16 · 1/4 · 3/8 · 1/2 (6)",
       "sizeList": [
         "1/16 oz",
@@ -2825,8 +2766,8 @@
         "3/8 oz",
         "1/2 oz"
       ],
-      "min": 3.26,
-      "med": 3.469,
+      "min": 3.3,
+      "med": 3.463,
       "max": 5.067,
       "tier": "更便宜"
     },
