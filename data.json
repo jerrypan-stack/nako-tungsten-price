@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-08-17",
-    "updatedAt": "2026-08-17T11:37:39+08:00",
+    "asOf": "2026-08-18",
+    "updatedAt": "2026-08-18T11:30:31+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -21,10 +21,11 @@
         "discounttackle.com": 36,
         "reactiontackle.com": 56,
         "wootungsten.com": 7,
-        "tacklewarehouse.com": 232
+        "tacklewarehouse.com": 241
       },
       "fail": {
         "tacklewarehouse.com_pages": [
+          "https://www.tacklewarehouse.com/Strike_King_Tour_Grade_Tungsten_Weights/descpage-SKTGT.html",
           "https://www.tacklewarehouse.com/Evolution_Tungsten_Worm_Weights/descpage-EVWW.html",
           "https://www.tacklewarehouse.com/Vike_Tungsten_Worm_Weights/descpage-VIKEWRM.html",
           "https://www.tacklewarehouse.com/Evolution_Tungsten_Flipping_Weights/descpage-EVFW.html",
@@ -39,7 +40,7 @@
       },
       "notes": []
     },
-    "validatedAt": "2026-08-17T11:37:39+08:00",
+    "validatedAt": "2026-08-18T11:30:31+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -68,9 +69,9 @@
       "minAgree": 2,
       "disagreements": 0,
       "needsReview": 0,
-      "published": 182,
+      "published": 190,
       "excluded": 0,
-      "alternateFetches": 50,
+      "alternateFetches": 52,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
     }
   },
@@ -340,6 +341,18 @@
       "url": "https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights"
     },
     {
+      "brand": "Ark Fishing No Chip No-Insert",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "1/8 oz",
+      "g": 3.544,
+      "qty": 4,
+      "packUsd": 4.99,
+      "unitCny": 8.42,
+      "yg": 2.376,
+      "url": "https://www.tacklewarehouse.com/Ark_Fishing_No_Chip_No-Insert_Tungsten_Worm_Weights/descpage-ATUNI.html"
+    },
+    {
       "brand": "Denali",
       "channel": "TW",
       "cat": "Flipping",
@@ -436,6 +449,18 @@
       "url": "https://www.tacklewarehouse.com/Zappu_Sasuteki_Tungsten_Sinkers/descpage-ZSSK.html"
     },
     {
+      "brand": "Angler",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "1/8 oz",
+      "g": 3.544,
+      "qty": 3,
+      "packUsd": 5.99,
+      "unitCny": 13.48,
+      "yg": 3.803,
+      "url": "https://www.tacklewarehouse.com/Angler_Tungsten_Worms_Weights/descpage-ANTNWW.html"
+    },
+    {
       "brand": "Arsenal Fishing",
       "channel": "TW",
       "cat": "Flipping",
@@ -530,6 +555,18 @@
       "unitCny": 15.51,
       "yg": 4.377,
       "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Flipping_Weights/descpage-NTFW.html"
+    },
+    {
+      "brand": "Flat Out",
+      "channel": "TW",
+      "cat": "Other",
+      "size": "1/8 oz",
+      "g": 3.544,
+      "qty": 4,
+      "packUsd": 9.99,
+      "unitCny": 16.86,
+      "yg": 4.757,
+      "url": "https://www.tacklewarehouse.com/Flat_Out_Tungsten_Screw_In_Weights/descpage-FSI.html"
     },
     {
       "brand": "Reaction Tackle",
@@ -652,6 +689,18 @@
       "url": "https://www.tacklewarehouse.com/Gamakatsu_G-Shield_Tungsten_Worm_Weights/descpage-GTWM.html"
     },
     {
+      "brand": "Ark Fishing No Chip No-Insert",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "3/16 oz",
+      "g": 5.316,
+      "qty": 4,
+      "packUsd": 4.99,
+      "unitCny": 8.42,
+      "yg": 1.584,
+      "url": "https://www.tacklewarehouse.com/Ark_Fishing_No_Chip_No-Insert_Tungsten_Worm_Weights/descpage-ATUNI.html"
+    },
+    {
       "brand": "Departure",
       "channel": "DiscountTackle",
       "cat": "Worm",
@@ -746,6 +795,18 @@
       "unitCny": 18.88,
       "yg": 3.552,
       "url": "https://epicbaitsfishing.com/products/tungsten-worm-weight"
+    },
+    {
+      "brand": "Flat Out",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "3/16 oz",
+      "g": 5.316,
+      "qty": 4,
+      "packUsd": 11.79,
+      "unitCny": 19.9,
+      "yg": 3.743,
+      "url": "https://www.tacklewarehouse.com/Flat_Out_Tungsten_Flipping_Weights/descpage-FLO.html"
     },
     {
       "brand": "Elite Tungsten",
@@ -926,6 +987,30 @@
       "unitCny": 35.42,
       "yg": 6.664,
       "url": "https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Worm_Weights/descpage-EBTW.html"
+    },
+    {
+      "brand": "Ark Fishing No Chip No-Insert",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "1/4 oz",
+      "g": 7.087,
+      "qty": 3,
+      "packUsd": 4.99,
+      "unitCny": 11.23,
+      "yg": 1.584,
+      "url": "https://www.tacklewarehouse.com/Ark_Fishing_No_Chip_No-Insert_Tungsten_Worm_Weights/descpage-ATUNI.html"
+    },
+    {
+      "brand": "TD Pur",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "1/4 oz",
+      "g": 7.087,
+      "qty": 3,
+      "packUsd": 4.99,
+      "unitCny": 11.23,
+      "yg": 1.584,
+      "url": "https://www.tacklewarehouse.com/TD_Pur_Tungsten_Colored_Worm_Weights/descpage-TDTCLBL.html"
     },
     {
       "brand": "Departure",
@@ -1324,6 +1409,18 @@
       "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Flipping_Weights/descpage-NTFW.html"
     },
     {
+      "brand": "Flat Out",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "5/16 oz",
+      "g": 8.859,
+      "qty": 3,
+      "packUsd": 13.29,
+      "unitCny": 29.9,
+      "yg": 3.375,
+      "url": "https://www.tacklewarehouse.com/Flat_Out_Tungsten_Flipping_Weights/descpage-FLO.html"
+    },
+    {
       "brand": "Epic Baits",
       "channel": "官网",
       "cat": "Worm",
@@ -1430,18 +1527,6 @@
       "unitCny": 49.48,
       "yg": 5.585,
       "url": "https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Worm_Weights/descpage-FFTWW.html"
-    },
-    {
-      "brand": "Real Deal",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "3/8 oz",
-      "g": 10.631,
-      "qty": 3,
-      "packUsd": 6.29,
-      "unitCny": 14.15,
-      "yg": 1.331,
-      "url": "https://www.tacklewarehouse.com/Real_Deal_Tungsten_Flipping_Weights/descpage-RDTFP.html"
     },
     {
       "brand": "Googan Baits",
@@ -1986,6 +2071,18 @@
     {
       "brand": "Flat Out",
       "channel": "TW",
+      "cat": "Flipping",
+      "size": "1/2 oz",
+      "g": 14.175,
+      "qty": 2,
+      "packUsd": 13.69,
+      "unitCny": 46.2,
+      "yg": 3.26,
+      "url": "https://www.tacklewarehouse.com/Flat_Out_Tungsten_Flipping_Weights/descpage-FLO.html"
+    },
+    {
+      "brand": "Flat Out",
+      "channel": "TW",
       "cat": "Punch",
       "size": "1/2 oz",
       "g": 14.175,
@@ -2322,18 +2419,6 @@
       "note": "缺货（未计入有货比价）"
     },
     {
-      "brand": "Strike King",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "1/8 oz",
-      "qty": 4,
-      "packUsd": 8.99,
-      "color": "Black",
-      "title": "SK Tour Grade Tungsten Black 1/8",
-      "url": "https://www.tacklewarehouse.com/Strike_King_Tour_Grade_Tungsten_Weights/descpage-SKTGT.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
       "brand": "Elite Tungsten",
       "channel": "TW",
       "cat": "Worm",
@@ -2589,6 +2674,18 @@
       "brand": "Real Deal",
       "channel": "TW",
       "cat": "Flipping",
+      "size": "3/8 oz",
+      "qty": 3,
+      "packUsd": 6.29,
+      "color": "Black",
+      "title": "Real Deal Tung. Flip Weight Black 3/8oz 3pk",
+      "url": "https://www.tacklewarehouse.com/Real_Deal_Tungsten_Flipping_Weights/descpage-RDTFP.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Real Deal",
+      "channel": "TW",
+      "cat": "Flipping",
       "size": "1/2 oz",
       "qty": 2,
       "packUsd": 5.69,
@@ -2612,15 +2709,29 @@
   ],
   "brandStats": [
     {
-      "brand": "Real Deal",
-      "n": 1,
-      "sizes": "3/8 (1)",
+      "brand": "Ark Fishing No Chip No-Insert",
+      "n": 3,
+      "sizes": "1/8 · 3/16 · 1/4 (3)",
       "sizeList": [
-        "3/8 oz"
+        "1/8 oz",
+        "3/16 oz",
+        "1/4 oz"
       ],
-      "min": 1.331,
-      "med": 1.331,
-      "max": 1.331,
+      "min": 1.584,
+      "med": 1.584,
+      "max": 2.376,
+      "tier": "更便宜"
+    },
+    {
+      "brand": "TD Pur",
+      "n": 1,
+      "sizes": "1/4 (1)",
+      "sizeList": [
+        "1/4 oz"
+      ],
+      "min": 1.584,
+      "med": 1.584,
+      "max": 1.584,
       "tier": "更便宜"
     },
     {
@@ -2756,17 +2867,18 @@
     },
     {
       "brand": "Flat Out",
-      "n": 10,
-      "sizes": "1/16 · 1/8 · 3/16 · 1/4 · 3/8 · 1/2 (6)",
+      "n": 14,
+      "sizes": "1/16 · 1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (7)",
       "sizeList": [
         "1/16 oz",
         "1/8 oz",
         "3/16 oz",
         "1/4 oz",
+        "5/16 oz",
         "3/8 oz",
         "1/2 oz"
       ],
-      "min": 3.3,
+      "min": 3.26,
       "med": 3.463,
       "max": 5.067,
       "tier": "更便宜"
@@ -2805,6 +2917,18 @@
       "med": 3.489,
       "max": 4.281,
       "tier": "更便宜"
+    },
+    {
+      "brand": "Angler",
+      "n": 1,
+      "sizes": "1/8 (1)",
+      "sizeList": [
+        "1/8 oz"
+      ],
+      "min": 3.803,
+      "med": 3.803,
+      "max": 3.803,
+      "tier": "差不多"
     },
     {
       "brand": "Nako",
