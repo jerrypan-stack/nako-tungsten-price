@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-08-24",
-    "updatedAt": "2026-08-24T12:06:45+08:00",
+    "asOf": "2026-08-25",
+    "updatedAt": "2026-08-25T11:37:43+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -21,7 +21,7 @@
         "discounttackle.com": 36,
         "reactiontackle.com": 56,
         "wootungsten.com": 7,
-        "tacklewarehouse.com": 231
+        "tacklewarehouse.com": 232
       },
       "fail": {
         "tacklewarehouse.com_pages": [
@@ -40,7 +40,7 @@
       },
       "notes": []
     },
-    "validatedAt": "2026-08-24T12:06:45+08:00",
+    "validatedAt": "2026-08-25T11:37:43+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -69,9 +69,9 @@
       "minAgree": 2,
       "disagreements": 0,
       "needsReview": 0,
-      "published": 183,
+      "published": 185,
       "excluded": 0,
-      "alternateFetches": 49,
+      "alternateFetches": 50,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
     }
   },
@@ -785,6 +785,18 @@
       "url": "https://www.tacklewarehouse.com/Elite_Tungsten_Worm_Weights/descpage-ELTUNWM.html"
     },
     {
+      "brand": "Xzone",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "3/16 oz",
+      "g": 5.316,
+      "qty": 4,
+      "packUsd": 11.99,
+      "unitCny": 20.23,
+      "yg": 3.806,
+      "url": "https://www.tacklewarehouse.com/Xzone_Tungsten_Worm_Weights/descpage-XRTW.html"
+    },
+    {
       "brand": "Nako",
       "channel": "官网",
       "cat": "Worm",
@@ -1455,6 +1467,18 @@
       "unitCny": 49.48,
       "yg": 5.585,
       "url": "https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Worm_Weights/descpage-FFTWW.html"
+    },
+    {
+      "brand": "Real Deal",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "3/8 oz",
+      "g": 10.631,
+      "qty": 3,
+      "packUsd": 6.49,
+      "unitCny": 14.6,
+      "yg": 1.374,
+      "url": "https://www.tacklewarehouse.com/Real_Deal_Tungsten_Worm_Weights/descpage-RDTWW.html"
     },
     {
       "brand": "Googan Baits",
@@ -2434,18 +2458,6 @@
       "brand": "Real Deal",
       "channel": "TW",
       "cat": "Worm",
-      "size": "3/8 oz",
-      "qty": 3,
-      "packUsd": 6.49,
-      "color": "Black",
-      "title": "Real Deal Tung. Worm Weight Black 3/8oz 3pk",
-      "url": "https://www.tacklewarehouse.com/Real_Deal_Tungsten_Worm_Weights/descpage-RDTWW.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "Real Deal",
-      "channel": "TW",
-      "cat": "Worm",
       "size": "1/2 oz",
       "qty": 2,
       "packUsd": 5.79,
@@ -2649,6 +2661,18 @@
   ],
   "brandStats": [
     {
+      "brand": "Real Deal",
+      "n": 1,
+      "sizes": "3/8 (1)",
+      "sizeList": [
+        "3/8 oz"
+      ],
+      "min": 1.374,
+      "med": 1.374,
+      "max": 1.374,
+      "tier": "更便宜"
+    },
+    {
       "brand": "Hag&apos;s",
       "n": 1,
       "sizes": "1/2 (1)",
@@ -2829,10 +2853,11 @@
     },
     {
       "brand": "Xzone",
-      "n": 8,
-      "sizes": "1/8 · 1/4 · 5/16 · 3/8 · 1/2 (5)",
+      "n": 9,
+      "sizes": "1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (6)",
       "sizeList": [
         "1/8 oz",
+        "3/16 oz",
         "1/4 oz",
         "5/16 oz",
         "3/8 oz",
