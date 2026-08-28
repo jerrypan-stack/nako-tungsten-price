@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-08-26",
-    "updatedAt": "2026-08-26T12:02:15+08:00",
+    "asOf": "2026-08-28",
+    "updatedAt": "2026-08-28T14:59:14+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -40,7 +40,7 @@
       },
       "notes": []
     },
-    "validatedAt": "2026-08-26T12:02:15+08:00",
+    "validatedAt": "2026-08-28T14:59:14+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -69,7 +69,7 @@
       "minAgree": 2,
       "disagreements": 0,
       "needsReview": 0,
-      "published": 185,
+      "published": 183,
       "excluded": 0,
       "alternateFetches": 49,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
@@ -785,18 +785,6 @@
       "url": "https://www.tacklewarehouse.com/Elite_Tungsten_Worm_Weights/descpage-ELTUNWM.html"
     },
     {
-      "brand": "Xzone",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "3/16 oz",
-      "g": 5.316,
-      "qty": 4,
-      "packUsd": 11.99,
-      "unitCny": 20.23,
-      "yg": 3.806,
-      "url": "https://www.tacklewarehouse.com/Xzone_Tungsten_Worm_Weights/descpage-XRTW.html"
-    },
-    {
       "brand": "Nako",
       "channel": "官网",
       "cat": "Worm",
@@ -1095,18 +1083,6 @@
       "unitCny": 24.5,
       "yg": 3.457,
       "url": "https://www.tacklewarehouse.com/Flat_Out_Tungsten_Flipping_Weights/descpage-FLO.html"
-    },
-    {
-      "brand": "Xzone",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "1/4 oz",
-      "g": 7.087,
-      "qty": 3,
-      "packUsd": 10.99,
-      "unitCny": 24.73,
-      "yg": 3.489,
-      "url": "https://www.tacklewarehouse.com/Xzone_Tungsten_Worm_Weights/descpage-XRTW.html"
     },
     {
       "brand": "Xzone",
@@ -1519,6 +1495,18 @@
     {
       "brand": "Bullet Weights",
       "channel": "TW",
+      "cat": "Worm",
+      "size": "3/8 oz",
+      "g": 10.631,
+      "qty": 3,
+      "packUsd": 9.99,
+      "unitCny": 22.48,
+      "yg": 2.114,
+      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Colored_Tungsten_Bullet_Weight/descpage-BWCTBW.html"
+    },
+    {
+      "brand": "Bullet Weights",
+      "channel": "TW",
       "cat": "Flipping",
       "size": "3/8 oz",
       "g": 10.631,
@@ -1767,18 +1755,6 @@
       "unitCny": 40.5,
       "yg": 3.81,
       "url": "https://www.tacklewarehouse.com/Hawg_Tech_Tungsten_Flipping_Weights/descpage-HTTW.html"
-    },
-    {
-      "brand": "Bullet Weights",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "3/8 oz",
-      "g": 10.631,
-      "qty": 3,
-      "packUsd": 18.99,
-      "unitCny": 42.73,
-      "yg": 4.019,
-      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tactical_Tungsten_Bullet_Weights/descpage-BWCTT.html"
     },
     {
       "brand": "Gamakatsu",
@@ -2359,6 +2335,18 @@
       "note": "缺货（未计入有货比价）"
     },
     {
+      "brand": "Xzone",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "1/4 oz",
+      "qty": 3,
+      "packUsd": 10.99,
+      "color": "Black",
+      "title": "Xzone Tungsten Worm Weight Black 1/4 3pk",
+      "url": "https://www.tacklewarehouse.com/Xzone_Tungsten_Worm_Weights/descpage-XRTW.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
       "brand": "Elite Tungsten",
       "channel": "TW",
       "cat": "Worm",
@@ -2716,6 +2704,22 @@
       "tier": "更便宜"
     },
     {
+      "brand": "Bullet Weights",
+      "n": 8,
+      "sizes": "1/8 · 3/16 · 1/4 · 3/8 · 1/2 (5)",
+      "sizeList": [
+        "1/8 oz",
+        "3/16 oz",
+        "1/4 oz",
+        "3/8 oz",
+        "1/2 oz"
+      ],
+      "min": 2.114,
+      "med": 2.458,
+      "max": 4.759,
+      "tier": "更便宜"
+    },
+    {
       "brand": "Eagle Claw",
       "n": 5,
       "sizes": "1/8 · 3/16 · 1/4 · 3/8 · 1/2 (5)",
@@ -2729,22 +2733,6 @@
       "min": 2.379,
       "med": 2.537,
       "max": 3.329,
-      "tier": "更便宜"
-    },
-    {
-      "brand": "Bullet Weights",
-      "n": 8,
-      "sizes": "1/8 · 3/16 · 1/4 · 3/8 · 1/2 (5)",
-      "sizeList": [
-        "1/8 oz",
-        "3/16 oz",
-        "1/4 oz",
-        "3/8 oz",
-        "1/2 oz"
-      ],
-      "min": 2.114,
-      "med": 2.616,
-      "max": 4.759,
       "tier": "更便宜"
     },
     {
@@ -2841,11 +2829,10 @@
     },
     {
       "brand": "Xzone",
-      "n": 9,
-      "sizes": "1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (6)",
+      "n": 7,
+      "sizes": "1/8 · 1/4 · 5/16 · 3/8 · 1/2 (5)",
       "sizeList": [
         "1/8 oz",
-        "3/16 oz",
         "1/4 oz",
         "5/16 oz",
         "3/8 oz",
