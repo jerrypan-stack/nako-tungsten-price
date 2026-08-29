@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-08-28",
-    "updatedAt": "2026-08-28T14:59:14+08:00",
+    "asOf": "2026-08-29",
+    "updatedAt": "2026-08-29T09:08:26+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -21,7 +21,7 @@
         "discounttackle.com": 36,
         "reactiontackle.com": 56,
         "wootungsten.com": 7,
-        "tacklewarehouse.com": 238
+        "tacklewarehouse.com": 239
       },
       "fail": {
         "tacklewarehouse.com_pages": [
@@ -40,7 +40,7 @@
       },
       "notes": []
     },
-    "validatedAt": "2026-08-28T14:59:14+08:00",
+    "validatedAt": "2026-08-29T09:08:26+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -71,7 +71,7 @@
       "needsReview": 0,
       "published": 183,
       "excluded": 0,
-      "alternateFetches": 49,
+      "alternateFetches": 50,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
     }
   },
@@ -123,6 +123,18 @@
       "unitCny": 12.14,
       "yg": 9.133,
       "url": "https://nakoshop.com/products/tungsten-skirted-nail-weights"
+    },
+    {
+      "brand": "Ark No Chip Insert",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "1/16 oz",
+      "g": 1.772,
+      "qty": 5,
+      "packUsd": 4.99,
+      "unitCny": 6.74,
+      "yg": 3.802,
+      "url": "https://www.tacklewarehouse.com/Ark_No_Chip_Insert_Tungsten_Flipping_Weights_/descpage-ATUN.html"
     },
     {
       "brand": "Epic Baits",
@@ -771,18 +783,6 @@
       "unitCny": 19.9,
       "yg": 3.743,
       "url": "https://www.tacklewarehouse.com/Flat_Out_Tungsten_Flipping_Weights/descpage-FLO.html"
-    },
-    {
-      "brand": "Elite Tungsten",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "3/16 oz",
-      "g": 5.316,
-      "qty": 4,
-      "packUsd": 11.99,
-      "unitCny": 20.23,
-      "yg": 3.806,
-      "url": "https://www.tacklewarehouse.com/Elite_Tungsten_Worm_Weights/descpage-ELTUNWM.html"
     },
     {
       "brand": "Nako",
@@ -2374,6 +2374,18 @@
       "brand": "Elite Tungsten",
       "channel": "TW",
       "cat": "Worm",
+      "size": "3/16 oz",
+      "qty": 4,
+      "packUsd": 11.99,
+      "color": "Black",
+      "title": "Elite Tungsten Worm Weights Black 3/16 4pk",
+      "url": "https://www.tacklewarehouse.com/Elite_Tungsten_Worm_Weights/descpage-ELTUNWM.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Elite Tungsten",
+      "channel": "TW",
+      "cat": "Worm",
       "size": "1/4 oz",
       "qty": 3,
       "packUsd": 11.99,
@@ -2626,24 +2638,24 @@
       "brand": "WOO! Never Chip",
       "channel": "TW",
       "cat": "Flipping",
-      "size": "5/16 oz",
-      "qty": 3,
-      "packUsd": 17.99,
-      "color": "Black",
-      "title": "WOO! Tungsten Never Chip Flip Weight Black 5/16 3pk",
-      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights/descpage-WTNC.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "WOO! Never Chip",
-      "channel": "TW",
-      "cat": "Flipping",
       "size": "3/16 oz",
       "qty": 3,
       "packUsd": 14.79,
       "color": "",
       "title": "WOO! Tungsten Flipping Wts Mixer Pack 3/16 1/4 & 5/16",
       "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights_Mixer_Pack_/descpage-WTNCM.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "WOO! Never Chip",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "5/16 oz",
+      "qty": 3,
+      "packUsd": 17.99,
+      "color": "Black",
+      "title": "WOO! Tungsten Never Chip Flip Weight Black 5/16 3pk",
+      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights/descpage-WTNC.html",
       "note": "缺货（未计入有货比价）"
     }
   ],
@@ -2844,6 +2856,18 @@
       "tier": "更便宜"
     },
     {
+      "brand": "Ark No Chip Insert",
+      "n": 1,
+      "sizes": "1/16 (1)",
+      "sizeList": [
+        "1/16 oz"
+      ],
+      "min": 3.802,
+      "med": 3.802,
+      "max": 3.802,
+      "tier": "差不多"
+    },
+    {
       "brand": "Nako",
       "n": 36,
       "sizes": "1/64 · 1/32 · 3/64 · 1/16 · 3/32 · 1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (11)",
@@ -2867,14 +2891,13 @@
     },
     {
       "brand": "Elite Tungsten",
-      "n": 3,
-      "sizes": "3/16 · 3/8 · 1/2 (3)",
+      "n": 2,
+      "sizes": "3/8 · 1/2 (2)",
       "sizeList": [
-        "3/16 oz",
         "3/8 oz",
         "1/2 oz"
       ],
-      "min": 3.806,
+      "min": 3.807,
       "med": 3.807,
       "max": 3.807,
       "tier": "差不多"
