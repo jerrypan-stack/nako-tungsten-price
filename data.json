@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-08-31",
-    "updatedAt": "2026-08-31T14:50:09+08:00",
+    "asOf": "2026-09-01",
+    "updatedAt": "2026-09-01T14:09:13+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -21,7 +21,7 @@
         "discounttackle.com": 36,
         "reactiontackle.com": 56,
         "wootungsten.com": 7,
-        "tacklewarehouse.com": 239
+        "tacklewarehouse.com": 240
       },
       "fail": {
         "tacklewarehouse.com_pages": [
@@ -40,7 +40,7 @@
       },
       "notes": []
     },
-    "validatedAt": "2026-08-31T14:50:09+08:00",
+    "validatedAt": "2026-09-01T14:09:13+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
