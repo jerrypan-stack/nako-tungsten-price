@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-09-01",
-    "updatedAt": "2026-09-01T14:09:13+08:00",
+    "asOf": "2026-09-02",
+    "updatedAt": "2026-09-02T13:34:24+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -31,16 +31,16 @@
           "https://www.tacklewarehouse.com/Flat_Out_Tungsten_Frontloader_Punch_Weight/descpage-FFR.html",
           "https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Flippin_Weights/descpage-FFTFW.html",
           "https://www.tacklewarehouse.com/Gamakatsu_G-Shield_Tungsten_Punch_Weights_1pk/descpage-GTPW.html",
+          "https://www.tacklewarehouse.com/Mustad_Tungsten_TitanX_Flippin_Weights/descpage-MFX.html",
           "https://www.tacklewarehouse.com/Red_One_System_Miller_Tungsten_Power_Punch_Shot_Weight/descpage-MPPS.html",
           "https://www.tacklewarehouse.com/Red_One_Systems_Miller_Tungsten_Punchin_Shots_Weights/descpage-PS.html",
           "https://www.tacklewarehouse.com/VMC_Tungsten_Flippin_Weights/descpage-VMCTFW.html",
-          "https://www.tacklewarehouse.com/Mustad_Tungsten_TitanX_Worm_Weights/descpage-MTXT.html",
           "https://www.tacklewarehouse.com/Strike_King_Tour_Grade_Tungsten_Weights/descpage-SKTGT.html"
         ]
       },
       "notes": []
     },
-    "validatedAt": "2026-09-01T14:09:13+08:00",
+    "validatedAt": "2026-09-02T13:34:24+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -71,7 +71,7 @@
       "needsReview": 0,
       "published": 182,
       "excluded": 0,
-      "alternateFetches": 50,
+      "alternateFetches": 51,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
     }
   },
@@ -353,6 +353,18 @@
       "url": "https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights"
     },
     {
+      "brand": "Mustad",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "1/8 oz",
+      "g": 3.544,
+      "qty": 4,
+      "packUsd": 5.49,
+      "unitCny": 9.26,
+      "yg": 2.614,
+      "url": "https://www.tacklewarehouse.com/Mustad_Tungsten_TitanX_Worm_Weights/descpage-MTXT.html"
+    },
+    {
       "brand": "Denali",
       "channel": "TW",
       "cat": "Flipping",
@@ -447,18 +459,6 @@
       "unitCny": 12.98,
       "yg": 3.662,
       "url": "https://www.tacklewarehouse.com/Zappu_Sasuteki_Tungsten_Sinkers/descpage-ZSSK.html"
-    },
-    {
-      "brand": "Arsenal Fishing",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "1/8 oz",
-      "g": 3.544,
-      "qty": 5,
-      "packUsd": 9.99,
-      "unitCny": 13.49,
-      "yg": 3.806,
-      "url": "https://www.tacklewarehouse.com/Arsenal_Fishing_Flipping_Weight_Black_Out_Tungsten/descpage-AFBOF.html"
     },
     {
       "brand": "Bullet Weights",
@@ -951,6 +951,18 @@
       "unitCny": 12.14,
       "yg": 1.712,
       "url": "https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights"
+    },
+    {
+      "brand": "Lunker City",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "1/4 oz",
+      "g": 7.087,
+      "qty": 3,
+      "packUsd": 5.79,
+      "unitCny": 13.03,
+      "yg": 1.838,
+      "url": "https://www.tacklewarehouse.com/Lunker_City_Tungsten_Worm_Weight/descpage-LCTWW.html"
     },
     {
       "brand": "Bullet Weights",
@@ -1721,18 +1733,6 @@
       "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Flipping_Weights/descpage-WTFW.html"
     },
     {
-      "brand": "Hawg Tech",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "3/8 oz",
-      "g": 10.631,
-      "qty": 1,
-      "packUsd": 6.0,
-      "unitCny": 40.5,
-      "yg": 3.81,
-      "url": "https://www.tacklewarehouse.com/Hawg_Tech_Tungsten_Flipping_Weights/descpage-HTTW.html"
-    },
-    {
       "brand": "Bullet Weights",
       "channel": "TW",
       "cat": "Worm",
@@ -2482,6 +2482,18 @@
       "brand": "Arsenal Fishing",
       "channel": "TW",
       "cat": "Flipping",
+      "size": "1/8 oz",
+      "qty": 5,
+      "packUsd": 9.99,
+      "color": "Black Out",
+      "title": "Arsenal Fishing Flip Weight Black Out 1/8oz 5pk",
+      "url": "https://www.tacklewarehouse.com/Arsenal_Fishing_Flipping_Weight_Black_Out_Tungsten/descpage-AFBOF.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Arsenal Fishing",
+      "channel": "TW",
+      "cat": "Flipping",
       "size": "3/16 oz",
       "qty": 4,
       "packUsd": 9.99,
@@ -2686,6 +2698,18 @@
       "tier": "更便宜"
     },
     {
+      "brand": "Lunker City",
+      "n": 1,
+      "sizes": "1/4 (1)",
+      "sizeList": [
+        "1/4 oz"
+      ],
+      "min": 1.838,
+      "med": 1.838,
+      "max": 1.838,
+      "tier": "更便宜"
+    },
+    {
       "brand": "Departure",
       "n": 4,
       "sizes": "1/16 · 1/8 · 3/16 · 1/4 (4)",
@@ -2729,6 +2753,18 @@
       "min": 2.537,
       "med": 2.538,
       "max": 3.329,
+      "tier": "更便宜"
+    },
+    {
+      "brand": "Mustad",
+      "n": 1,
+      "sizes": "1/8 (1)",
+      "sizeList": [
+        "1/8 oz"
+      ],
+      "min": 2.614,
+      "med": 2.614,
+      "max": 2.614,
       "tier": "更便宜"
     },
     {
@@ -2903,18 +2939,6 @@
       "tier": "差不多"
     },
     {
-      "brand": "Hawg Tech",
-      "n": 1,
-      "sizes": "3/8 (1)",
-      "sizeList": [
-        "3/8 oz"
-      ],
-      "min": 3.81,
-      "med": 3.81,
-      "max": 3.81,
-      "tier": "差不多"
-    },
-    {
       "brand": "Reaction Tackle",
       "n": 7,
       "sizes": "1/16 · 1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (7)",
@@ -2949,19 +2973,6 @@
       "tier": "更贵"
     },
     {
-      "brand": "Arsenal Fishing",
-      "n": 2,
-      "sizes": "3/32 · 1/8 (2)",
-      "sizeList": [
-        "3/32 oz",
-        "1/8 oz"
-      ],
-      "min": 3.806,
-      "med": 4.313,
-      "max": 4.82,
-      "tier": "更贵"
-    },
-    {
       "brand": "WOO!",
       "n": 7,
       "sizes": "1/16 · 1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (7)",
@@ -2977,6 +2988,18 @@
       "min": 3.807,
       "med": 4.537,
       "max": 7.993,
+      "tier": "更贵"
+    },
+    {
+      "brand": "Arsenal Fishing",
+      "n": 1,
+      "sizes": "3/32 (1)",
+      "sizeList": [
+        "3/32 oz"
+      ],
+      "min": 4.82,
+      "med": 4.82,
+      "max": 4.82,
       "tier": "更贵"
     },
     {
