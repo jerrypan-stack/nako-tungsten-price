@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-09-03",
-    "updatedAt": "2026-09-03T13:35:22+08:00",
+    "asOf": "2026-09-04",
+    "updatedAt": "2026-09-04T13:40:21+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -21,7 +21,7 @@
         "discounttackle.com": 36,
         "reactiontackle.com": 56,
         "wootungsten.com": 7,
-        "tacklewarehouse.com": 241
+        "tacklewarehouse.com": 237
       },
       "fail": {
         "tacklewarehouse.com_pages": [
@@ -31,16 +31,16 @@
           "https://www.tacklewarehouse.com/Flat_Out_Tungsten_Frontloader_Punch_Weight/descpage-FFR.html",
           "https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Flippin_Weights/descpage-FFTFW.html",
           "https://www.tacklewarehouse.com/Gamakatsu_G-Shield_Tungsten_Punch_Weights_1pk/descpage-GTPW.html",
-          "https://www.tacklewarehouse.com/Mustad_Tungsten_TitanX_Flippin_Weights/descpage-MFX.html",
-          "https://www.tacklewarehouse.com/Red_One_Systems_Miller_Tungsten_Punchin_Shots_Weights/descpage-PS.html",
           "https://www.tacklewarehouse.com/Red_One_System_Miller_Tungsten_Power_Punch_Shot_Weight/descpage-MPPS.html",
+          "https://www.tacklewarehouse.com/Red_One_Systems_Miller_Tungsten_Punchin_Shots_Weights/descpage-PS.html",
           "https://www.tacklewarehouse.com/VMC_Tungsten_Flippin_Weights/descpage-VMCTFW.html",
+          "https://www.tacklewarehouse.com/Mustad_Tungsten_TitanX_Worm_Weights/descpage-MTXT.html",
           "https://www.tacklewarehouse.com/Strike_King_Tour_Grade_Tungsten_Weights/descpage-SKTGT.html"
         ]
       },
       "notes": []
     },
-    "validatedAt": "2026-09-03T13:35:22+08:00",
+    "validatedAt": "2026-09-04T13:40:21+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -69,9 +69,9 @@
       "minAgree": 2,
       "disagreements": 0,
       "needsReview": 0,
-      "published": 183,
+      "published": 179,
       "excluded": 0,
-      "alternateFetches": 51,
+      "alternateFetches": 48,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
     }
   },
@@ -123,18 +123,6 @@
       "unitCny": 12.14,
       "yg": 9.133,
       "url": "https://nakoshop.com/products/tungsten-skirted-nail-weights"
-    },
-    {
-      "brand": "Ark No Chip Insert",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "1/16 oz",
-      "g": 1.772,
-      "qty": 5,
-      "packUsd": 4.99,
-      "unitCny": 6.74,
-      "yg": 3.802,
-      "url": "https://www.tacklewarehouse.com/Ark_No_Chip_Insert_Tungsten_Flipping_Weights_/descpage-ATUN.html"
     },
     {
       "brand": "Epic Baits",
@@ -351,18 +339,6 @@
       "unitCny": 8.09,
       "yg": 2.282,
       "url": "https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights"
-    },
-    {
-      "brand": "Mustad",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "1/8 oz",
-      "g": 3.544,
-      "qty": 4,
-      "packUsd": 5.49,
-      "unitCny": 9.26,
-      "yg": 2.614,
-      "url": "https://www.tacklewarehouse.com/Mustad_Tungsten_TitanX_Worm_Weights/descpage-MTXT.html"
     },
     {
       "brand": "Denali",
@@ -953,18 +929,6 @@
       "url": "https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights"
     },
     {
-      "brand": "Lunker City",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "1/4 oz",
-      "g": 7.087,
-      "qty": 3,
-      "packUsd": 5.79,
-      "unitCny": 13.03,
-      "yg": 1.838,
-      "url": "https://www.tacklewarehouse.com/Lunker_City_Tungsten_Worm_Weight/descpage-LCTWW.html"
-    },
-    {
       "brand": "Bullet Weights",
       "channel": "TW",
       "cat": "Flipping",
@@ -1407,18 +1371,6 @@
       "unitCny": 30.8,
       "yg": 3.477,
       "url": "https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Flipping_Weights/descpage-EBFW.html"
-    },
-    {
-      "brand": "Xzone",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "5/16 oz",
-      "g": 8.859,
-      "qty": 3,
-      "packUsd": 13.99,
-      "unitCny": 31.48,
-      "yg": 3.553,
-      "url": "https://www.tacklewarehouse.com/Xzone_Tungsten_Worm_Weights/descpage-XRTW.html"
     },
     {
       "brand": "WOO! Never Chip",
@@ -2698,18 +2650,6 @@
       "tier": "更便宜"
     },
     {
-      "brand": "Lunker City",
-      "n": 1,
-      "sizes": "1/4 (1)",
-      "sizeList": [
-        "1/4 oz"
-      ],
-      "min": 1.838,
-      "med": 1.838,
-      "max": 1.838,
-      "tier": "更便宜"
-    },
-    {
       "brand": "Departure",
       "n": 4,
       "sizes": "1/16 · 1/8 · 3/16 · 1/4 (4)",
@@ -2753,18 +2693,6 @@
       "min": 2.537,
       "med": 2.538,
       "max": 3.329,
-      "tier": "更便宜"
-    },
-    {
-      "brand": "Mustad",
-      "n": 1,
-      "sizes": "1/8 (1)",
-      "sizeList": [
-        "1/8 oz"
-      ],
-      "min": 2.614,
-      "med": 2.614,
-      "max": 2.614,
       "tier": "更便宜"
     },
     {
@@ -2877,12 +2805,11 @@
     },
     {
       "brand": "Xzone",
-      "n": 8,
-      "sizes": "1/8 · 1/4 · 5/16 · 3/8 · 1/2 (5)",
+      "n": 7,
+      "sizes": "1/8 · 1/4 · 3/8 · 1/2 (4)",
       "sizeList": [
         "1/8 oz",
         "1/4 oz",
-        "5/16 oz",
         "3/8 oz",
         "1/2 oz"
       ],
@@ -2890,18 +2817,6 @@
       "med": 3.489,
       "max": 4.281,
       "tier": "更便宜"
-    },
-    {
-      "brand": "Ark No Chip Insert",
-      "n": 1,
-      "sizes": "1/16 (1)",
-      "sizeList": [
-        "1/16 oz"
-      ],
-      "min": 3.802,
-      "med": 3.802,
-      "max": 3.802,
-      "tier": "差不多"
     },
     {
       "brand": "Nako",
