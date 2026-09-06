@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-09-05",
-    "updatedAt": "2026-09-05T13:26:08+08:00",
+    "asOf": "2026-09-06",
+    "updatedAt": "2026-09-06T13:41:46+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -21,7 +21,7 @@
         "discounttackle.com": 36,
         "reactiontackle.com": 56,
         "wootungsten.com": 7,
-        "tacklewarehouse.com": 237
+        "tacklewarehouse.com": 236
       },
       "fail": {
         "tacklewarehouse.com_pages": [
@@ -34,13 +34,13 @@
           "https://www.tacklewarehouse.com/Red_One_System_Miller_Tungsten_Power_Punch_Shot_Weight/descpage-MPPS.html",
           "https://www.tacklewarehouse.com/Red_One_Systems_Miller_Tungsten_Punchin_Shots_Weights/descpage-PS.html",
           "https://www.tacklewarehouse.com/VMC_Tungsten_Flippin_Weights/descpage-VMCTFW.html",
-          "https://www.tacklewarehouse.com/Mustad_Tungsten_TitanX_Worm_Weights/descpage-MTXT.html",
-          "https://www.tacklewarehouse.com/Strike_King_Tour_Grade_Tungsten_Weights/descpage-SKTGT.html"
+          "https://www.tacklewarehouse.com/Strike_King_Tour_Grade_Tungsten_Weights/descpage-SKTGT.html",
+          "https://www.tacklewarehouse.com/Mustad_Tungsten_TitanX_Worm_Weights/descpage-MTXT.html"
         ]
       },
       "notes": []
     },
-    "validatedAt": "2026-09-05T13:26:08+08:00",
+    "validatedAt": "2026-09-06T13:41:46+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -401,18 +401,6 @@
       "url": "https://epicbaitsfishing.com/products/tungsten-worm-weight"
     },
     {
-      "brand": "Epic Baits",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "1/8 oz",
-      "g": 3.544,
-      "qty": 4,
-      "packUsd": 7.49,
-      "unitCny": 12.64,
-      "yg": 3.567,
-      "url": "https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Worm_Weights/descpage-EBTW.html"
-    },
-    {
       "brand": "Strike King",
       "channel": "DiscountTackle",
       "cat": "Worm",
@@ -615,6 +603,18 @@
       "unitCny": 22.76,
       "yg": 6.424,
       "url": "https://www.tacklewarehouse.com/TMO_Tungsten_Flipping_Weights/descpage-TMOTF.html"
+    },
+    {
+      "brand": "Epic Baits",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "1/8 oz",
+      "g": 3.544,
+      "qty": 4,
+      "packUsd": 13.99,
+      "unitCny": 23.61,
+      "yg": 6.662,
+      "url": "https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Worm_Weights/descpage-EBTW.html"
     },
     {
       "brand": "Fitzgerald",
