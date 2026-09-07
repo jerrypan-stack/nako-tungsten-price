@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-09-06",
-    "updatedAt": "2026-09-06T13:41:46+08:00",
+    "asOf": "2026-09-07",
+    "updatedAt": "2026-09-07T13:52:04+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -34,13 +34,13 @@
           "https://www.tacklewarehouse.com/Red_One_System_Miller_Tungsten_Power_Punch_Shot_Weight/descpage-MPPS.html",
           "https://www.tacklewarehouse.com/Red_One_Systems_Miller_Tungsten_Punchin_Shots_Weights/descpage-PS.html",
           "https://www.tacklewarehouse.com/VMC_Tungsten_Flippin_Weights/descpage-VMCTFW.html",
-          "https://www.tacklewarehouse.com/Strike_King_Tour_Grade_Tungsten_Weights/descpage-SKTGT.html",
-          "https://www.tacklewarehouse.com/Mustad_Tungsten_TitanX_Worm_Weights/descpage-MTXT.html"
+          "https://www.tacklewarehouse.com/Mustad_Tungsten_TitanX_Worm_Weights/descpage-MTXT.html",
+          "https://www.tacklewarehouse.com/Strike_King_Tour_Grade_Tungsten_Weights/descpage-SKTGT.html"
         ]
       },
       "notes": []
     },
-    "validatedAt": "2026-09-06T13:41:46+08:00",
+    "validatedAt": "2026-09-07T13:52:04+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -69,9 +69,9 @@
       "minAgree": 2,
       "disagreements": 0,
       "needsReview": 0,
-      "published": 179,
+      "published": 177,
       "excluded": 0,
-      "alternateFetches": 48,
+      "alternateFetches": 47,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
     }
   },
@@ -1805,18 +1805,6 @@
       "url": "https://www.tacklewarehouse.com/Googan_Baits_Green_Series_Tungsten_Worm_Weights/descpage-GBTW.html"
     },
     {
-      "brand": "Hag&apos;s",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "1/2 oz",
-      "g": 14.175,
-      "qty": 2,
-      "packUsd": 7.29,
-      "unitCny": 24.6,
-      "yg": 1.736,
-      "url": "https://www.tacklewarehouse.com/Hags_Tungsten_Flipping_Weights/descpage-HTFW.html"
-    },
-    {
       "brand": "Denali",
       "channel": "TW",
       "cat": "Flipping",
@@ -2007,18 +1995,6 @@
       "unitCny": 47.22,
       "yg": 3.331,
       "url": "https://www.tacklewarehouse.com/Xzone_Tungsten_Flipping_Weights/descpage-XRTF.html"
-    },
-    {
-      "brand": "Flat Out",
-      "channel": "TW",
-      "cat": "Other",
-      "size": "1/2 oz",
-      "g": 14.175,
-      "qty": 2,
-      "packUsd": 14.39,
-      "unitCny": 48.57,
-      "yg": 3.426,
-      "url": "https://www.tacklewarehouse.com/Flat_Out_Tungsten_Screw_In_Weights/descpage-FSI.html"
     },
     {
       "brand": "Epic Baits",
@@ -2287,6 +2263,18 @@
       "note": "缺货（未计入有货比价）"
     },
     {
+      "brand": "Flat Out",
+      "channel": "TW",
+      "cat": "Other",
+      "size": "1/2 oz",
+      "qty": 2,
+      "packUsd": 14.39,
+      "color": "",
+      "title": "Flat Out Tungsten Screw In Weights 1/2oz 2pk",
+      "url": "https://www.tacklewarehouse.com/Flat_Out_Tungsten_Screw_In_Weights/descpage-FSI.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
       "brand": "Elite Tungsten",
       "channel": "TW",
       "cat": "Worm",
@@ -2503,6 +2491,18 @@
       "note": "缺货（未计入有货比价）"
     },
     {
+      "brand": "Hag&apos;s",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "1/2 oz",
+      "qty": 2,
+      "packUsd": 7.29,
+      "color": "",
+      "title": "Hag's Tungsten Flipping Weights 1/2 2pk",
+      "url": "https://www.tacklewarehouse.com/Hags_Tungsten_Flipping_Weights/descpage-HTFW.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
       "brand": "WOO! Never Chip",
       "channel": "TW",
       "cat": "Flipping",
@@ -2624,18 +2624,6 @@
     }
   ],
   "brandStats": [
-    {
-      "brand": "Hag&apos;s",
-      "n": 1,
-      "sizes": "1/2 (1)",
-      "sizeList": [
-        "1/2 oz"
-      ],
-      "min": 1.736,
-      "med": 1.736,
-      "max": 1.736,
-      "tier": "更便宜"
-    },
     {
       "brand": "Googan Baits",
       "n": 4,
@@ -2769,7 +2757,7 @@
     },
     {
       "brand": "Flat Out",
-      "n": 14,
+      "n": 13,
       "sizes": "1/16 · 1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (7)",
       "sizeList": [
         "1/16 oz",
@@ -2781,7 +2769,7 @@
         "1/2 oz"
       ],
       "min": 3.26,
-      "med": 3.463,
+      "med": 3.469,
       "max": 5.067,
       "tier": "更便宜"
     },
