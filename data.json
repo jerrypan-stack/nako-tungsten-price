@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-09-09",
-    "updatedAt": "2026-09-09T13:49:53+08:00",
+    "asOf": "2026-09-10",
+    "updatedAt": "2026-09-10T13:44:21+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -40,7 +40,7 @@
       },
       "notes": []
     },
-    "validatedAt": "2026-09-09T13:49:53+08:00",
+    "validatedAt": "2026-09-10T13:44:21+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -69,9 +69,9 @@
       "minAgree": 2,
       "disagreements": 0,
       "needsReview": 0,
-      "published": 174,
+      "published": 175,
       "excluded": 0,
-      "alternateFetches": 47,
+      "alternateFetches": 48,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
     }
   },
@@ -891,6 +891,18 @@
       "unitCny": 35.42,
       "yg": 6.664,
       "url": "https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Worm_Weights/descpage-EBTW.html"
+    },
+    {
+      "brand": "Ark No Chip No-Insert",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "1/4 oz",
+      "g": 7.087,
+      "qty": 3,
+      "packUsd": 4.99,
+      "unitCny": 11.23,
+      "yg": 1.584,
+      "url": "https://www.tacklewarehouse.com/Ark_No_Chip_No-Insert_Tungsten_Flipping_Weights_/descpage-ATUIF.html"
     },
     {
       "brand": "Departure",
@@ -2395,6 +2407,18 @@
       "note": "缺货（未计入有货比价）"
     },
     {
+      "brand": "Ark Fishing No Chip No-Insert",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "3/8 oz",
+      "qty": 3,
+      "packUsd": 6.99,
+      "color": "Green Pumpkin",
+      "title": "Ark No-Insert Tungsten Worm Matte Green Pump. 3/8oz 3pk",
+      "url": "https://www.tacklewarehouse.com/Ark_Fishing_No_Chip_No-Insert_Tungsten_Worm_Weights/descpage-ATUNI.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
       "brand": "Arsenal Fishing",
       "channel": "TW",
       "cat": "Flipping",
@@ -2566,18 +2590,6 @@
       "brand": "WOO! Never Chip",
       "channel": "TW",
       "cat": "Flipping",
-      "size": "5/16 oz",
-      "qty": 3,
-      "packUsd": 17.99,
-      "color": "Black",
-      "title": "WOO! Tungsten Never Chip Flip Weight Black 5/16 3pk",
-      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights/descpage-WTNC.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "WOO! Never Chip",
-      "channel": "TW",
-      "cat": "Flipping",
       "size": "3/16 oz",
       "qty": 3,
       "packUsd": 14.79,
@@ -2585,9 +2597,33 @@
       "title": "WOO! Tungsten Flipping Wts Mixer Pack 3/16 1/4 & 5/16",
       "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights_Mixer_Pack_/descpage-WTNCM.html",
       "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "WOO! Never Chip",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "5/16 oz",
+      "qty": 3,
+      "packUsd": 17.99,
+      "color": "Black",
+      "title": "WOO! Tungsten Never Chip Flip Weight Black 5/16 3pk",
+      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights/descpage-WTNC.html",
+      "note": "缺货（未计入有货比价）"
     }
   ],
   "brandStats": [
+    {
+      "brand": "Ark No Chip No-Insert",
+      "n": 1,
+      "sizes": "1/4 (1)",
+      "sizeList": [
+        "1/4 oz"
+      ],
+      "min": 1.584,
+      "med": 1.584,
+      "max": 1.584,
+      "tier": "更便宜"
+    },
     {
       "brand": "Googan Baits",
       "n": 4,
