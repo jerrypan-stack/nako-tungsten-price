@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-09-14",
-    "updatedAt": "2026-09-14T13:57:50+08:00",
+    "asOf": "2026-09-15",
+    "updatedAt": "2026-09-15T13:58:58+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -37,9 +37,50 @@
           "https://www.tacklewarehouse.com/Strike_King_Tour_Grade_Tungsten_Weights/descpage-SKTGT.html"
         ]
       },
-      "notes": []
+      "notes": [
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Black/Blue / 5/16",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Black/Blue / 3/8",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Black/Blue / 1/2",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Black / 1/4",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Black / 5/16",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Black / 3/8",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Black / 1/2",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Green Pumpkin / 1/4",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Green Pumpkin / 5/16",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Green Pumpkin / 3/8",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Green Pumpkin / 1/2",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight June Bug / 1/4",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight June Bug / 5/16",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight June Bug / 3/8",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight June Bug / 1/2",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Mardi Gras / 1/4",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Mardi Gras / 5/16",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Mardi Gras / 3/8",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Mardi Gras / 1/2",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Plain / 1/4",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Plain / 5/16",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Plain / 3/8",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Plain / 1/2",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Red / 1/4",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Red / 5/16",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Red / 3/8",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Red / 1/2",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Watermelon Red / 1/4",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Watermelon Red / 5/16",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Watermelon Red / 3/8",
+        "avail unknown -> OOS: https://epicbaitsfishing.com/products/tungsten-flipping-weight Watermelon Red / 1/2",
+        "avail unknown -> OOS: https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights Green Pumpkin Black Flake / 1/8 oz - 5 pack",
+        "avail unknown -> OOS: https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights Green Pumpkin Black Flake / 3/16 oz - 5 pack",
+        "avail unknown -> OOS: https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights Green Pumpkin Black Flake / 1/4 oz - 5 pack",
+        "avail unknown -> OOS: https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights Green Pumpkin Black Flake / 5/16 oz - 5 pack",
+        "avail unknown -> OOS: https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights No-Chip Black / 1/16 oz - 5 pack",
+        "avail unknown -> OOS: https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights No-Chip Black / 1/8 oz - 5 pack",
+        "avail unknown -> OOS: https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights No-Chip Black / 3/16 oz - 5 pack",
+        "avail unknown -> OOS: https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights No-Chip Black / 1/4 oz - 5 pack",
+        "avail unknown -> OOS: https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights No-Chip Black / 5/16 oz - 5 pack"
+      ]
     },
-    "validatedAt": "2026-09-14T13:57:50+08:00",
+    "validatedAt": "2026-09-15T13:58:58+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -68,9 +109,9 @@
       "minAgree": 2,
       "disagreements": 0,
       "needsReview": 0,
-      "published": 173,
+      "published": 167,
       "excluded": 0,
-      "alternateFetches": 48,
+      "alternateFetches": 47,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
     }
   },
@@ -314,18 +355,6 @@
       "unitCny": 16.86,
       "yg": 6.344,
       "url": "https://nakoshop.com/products/tungsten-skirted-nail-weights"
-    },
-    {
-      "brand": "Departure",
-      "channel": "DiscountTackle",
-      "cat": "Worm",
-      "size": "1/8 oz",
-      "g": 3.544,
-      "qty": 5,
-      "packUsd": 5.99,
-      "unitCny": 8.09,
-      "yg": 2.282,
-      "url": "https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights"
     },
     {
       "brand": "Denali",
@@ -640,18 +669,6 @@
       "url": "https://www.tacklewarehouse.com/Gamakatsu_G-Shield_Tungsten_Worm_Weights/descpage-GTWM.html"
     },
     {
-      "brand": "Departure",
-      "channel": "DiscountTackle",
-      "cat": "Worm",
-      "size": "3/16 oz",
-      "g": 5.316,
-      "qty": 5,
-      "packUsd": 8.99,
-      "unitCny": 12.14,
-      "yg": 2.283,
-      "url": "https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights"
-    },
-    {
       "brand": "Zappu Sasuteki",
       "channel": "TW",
       "cat": "Other",
@@ -892,30 +909,6 @@
       "url": "https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Worm_Weights/descpage-EBTW.html"
     },
     {
-      "brand": "Ark No Chip No-Insert",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "1/4 oz",
-      "g": 7.087,
-      "qty": 3,
-      "packUsd": 4.99,
-      "unitCny": 11.23,
-      "yg": 1.584,
-      "url": "https://www.tacklewarehouse.com/Ark_No_Chip_No-Insert_Tungsten_Flipping_Weights_/descpage-ATUIF.html"
-    },
-    {
-      "brand": "Departure",
-      "channel": "DiscountTackle",
-      "cat": "Worm",
-      "size": "1/4 oz",
-      "g": 7.087,
-      "qty": 5,
-      "packUsd": 8.99,
-      "unitCny": 12.14,
-      "yg": 1.712,
-      "url": "https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights"
-    },
-    {
       "brand": "Bullet Weights",
       "channel": "TW",
       "cat": "Flipping",
@@ -1022,6 +1015,18 @@
       "unitCny": 24.5,
       "yg": 3.457,
       "url": "https://www.tacklewarehouse.com/Flat_Out_Tungsten_Flipping_Weights/descpage-FLO.html"
+    },
+    {
+      "brand": "Xzone",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "1/4 oz",
+      "g": 7.087,
+      "qty": 3,
+      "packUsd": 10.99,
+      "unitCny": 24.73,
+      "yg": 3.489,
+      "url": "https://www.tacklewarehouse.com/Xzone_Tungsten_Worm_Weights/descpage-XRTW.html"
     },
     {
       "brand": "Xzone",
@@ -1289,18 +1294,6 @@
     },
     {
       "brand": "Epic Baits",
-      "channel": "官网",
-      "cat": "Flipping",
-      "size": "5/16 oz",
-      "g": 8.859,
-      "qty": 3,
-      "packUsd": 13.69,
-      "unitCny": 30.8,
-      "yg": 3.477,
-      "url": "https://epicbaitsfishing.com/products/tungsten-flipping-weight"
-    },
-    {
-      "brand": "Epic Baits",
       "channel": "TW",
       "cat": "Worm",
       "size": "5/16 oz",
@@ -1538,18 +1531,6 @@
       "unitCny": 36.65,
       "yg": 3.448,
       "url": "https://epicbaitsfishing.com/products/tungsten-worm-weight"
-    },
-    {
-      "brand": "Epic Baits",
-      "channel": "官网",
-      "cat": "Flipping",
-      "size": "3/8 oz",
-      "g": 10.631,
-      "qty": 3,
-      "packUsd": 16.29,
-      "unitCny": 36.65,
-      "yg": 3.448,
-      "url": "https://epicbaitsfishing.com/products/tungsten-flipping-weight"
     },
     {
       "brand": "Epic Baits",
@@ -1961,18 +1942,6 @@
     },
     {
       "brand": "Epic Baits",
-      "channel": "官网",
-      "cat": "Flipping",
-      "size": "1/2 oz",
-      "g": 14.175,
-      "qty": 2,
-      "packUsd": 14.49,
-      "unitCny": 48.9,
-      "yg": 3.45,
-      "url": "https://epicbaitsfishing.com/products/tungsten-flipping-weight"
-    },
-    {
-      "brand": "Epic Baits",
       "channel": "TW",
       "cat": "Worm",
       "size": "1/2 oz",
@@ -2154,6 +2123,78 @@
   ],
   "oos": [
     {
+      "brand": "Epic Baits",
+      "channel": "官网",
+      "cat": "Flipping",
+      "size": "5/16 oz",
+      "qty": 3,
+      "packUsd": 13.69,
+      "color": "Black",
+      "title": "Tungsten Flipping Weight | Black / 5/16",
+      "url": "https://epicbaitsfishing.com/products/tungsten-flipping-weight",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Epic Baits",
+      "channel": "官网",
+      "cat": "Flipping",
+      "size": "3/8 oz",
+      "qty": 3,
+      "packUsd": 16.29,
+      "color": "Black",
+      "title": "Tungsten Flipping Weight | Black / 3/8",
+      "url": "https://epicbaitsfishing.com/products/tungsten-flipping-weight",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Epic Baits",
+      "channel": "官网",
+      "cat": "Flipping",
+      "size": "1/2 oz",
+      "qty": 2,
+      "packUsd": 14.49,
+      "color": "Black",
+      "title": "Tungsten Flipping Weight | Black / 1/2",
+      "url": "https://epicbaitsfishing.com/products/tungsten-flipping-weight",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Departure",
+      "channel": "DiscountTackle",
+      "cat": "Worm",
+      "size": "1/8 oz",
+      "qty": 5,
+      "packUsd": 5.99,
+      "color": "No-Chip Black",
+      "title": "Departure Outdoors Tungsten Worm Weights - 5 Pack | No-Chip Black / 1/8 oz - 5 pack",
+      "url": "https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Departure",
+      "channel": "DiscountTackle",
+      "cat": "Worm",
+      "size": "3/16 oz",
+      "qty": 5,
+      "packUsd": 8.99,
+      "color": "No-Chip Black",
+      "title": "Departure Outdoors Tungsten Worm Weights - 5 Pack | No-Chip Black / 3/16 oz - 5 pack",
+      "url": "https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Departure",
+      "channel": "DiscountTackle",
+      "cat": "Worm",
+      "size": "1/4 oz",
+      "qty": 5,
+      "packUsd": 8.99,
+      "color": "No-Chip Black",
+      "title": "Departure Outdoors Tungsten Worm Weights - 5 Pack | No-Chip Black / 1/4 oz - 5 pack",
+      "url": "https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
       "brand": "Departure",
       "channel": "DiscountTackle",
       "cat": "Worm",
@@ -2211,18 +2252,6 @@
       "color": "Default Title",
       "title": "NEVER CHIP 3/16 oz Tungsten Flipping Weight (4 pack)",
       "url": "https://wootungsten.com/products/never-chip-3-16-oz-tungsten-flipping-weight-4-pack",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "Xzone",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "1/4 oz",
-      "qty": 3,
-      "packUsd": 10.99,
-      "color": "Black",
-      "title": "Xzone Tungsten Worm Weight Black 1/4 3pk",
-      "url": "https://www.tacklewarehouse.com/Xzone_Tungsten_Worm_Weights/descpage-XRTW.html",
       "note": "缺货（未计入有货比价）"
     },
     {
@@ -2589,6 +2618,18 @@
       "brand": "WOO! Never Chip",
       "channel": "TW",
       "cat": "Flipping",
+      "size": "3/16 oz",
+      "qty": 3,
+      "packUsd": 14.79,
+      "color": "",
+      "title": "WOO! Tungsten Flipping Wts Mixer Pack 3/16 1/4 & 5/16",
+      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights_Mixer_Pack_/descpage-WTNCM.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "WOO! Never Chip",
+      "channel": "TW",
+      "cat": "Flipping",
       "size": "5/16 oz",
       "qty": 3,
       "packUsd": 17.99,
@@ -2598,31 +2639,19 @@
       "note": "缺货（未计入有货比价）"
     },
     {
-      "brand": "WOO! Never Chip",
+      "brand": "Ark No Chip No-Insert",
       "channel": "TW",
       "cat": "Flipping",
-      "size": "3/16 oz",
+      "size": "1/4 oz",
       "qty": 3,
-      "packUsd": 14.79,
-      "color": "",
-      "title": "WOO! Tungsten Flipping Wts Mixer Pack 3/16 1/4 & 5/16",
-      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights_Mixer_Pack_/descpage-WTNCM.html",
+      "packUsd": 4.99,
+      "color": "Green Pumpkin",
+      "title": "Ark No-Insert Flipping Weight Green Pumpkin 1/4 3pk",
+      "url": "https://www.tacklewarehouse.com/Ark_No_Chip_No-Insert_Tungsten_Flipping_Weights_/descpage-ATUIF.html",
       "note": "缺货（未计入有货比价）"
     }
   ],
   "brandStats": [
-    {
-      "brand": "Ark No Chip No-Insert",
-      "n": 1,
-      "sizes": "1/4 (1)",
-      "sizeList": [
-        "1/4 oz"
-      ],
-      "min": 1.584,
-      "med": 1.584,
-      "max": 1.584,
-      "tier": "更便宜"
-    },
     {
       "brand": "Googan Baits",
       "n": 4,
@@ -2634,21 +2663,6 @@
       "min": 1.479,
       "med": 1.784,
       "max": 2.141,
-      "tier": "更便宜"
-    },
-    {
-      "brand": "Departure",
-      "n": 4,
-      "sizes": "1/16 · 1/8 · 3/16 · 1/4 (4)",
-      "sizeList": [
-        "1/16 oz",
-        "1/8 oz",
-        "3/16 oz",
-        "1/4 oz"
-      ],
-      "min": 1.712,
-      "med": 2.282,
-      "max": 4.564,
       "tier": "更便宜"
     },
     {
@@ -2770,8 +2784,23 @@
       "tier": "更便宜"
     },
     {
+      "brand": "Xzone",
+      "n": 7,
+      "sizes": "1/8 · 1/4 · 3/8 · 1/2 (4)",
+      "sizeList": [
+        "1/8 oz",
+        "1/4 oz",
+        "3/8 oz",
+        "1/2 oz"
+      ],
+      "min": 3.331,
+      "med": 3.489,
+      "max": 4.281,
+      "tier": "更便宜"
+    },
+    {
       "brand": "Epic Baits",
-      "n": 22,
+      "n": 19,
       "sizes": "1/16 · 1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (7)",
       "sizeList": [
         "1/16 oz",
@@ -2783,23 +2812,8 @@
         "1/2 oz"
       ],
       "min": 3.448,
-      "med": 3.477,
+      "med": 3.521,
       "max": 7.612,
-      "tier": "更便宜"
-    },
-    {
-      "brand": "Xzone",
-      "n": 6,
-      "sizes": "1/8 · 1/4 · 3/8 · 1/2 (4)",
-      "sizeList": [
-        "1/8 oz",
-        "1/4 oz",
-        "3/8 oz",
-        "1/2 oz"
-      ],
-      "min": 3.331,
-      "med": 3.489,
-      "max": 4.281,
       "tier": "更便宜"
     },
     {
@@ -2887,6 +2901,18 @@
       "min": 3.807,
       "med": 4.537,
       "max": 7.993,
+      "tier": "更贵"
+    },
+    {
+      "brand": "Departure",
+      "n": 1,
+      "sizes": "1/16 (1)",
+      "sizeList": [
+        "1/16 oz"
+      ],
+      "min": 4.564,
+      "med": 4.564,
+      "max": 4.564,
       "tier": "更贵"
     },
     {
