@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-09-26",
-    "updatedAt": "2026-09-26T13:58:51+08:00",
+    "asOf": "2026-09-27",
+    "updatedAt": "2026-09-27T14:25:41+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -27,8 +27,8 @@
         "tacklewarehouse.com_pages": [
           "https://www.tacklewarehouse.com/Evolution_Tungsten_Worm_Weights/descpage-EVWW.html",
           "https://www.tacklewarehouse.com/Strike_King_Tour_Grade_Tungsten_Weights/descpage-SKTGT.html",
-          "https://www.tacklewarehouse.com/Flat_Out_Tungsten_Frontloader_Punch_Weight/descpage-FFR.html",
           "https://www.tacklewarehouse.com/Evolution_Tungsten_Flipping_Weights/descpage-EVFW.html",
+          "https://www.tacklewarehouse.com/Flat_Out_Tungsten_Frontloader_Punch_Weight/descpage-FFR.html",
           "https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Flippin_Weights/descpage-FFTFW.html",
           "https://www.tacklewarehouse.com/Gamakatsu_G-Shield_Tungsten_Punch_Weights_1pk/descpage-GTPW.html",
           "https://www.tacklewarehouse.com/Red_One_System_Miller_Tungsten_Power_Punch_Shot_Weight/descpage-MPPS.html",
@@ -38,7 +38,7 @@
       },
       "notes": []
     },
-    "validatedAt": "2026-09-26T13:58:51+08:00",
+    "validatedAt": "2026-09-27T14:25:41+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -67,7 +67,7 @@
       "minAgree": 2,
       "disagreements": 0,
       "needsReview": 0,
-      "published": 171,
+      "published": 170,
       "excluded": 0,
       "alternateFetches": 48,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
@@ -313,18 +313,6 @@
       "unitCny": 8.09,
       "yg": 2.282,
       "url": "https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights"
-    },
-    {
-      "brand": "Mustad",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "1/8 oz",
-      "g": 3.544,
-      "qty": 4,
-      "packUsd": 5.49,
-      "unitCny": 9.26,
-      "yg": 2.614,
-      "url": "https://www.tacklewarehouse.com/Mustad_Tungsten_TitanX_Worm_Weights/descpage-MTXT.html"
     },
     {
       "brand": "Denali",
@@ -2369,6 +2357,18 @@
       "note": "缺货（未计入有货比价）"
     },
     {
+      "brand": "Mustad",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "1/8 oz",
+      "qty": 4,
+      "packUsd": 5.49,
+      "color": "",
+      "title": "Mustad Tungsten TitanX Worm Weight 1/8oz 4pk",
+      "url": "https://www.tacklewarehouse.com/Mustad_Tungsten_TitanX_Worm_Weights/descpage-MTXT.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
       "brand": "Flat Out",
       "channel": "TW",
       "cat": "Flipping",
@@ -2564,24 +2564,24 @@
       "brand": "WOO! Never Chip",
       "channel": "TW",
       "cat": "Flipping",
-      "size": "3/16 oz",
-      "qty": 3,
-      "packUsd": 14.79,
-      "color": "",
-      "title": "WOO! Tungsten Flipping Wts Mixer Pack 3/16 1/4 & 5/16",
-      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights_Mixer_Pack_/descpage-WTNCM.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "WOO! Never Chip",
-      "channel": "TW",
-      "cat": "Flipping",
       "size": "5/16 oz",
       "qty": 3,
       "packUsd": 17.99,
       "color": "Black",
       "title": "WOO! Tungsten Never Chip Flip Weight Black 5/16 3pk",
       "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights/descpage-WTNC.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "WOO! Never Chip",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "3/16 oz",
+      "qty": 3,
+      "packUsd": 14.79,
+      "color": "",
+      "title": "WOO! Tungsten Flipping Wts Mixer Pack 3/16 1/4 & 5/16",
+      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights_Mixer_Pack_/descpage-WTNCM.html",
       "note": "缺货（未计入有货比价）"
     },
     {
@@ -2612,6 +2612,18 @@
       "tier": "更便宜"
     },
     {
+      "brand": "Mustad",
+      "n": 1,
+      "sizes": "3/16 (1)",
+      "sizeList": [
+        "3/16 oz"
+      ],
+      "min": 2.06,
+      "med": 2.06,
+      "max": 2.06,
+      "tier": "更便宜"
+    },
+    {
       "brand": "Departure",
       "n": 4,
       "sizes": "1/16 · 1/8 · 3/16 · 1/4 (4)",
@@ -2624,19 +2636,6 @@
       "min": 1.712,
       "med": 2.282,
       "max": 4.564,
-      "tier": "更便宜"
-    },
-    {
-      "brand": "Mustad",
-      "n": 2,
-      "sizes": "1/8 · 3/16 (2)",
-      "sizeList": [
-        "1/8 oz",
-        "3/16 oz"
-      ],
-      "min": 2.06,
-      "med": 2.337,
-      "max": 2.614,
       "tier": "更便宜"
     },
     {
