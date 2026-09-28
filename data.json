@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-09-27",
-    "updatedAt": "2026-09-27T14:25:41+08:00",
+    "asOf": "2026-09-28",
+    "updatedAt": "2026-09-28T14:29:47+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -38,7 +38,7 @@
       },
       "notes": []
     },
-    "validatedAt": "2026-09-27T14:25:41+08:00",
+    "validatedAt": "2026-09-28T14:29:47+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -67,7 +67,7 @@
       "minAgree": 2,
       "disagreements": 0,
       "needsReview": 0,
-      "published": 170,
+      "published": 168,
       "excluded": 0,
       "alternateFetches": 48,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
@@ -313,6 +313,18 @@
       "unitCny": 8.09,
       "yg": 2.282,
       "url": "https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights"
+    },
+    {
+      "brand": "Mustad",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "1/8 oz",
+      "g": 3.544,
+      "qty": 4,
+      "packUsd": 5.49,
+      "unitCny": 9.26,
+      "yg": 2.614,
+      "url": "https://www.tacklewarehouse.com/Mustad_Tungsten_TitanX_Worm_Weights/descpage-MTXT.html"
     },
     {
       "brand": "Denali",
@@ -747,30 +759,6 @@
       "url": "https://nakoshop.com/products/nako-tungsten-flipping-weights"
     },
     {
-      "brand": "Nako",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "3/16 oz",
-      "g": 5.316,
-      "qty": 5,
-      "packUsd": 14.99,
-      "unitCny": 20.24,
-      "yg": 3.807,
-      "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Worm_Weights_5pk/descpage-NWW.html"
-    },
-    {
-      "brand": "Nako",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "3/16 oz",
-      "g": 5.316,
-      "qty": 5,
-      "packUsd": 14.99,
-      "unitCny": 20.24,
-      "yg": 3.807,
-      "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Flipping_Weights/descpage-NTFW.html"
-    },
-    {
       "brand": "Reaction Tackle",
       "channel": "官网",
       "cat": "Worm",
@@ -853,18 +841,6 @@
       "unitCny": 29.85,
       "yg": 5.616,
       "url": "https://www.tacklewarehouse.com/Gamakatsu_G-Shield_Tungsten_Worm_Weights/descpage-GTWM.html"
-    },
-    {
-      "brand": "Fitzgerald",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "3/16 oz",
-      "g": 5.316,
-      "qty": 4,
-      "packUsd": 18.99,
-      "unitCny": 32.05,
-      "yg": 6.029,
-      "url": "https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Worm_Weights/descpage-FFTWW.html"
     },
     {
       "brand": "Epic Baits",
@@ -2261,6 +2237,30 @@
       "note": "缺货（未计入有货比价）"
     },
     {
+      "brand": "Fitzgerald",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "3/16 oz",
+      "qty": 4,
+      "packUsd": 18.99,
+      "color": "",
+      "title": "Fitzgerald Tungsten Worm Weights 3/16oz 4pk",
+      "url": "https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Worm_Weights/descpage-FFTWW.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Nako",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "3/16 oz",
+      "qty": 5,
+      "packUsd": 14.99,
+      "color": "",
+      "title": "Nako Tungsten Worm Weights 5pk 3/16oz",
+      "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Worm_Weights_5pk/descpage-NWW.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
       "brand": "Real Deal",
       "channel": "TW",
       "cat": "Worm",
@@ -2354,18 +2354,6 @@
       "color": "Green Pumpkin",
       "title": "VMC Tungsten Worm Weight Green Pumpkin 1/2",
       "url": "https://www.tacklewarehouse.com/VMC_Tungsten_Worm_Weights/descpage-VMCTWW.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "Mustad",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "1/8 oz",
-      "qty": 4,
-      "packUsd": 5.49,
-      "color": "",
-      "title": "Mustad Tungsten TitanX Worm Weight 1/8oz 4pk",
-      "url": "https://www.tacklewarehouse.com/Mustad_Tungsten_TitanX_Worm_Weights/descpage-MTXT.html",
       "note": "缺货（未计入有货比价）"
     },
     {
@@ -2489,6 +2477,18 @@
       "note": "缺货（未计入有货比价）"
     },
     {
+      "brand": "Nako",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "3/16 oz",
+      "qty": 5,
+      "packUsd": 14.99,
+      "color": "",
+      "title": "Nako Tungsten Flipping Weights 3/16oz 5pk",
+      "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Flipping_Weights/descpage-NTFW.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
       "brand": "Omega",
       "channel": "TW",
       "cat": "Flipping",
@@ -2561,15 +2561,15 @@
       "note": "缺货（未计入有货比价）"
     },
     {
-      "brand": "WOO! Never Chip",
+      "brand": "WOO!",
       "channel": "TW",
       "cat": "Flipping",
-      "size": "5/16 oz",
+      "size": "3/8 oz",
       "qty": 3,
       "packUsd": 17.99,
       "color": "Black",
-      "title": "WOO! Tungsten Never Chip Flip Weight Black 5/16 3pk",
-      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights/descpage-WTNC.html",
+      "title": "WOO! Tungsten Flipping Weight Black 3/8oz 3pk",
+      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Flipping_Weights/descpage-WTFW.html",
       "note": "缺货（未计入有货比价）"
     },
     {
@@ -2585,15 +2585,15 @@
       "note": "缺货（未计入有货比价）"
     },
     {
-      "brand": "WOO!",
+      "brand": "WOO! Never Chip",
       "channel": "TW",
       "cat": "Flipping",
-      "size": "3/8 oz",
+      "size": "5/16 oz",
       "qty": 3,
       "packUsd": 17.99,
       "color": "Black",
-      "title": "WOO! Tungsten Flipping Weight Black 3/8oz 3pk",
-      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Flipping_Weights/descpage-WTFW.html",
+      "title": "WOO! Tungsten Never Chip Flip Weight Black 5/16 3pk",
+      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights/descpage-WTNC.html",
       "note": "缺货（未计入有货比价）"
     }
   ],
@@ -2612,18 +2612,6 @@
       "tier": "更便宜"
     },
     {
-      "brand": "Mustad",
-      "n": 1,
-      "sizes": "3/16 (1)",
-      "sizeList": [
-        "3/16 oz"
-      ],
-      "min": 2.06,
-      "med": 2.06,
-      "max": 2.06,
-      "tier": "更便宜"
-    },
-    {
       "brand": "Departure",
       "n": 4,
       "sizes": "1/16 · 1/8 · 3/16 · 1/4 (4)",
@@ -2636,6 +2624,19 @@
       "min": 1.712,
       "med": 2.282,
       "max": 4.564,
+      "tier": "更便宜"
+    },
+    {
+      "brand": "Mustad",
+      "n": 2,
+      "sizes": "1/8 · 3/16 (2)",
+      "sizeList": [
+        "1/8 oz",
+        "3/16 oz"
+      ],
+      "min": 2.06,
+      "med": 2.337,
+      "max": 2.614,
       "tier": "更便宜"
     },
     {
@@ -2779,7 +2780,7 @@
     },
     {
       "brand": "Nako",
-      "n": 36,
+      "n": 34,
       "sizes": "1/64 · 1/32 · 3/64 · 1/16 · 3/32 · 1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (11)",
       "sizeList": [
         "1/64 oz",
@@ -2926,19 +2927,18 @@
     },
     {
       "brand": "Fitzgerald",
-      "n": 7,
-      "sizes": "1/16 · 1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (7)",
+      "n": 6,
+      "sizes": "1/16 · 1/8 · 1/4 · 5/16 · 3/8 · 1/2 (6)",
       "sizeList": [
         "1/16 oz",
         "1/8 oz",
-        "3/16 oz",
         "1/4 oz",
         "5/16 oz",
         "3/8 oz",
         "1/2 oz"
       ],
       "min": 5.289,
-      "med": 6.029,
+      "med": 5.989,
       "max": 9.135,
       "tier": "更贵"
     }
