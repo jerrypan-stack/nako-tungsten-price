@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-10-05",
-    "updatedAt": "2026-10-05T14:40:22+08:00",
+    "asOf": "2026-10-06",
+    "updatedAt": "2026-10-06T15:21:56+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -21,7 +21,7 @@
         "discounttackle.com": 36,
         "reactiontackle.com": 56,
         "wootungsten.com": 7,
-        "tacklewarehouse.com": 229
+        "tacklewarehouse.com": 230
       },
       "fail": {
         "tacklewarehouse.com_pages": [
@@ -32,14 +32,14 @@
           "https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Flippin_Weights/descpage-FFTFW.html",
           "https://www.tacklewarehouse.com/Gamakatsu_G-Shield_Tungsten_Punch_Weights_1pk/descpage-GTPW.html",
           "https://www.tacklewarehouse.com/Omega_Tungsten_Flip_Weights/descpage-OTF.html",
-          "https://www.tacklewarehouse.com/Red_One_System_Miller_Tungsten_Power_Punch_Shot_Weight/descpage-MPPS.html",
           "https://www.tacklewarehouse.com/Red_One_Systems_Miller_Tungsten_Punchin_Shots_Weights/descpage-PS.html",
+          "https://www.tacklewarehouse.com/Red_One_System_Miller_Tungsten_Power_Punch_Shot_Weight/descpage-MPPS.html",
           "https://www.tacklewarehouse.com/VMC_Tungsten_Flippin_Weights/descpage-VMCTFW.html"
         ]
       },
       "notes": []
     },
-    "validatedAt": "2026-10-05T14:40:22+08:00",
+    "validatedAt": "2026-10-06T15:21:56+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -68,9 +68,9 @@
       "minAgree": 2,
       "disagreements": 0,
       "needsReview": 0,
-      "published": 163,
+      "published": 164,
       "excluded": 0,
-      "alternateFetches": 48,
+      "alternateFetches": 49,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
     }
   },
@@ -750,6 +750,18 @@
     {
       "brand": "Nako",
       "channel": "TW",
+      "cat": "Worm",
+      "size": "3/16 oz",
+      "g": 5.316,
+      "qty": 5,
+      "packUsd": 14.99,
+      "unitCny": 20.24,
+      "yg": 3.807,
+      "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Worm_Weights_5pk/descpage-NWW.html"
+    },
+    {
+      "brand": "Nako",
+      "channel": "TW",
       "cat": "Flipping",
       "size": "3/16 oz",
       "g": 5.316,
@@ -1180,18 +1192,6 @@
       "url": "https://nakoshop.com/products/nako-tungsten-flipping-weights"
     },
     {
-      "brand": "Nako",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "5/16 oz",
-      "g": 8.859,
-      "qty": 5,
-      "packUsd": 20.99,
-      "unitCny": 28.34,
-      "yg": 3.199,
-      "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Flipping_Weights/descpage-NTFW.html"
-    },
-    {
       "brand": "Flat Out",
       "channel": "TW",
       "cat": "Flipping",
@@ -1312,6 +1312,18 @@
       "url": "https://www.tacklewarehouse.com/Googan_Baits_Green_Series_Tungsten_Worm_Weights/descpage-GBTW.html"
     },
     {
+      "brand": "Conquistador",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "3/8 oz",
+      "g": 10.631,
+      "qty": 5,
+      "packUsd": 11.99,
+      "unitCny": 16.19,
+      "yg": 1.523,
+      "url": "https://www.tacklewarehouse.com/Conquistador_Tungsten_Worm_Weights/descpage-CTBW.html"
+    },
+    {
       "brand": "Googan Baits",
       "channel": "TW",
       "cat": "Flipping",
@@ -1322,6 +1334,18 @@
       "unitCny": 20.23,
       "yg": 1.903,
       "url": "https://www.tacklewarehouse.com/Googan_Baits_Green_Series_Tungsten_Flipping_Weights/descpage-GBTT.html"
+    },
+    {
+      "brand": "Bullet Weights",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "3/8 oz",
+      "g": 10.631,
+      "qty": 3,
+      "packUsd": 9.99,
+      "unitCny": 22.48,
+      "yg": 2.114,
+      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Colored_Tungsten_Bullet_Weight/descpage-BWCTBW.html"
     },
     {
       "brand": "Bullet Weights",
@@ -1550,18 +1574,6 @@
       "unitCny": 40.48,
       "yg": 3.807,
       "url": "https://www.tacklewarehouse.com/Elite_Tungsten_Worm_Weights/descpage-ELTUNWM.html"
-    },
-    {
-      "brand": "Bullet Weights",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "3/8 oz",
-      "g": 10.631,
-      "qty": 3,
-      "packUsd": 18.99,
-      "unitCny": 42.73,
-      "yg": 4.019,
-      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tactical_Tungsten_Bullet_Weights/descpage-BWCTT.html"
     },
     {
       "brand": "Gamakatsu",
@@ -2190,30 +2202,6 @@
       "note": "缺货（未计入有货比价）"
     },
     {
-      "brand": "Nako",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "3/16 oz",
-      "qty": 5,
-      "packUsd": 14.99,
-      "color": "",
-      "title": "Nako Tungsten Worm Weights 5pk 3/16oz",
-      "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Worm_Weights_5pk/descpage-NWW.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "Nako",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "5/16 oz",
-      "qty": 5,
-      "packUsd": 20.99,
-      "color": "",
-      "title": "Nako Tungsten Worm Weights 5pk 5/16oz",
-      "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Worm_Weights_5pk/descpage-NWW.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
       "brand": "Real Deal",
       "channel": "TW",
       "cat": "Worm",
@@ -2298,15 +2286,15 @@
       "note": "缺货（未计入有货比价）"
     },
     {
-      "brand": "VMC",
+      "brand": "Nako",
       "channel": "TW",
       "cat": "Worm",
-      "size": "1/2 oz",
+      "size": "5/16 oz",
       "qty": 5,
-      "packUsd": 12.99,
-      "color": "Green Pumpkin",
-      "title": "VMC Tungsten Worm Weight Green Pumpkin 1/2",
-      "url": "https://www.tacklewarehouse.com/VMC_Tungsten_Worm_Weights/descpage-VMCTWW.html",
+      "packUsd": 20.99,
+      "color": "",
+      "title": "Nako Tungsten Worm Weights 5pk 5/16oz",
+      "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Worm_Weights_5pk/descpage-NWW.html",
       "note": "缺货（未计入有货比价）"
     },
     {
@@ -2319,6 +2307,18 @@
       "color": "Green Pumpkin",
       "title": "Kovert Tungsten Flipping Weight Grn Pkn 3/8 3pk",
       "url": "https://www.tacklewarehouse.com/Denali_Kovert_Tungsten_Flipping_Weights/descpage-DENTFW.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "VMC",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "1/2 oz",
+      "qty": 5,
+      "packUsd": 12.99,
+      "color": "Green Pumpkin",
+      "title": "VMC Tungsten Worm Weight Green Pumpkin 1/2",
+      "url": "https://www.tacklewarehouse.com/VMC_Tungsten_Worm_Weights/descpage-VMCTWW.html",
       "note": "缺货（未计入有货比价）"
     },
     {
@@ -2466,6 +2466,18 @@
       "note": "缺货（未计入有货比价）"
     },
     {
+      "brand": "Nako",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "5/16 oz",
+      "qty": 5,
+      "packUsd": 20.99,
+      "color": "",
+      "title": "Nako Tungsten Flipping Weights 5/16oz 5pk",
+      "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Flipping_Weights/descpage-NTFW.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
       "brand": "Real Deal",
       "channel": "TW",
       "cat": "Flipping",
@@ -2552,6 +2564,18 @@
   ],
   "brandStats": [
     {
+      "brand": "Conquistador",
+      "n": 1,
+      "sizes": "3/8 (1)",
+      "sizeList": [
+        "3/8 oz"
+      ],
+      "min": 1.523,
+      "med": 1.523,
+      "max": 1.523,
+      "tier": "更便宜"
+    },
+    {
       "brand": "Googan Baits",
       "n": 4,
       "sizes": "3/8 · 1/2 (2)",
@@ -2592,6 +2616,22 @@
       "tier": "更便宜"
     },
     {
+      "brand": "Bullet Weights",
+      "n": 7,
+      "sizes": "1/8 · 3/16 · 1/4 · 3/8 · 1/2 (5)",
+      "sizeList": [
+        "1/8 oz",
+        "3/16 oz",
+        "1/4 oz",
+        "3/8 oz",
+        "1/2 oz"
+      ],
+      "min": 2.114,
+      "med": 2.379,
+      "max": 4.759,
+      "tier": "更便宜"
+    },
+    {
       "brand": "Eagle Claw",
       "n": 5,
       "sizes": "1/8 · 3/16 · 1/4 · 3/8 · 1/2 (5)",
@@ -2605,22 +2645,6 @@
       "min": 2.379,
       "med": 2.537,
       "max": 3.329,
-      "tier": "更便宜"
-    },
-    {
-      "brand": "Bullet Weights",
-      "n": 7,
-      "sizes": "1/8 · 3/16 · 1/4 · 3/8 · 1/2 (5)",
-      "sizeList": [
-        "1/8 oz",
-        "3/16 oz",
-        "1/4 oz",
-        "3/8 oz",
-        "1/2 oz"
-      ],
-      "min": 2.114,
-      "med": 2.537,
-      "max": 4.759,
       "tier": "更便宜"
     },
     {
