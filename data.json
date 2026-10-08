@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-10-07",
-    "updatedAt": "2026-10-07T15:01:05+08:00",
+    "asOf": "2026-10-08",
+    "updatedAt": "2026-10-08T15:08:56+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -21,7 +21,7 @@
         "discounttackle.com": 36,
         "reactiontackle.com": 56,
         "wootungsten.com": 7,
-        "tacklewarehouse.com": 231
+        "tacklewarehouse.com": 238
       },
       "fail": {
         "tacklewarehouse.com_pages": [
@@ -31,7 +31,6 @@
           "https://www.tacklewarehouse.com/Flat_Out_Tungsten_Frontloader_Punch_Weight/descpage-FFR.html",
           "https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Flippin_Weights/descpage-FFTFW.html",
           "https://www.tacklewarehouse.com/Gamakatsu_G-Shield_Tungsten_Punch_Weights_1pk/descpage-GTPW.html",
-          "https://www.tacklewarehouse.com/Omega_Tungsten_Flip_Weights/descpage-OTF.html",
           "https://www.tacklewarehouse.com/Red_One_System_Miller_Tungsten_Power_Punch_Shot_Weight/descpage-MPPS.html",
           "https://www.tacklewarehouse.com/Red_One_Systems_Miller_Tungsten_Punchin_Shots_Weights/descpage-PS.html",
           "https://www.tacklewarehouse.com/VMC_Tungsten_Flippin_Weights/descpage-VMCTFW.html"
@@ -39,7 +38,7 @@
       },
       "notes": []
     },
-    "validatedAt": "2026-10-07T15:01:05+08:00",
+    "validatedAt": "2026-10-08T15:08:56+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -68,9 +67,9 @@
       "minAgree": 2,
       "disagreements": 0,
       "needsReview": 0,
-      "published": 167,
+      "published": 175,
       "excluded": 0,
-      "alternateFetches": 49,
+      "alternateFetches": 51,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
     }
   },
@@ -254,6 +253,18 @@
       "unitCny": 14.16,
       "yg": 7.993,
       "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Flipping_Weights/descpage-WTFW.html"
+    },
+    {
+      "brand": "WOO! Never Chip",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "1/16 oz",
+      "g": 1.772,
+      "qty": 5,
+      "packUsd": 10.79,
+      "unitCny": 14.57,
+      "yg": 8.221,
+      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights/descpage-WTNC.html"
     },
     {
       "brand": "Fitzgerald",
@@ -664,18 +675,6 @@
       "url": "https://www.tacklewarehouse.com/Zappu_Sasuteki_Tungsten_Sinkers/descpage-ZSSK.html"
     },
     {
-      "brand": "Bullet Weights",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "3/16 oz",
-      "g": 5.316,
-      "qty": 4,
-      "packUsd": 7.99,
-      "unitCny": 13.48,
-      "yg": 2.537,
-      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tungsten_Bullet_Weights/descpage-BWTBW.html"
-    },
-    {
       "brand": "Eagle Claw",
       "channel": "TW",
       "cat": "Worm",
@@ -686,6 +685,18 @@
       "unitCny": 13.48,
       "yg": 2.537,
       "url": "https://www.tacklewarehouse.com/Eagle_Claw_Lazer_Sharp_Tungsten_Worm_Weight/descpage-ECLTGW.html"
+    },
+    {
+      "brand": "Bullet Weights",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "3/16 oz",
+      "g": 5.316,
+      "qty": 4,
+      "packUsd": 8.49,
+      "unitCny": 14.33,
+      "yg": 2.695,
+      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Colored_Tungsten_Bullet_Weight/descpage-BWCTBW.html"
     },
     {
       "brand": "1st Contact",
@@ -748,6 +759,18 @@
       "url": "https://www.tacklewarehouse.com/Flat_Out_Tungsten_Flipping_Weights/descpage-FLO.html"
     },
     {
+      "brand": "Xzone",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "3/16 oz",
+      "g": 5.316,
+      "qty": 4,
+      "packUsd": 11.99,
+      "unitCny": 20.23,
+      "yg": 3.806,
+      "url": "https://www.tacklewarehouse.com/Xzone_Tungsten_Worm_Weights/descpage-XRTW.html"
+    },
+    {
       "brand": "Nako",
       "channel": "官网",
       "cat": "Worm",
@@ -806,6 +829,18 @@
       "unitCny": 21.09,
       "yg": 3.967,
       "url": "https://reactiontackle.com/products/reaction-tackle-tungsten-worm-weights-bullet-shaped-sinkers"
+    },
+    {
+      "brand": "WOO! Never Chip",
+      "channel": "官网",
+      "cat": "Flipping",
+      "size": "3/16 oz",
+      "g": 5.316,
+      "qty": 4,
+      "packUsd": 12.99,
+      "unitCny": 21.92,
+      "yg": 4.124,
+      "url": "https://wootungsten.com/products/never-chip-3-16-oz-tungsten-flipping-weight-4-pack"
     },
     {
       "brand": "Flat Out",
@@ -904,6 +939,18 @@
       "url": "https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights"
     },
     {
+      "brand": "Bullet Weights",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "1/4 oz",
+      "g": 7.087,
+      "qty": 3,
+      "packUsd": 7.99,
+      "unitCny": 17.98,
+      "yg": 2.537,
+      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tactical_Tungsten_Flipping_Weights/descpage-BWCT.html"
+    },
+    {
       "brand": "Eagle Claw",
       "channel": "TW",
       "cat": "Worm",
@@ -916,16 +963,28 @@
       "url": "https://www.tacklewarehouse.com/Eagle_Claw_Lazer_Sharp_Tungsten_Worm_Weight/descpage-ECLTGW.html"
     },
     {
+      "brand": "Bullet Weights",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "1/4 oz",
+      "g": 7.087,
+      "qty": 3,
+      "packUsd": 8.49,
+      "unitCny": 19.1,
+      "yg": 2.695,
+      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Colored_Tungsten_Bullet_Weight/descpage-BWCTBW.html"
+    },
+    {
       "brand": "1st Contact",
       "channel": "TW",
-      "cat": "Flipping",
+      "cat": "Worm",
       "size": "1/4 oz",
       "g": 7.087,
       "qty": 3,
       "packUsd": 8.99,
       "unitCny": 20.23,
       "yg": 2.854,
-      "url": "https://www.tacklewarehouse.com/1st_Contact_Tungsten_Flipping_Weights/descpage-FCTFW.html"
+      "url": "https://www.tacklewarehouse.com/1st_Contact_Tungsten_Worm_Weights/descpage-FCTW.html"
     },
     {
       "brand": "Nako",
@@ -1096,18 +1155,6 @@
       "url": "https://www.tacklewarehouse.com/Gamakatsu_G-Shield_Tungsten_Worm_Weights/descpage-GTWM.html"
     },
     {
-      "brand": "Bullet Weights",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "1/4 oz",
-      "g": 7.087,
-      "qty": 3,
-      "packUsd": 14.99,
-      "unitCny": 33.73,
-      "yg": 4.759,
-      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tactical_Tungsten_Bullet_Weights/descpage-BWCTT.html"
-    },
-    {
       "brand": "TMO",
       "channel": "TW",
       "cat": "Worm",
@@ -1264,6 +1311,18 @@
       "url": "https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Flipping_Weights/descpage-EBFW.html"
     },
     {
+      "brand": "Xzone",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "5/16 oz",
+      "g": 8.859,
+      "qty": 3,
+      "packUsd": 13.99,
+      "unitCny": 31.48,
+      "yg": 3.553,
+      "url": "https://www.tacklewarehouse.com/Xzone_Tungsten_Worm_Weights/descpage-XRTW.html"
+    },
+    {
       "brand": "WOO! Never Chip",
       "channel": "官网",
       "cat": "Flipping",
@@ -1370,6 +1429,18 @@
       "unitCny": 22.48,
       "yg": 2.114,
       "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tactical_Tungsten_Flipping_Weights/descpage-BWCT.html"
+    },
+    {
+      "brand": "Elite Tungsten",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "3/8 oz",
+      "g": 10.631,
+      "qty": 3,
+      "packUsd": 9.99,
+      "unitCny": 22.48,
+      "yg": 2.114,
+      "url": "https://www.tacklewarehouse.com/Elite_Tungsten_Flippin_Weights/descpage-ELTNGFL.html"
     },
     {
       "brand": "Eagle Claw",
@@ -1588,6 +1659,18 @@
       "url": "https://www.tacklewarehouse.com/Elite_Tungsten_Worm_Weights/descpage-ELTUNWM.html"
     },
     {
+      "brand": "WOO! Never Chip",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "3/8 oz",
+      "g": 10.631,
+      "qty": 2,
+      "packUsd": 12.39,
+      "unitCny": 41.82,
+      "yg": 3.933,
+      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights_Mixer_Pack_/descpage-WTNCM.html"
+    },
+    {
       "brand": "Gamakatsu",
       "channel": "TW",
       "cat": "Worm",
@@ -1754,6 +1837,18 @@
       "unitCny": 33.72,
       "yg": 2.379,
       "url": "https://www.tacklewarehouse.com/Eagle_Claw_Lazer_Sharp_Tungsten_Worm_Weight/descpage-ECLTGW.html"
+    },
+    {
+      "brand": "Omega",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "1/2 oz",
+      "g": 14.175,
+      "qty": 2,
+      "packUsd": 9.99,
+      "unitCny": 33.72,
+      "yg": 2.379,
+      "url": "https://www.tacklewarehouse.com/Omega_Tungsten_Flip_Weights/descpage-OTF.html"
     },
     {
       "brand": "1st Contact",
@@ -2142,18 +2237,6 @@
       "note": "缺货（未计入有货比价）"
     },
     {
-      "brand": "WOO! Never Chip",
-      "channel": "官网",
-      "cat": "Flipping",
-      "size": "3/16 oz",
-      "qty": 4,
-      "packUsd": 12.99,
-      "color": "Default Title",
-      "title": "NEVER CHIP 3/16 oz Tungsten Flipping Weight (4 pack)",
-      "url": "https://wootungsten.com/products/never-chip-3-16-oz-tungsten-flipping-weight-4-pack",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
       "brand": "Xzone",
       "channel": "TW",
       "cat": "Worm",
@@ -2163,18 +2246,6 @@
       "color": "Black",
       "title": "Xzone Tungsten Worm Weight Black 1/4 3pk",
       "url": "https://www.tacklewarehouse.com/Xzone_Tungsten_Worm_Weights/descpage-XRTW.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "1st Contact",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "1/4 oz",
-      "qty": 3,
-      "packUsd": 8.99,
-      "color": "",
-      "title": "1st Contact Tungsten Worm Weight Natural 1/4 3pk",
-      "url": "https://www.tacklewarehouse.com/1st_Contact_Tungsten_Worm_Weights/descpage-FCTW.html",
       "note": "缺货（未计入有货比价）"
     },
     {
@@ -2346,18 +2417,6 @@
       "note": "缺货（未计入有货比价）"
     },
     {
-      "brand": "Denali",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "3/8 oz",
-      "qty": 3,
-      "packUsd": 7.99,
-      "color": "Green Pumpkin",
-      "title": "Kovert Tungsten Flipping Weight Grn Pkn 3/8 3pk",
-      "url": "https://www.tacklewarehouse.com/Denali_Kovert_Tungsten_Flipping_Weights/descpage-DENTFW.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
       "brand": "Arsenal Fishing",
       "channel": "TW",
       "cat": "Flipping",
@@ -2457,18 +2516,6 @@
       "brand": "WOO! Never Chip",
       "channel": "TW",
       "cat": "Flipping",
-      "size": "3/8 oz",
-      "qty": 3,
-      "packUsd": 6.99,
-      "color": "Black",
-      "title": "Motion Fishing Tungsten Flip Weight Black 3/8 3pk",
-      "url": "https://www.tacklewarehouse.com/Motion_Fishing_Never_Chip_Tungsten_Flipping_Weights/descpage-MNCW.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "WOO! Never Chip",
-      "channel": "TW",
-      "cat": "Flipping",
       "size": "1/2 oz",
       "qty": 2,
       "packUsd": 6.49,
@@ -2553,24 +2600,24 @@
       "brand": "WOO! Never Chip",
       "channel": "TW",
       "cat": "Flipping",
-      "size": "5/16 oz",
-      "qty": 3,
-      "packUsd": 17.99,
-      "color": "Black",
-      "title": "WOO! Tungsten Never Chip Flip Weight Black 5/16 3pk",
-      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights/descpage-WTNC.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "WOO! Never Chip",
-      "channel": "TW",
-      "cat": "Flipping",
       "size": "3/16 oz",
       "qty": 3,
       "packUsd": 14.79,
       "color": "",
       "title": "WOO! Tungsten Flipping Wts Mixer Pack 3/16 1/4 & 5/16",
       "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights_Mixer_Pack_/descpage-WTNCM.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "WOO! Never Chip",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "5/16 oz",
+      "qty": 3,
+      "packUsd": 17.99,
+      "color": "Black",
+      "title": "WOO! Tungsten Never Chip Flip Weight Black 5/16 3pk",
+      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights/descpage-WTNC.html",
       "note": "缺货（未计入有货比价）"
     }
   ],
@@ -2628,8 +2675,20 @@
       "tier": "更便宜"
     },
     {
+      "brand": "Omega",
+      "n": 1,
+      "sizes": "1/2 (1)",
+      "sizeList": [
+        "1/2 oz"
+      ],
+      "min": 2.379,
+      "med": 2.379,
+      "max": 2.379,
+      "tier": "更便宜"
+    },
+    {
       "brand": "Bullet Weights",
-      "n": 7,
+      "n": 8,
       "sizes": "1/8 · 3/16 · 1/4 · 3/8 · 1/2 (5)",
       "sizeList": [
         "1/8 oz",
@@ -2639,8 +2698,8 @@
         "1/2 oz"
       ],
       "min": 2.114,
-      "med": 2.379,
-      "max": 4.759,
+      "med": 2.458,
+      "max": 4.043,
       "tier": "更便宜"
     },
     {
@@ -2753,11 +2812,13 @@
     },
     {
       "brand": "Xzone",
-      "n": 6,
-      "sizes": "1/8 · 1/4 · 3/8 · 1/2 (4)",
+      "n": 8,
+      "sizes": "1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (6)",
       "sizeList": [
         "1/8 oz",
+        "3/16 oz",
         "1/4 oz",
+        "5/16 oz",
         "3/8 oz",
         "1/2 oz"
       ],
@@ -2790,13 +2851,13 @@
     },
     {
       "brand": "Elite Tungsten",
-      "n": 2,
+      "n": 3,
       "sizes": "3/8 · 1/2 (2)",
       "sizeList": [
         "3/8 oz",
         "1/2 oz"
       ],
-      "min": 3.807,
+      "min": 2.114,
       "med": 3.807,
       "max": 3.807,
       "tier": "差不多"
@@ -2837,19 +2898,20 @@
     },
     {
       "brand": "WOO! Never Chip",
-      "n": 7,
-      "sizes": "1/16 · 1/8 · 1/4 · 5/16 · 3/8 · 1/2 (6)",
+      "n": 10,
+      "sizes": "1/16 · 1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (7)",
       "sizeList": [
         "1/16 oz",
         "1/8 oz",
+        "3/16 oz",
         "1/4 oz",
         "5/16 oz",
         "3/8 oz",
         "1/2 oz"
       ],
       "min": 3.569,
-      "med": 4.441,
-      "max": 7.612,
+      "med": 4.282,
+      "max": 8.221,
       "tier": "更贵"
     },
     {
