@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-10-09",
-    "updatedAt": "2026-10-09T15:14:08+08:00",
+    "asOf": "2026-10-10",
+    "updatedAt": "2026-10-10T14:50:15+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -38,7 +38,7 @@
       },
       "notes": []
     },
-    "validatedAt": "2026-10-09T15:14:08+08:00",
+    "validatedAt": "2026-10-10T14:50:15+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -2585,18 +2585,6 @@
       "note": "缺货（未计入有货比价）"
     },
     {
-      "brand": "WOO!",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "3/8 oz",
-      "qty": 3,
-      "packUsd": 17.99,
-      "color": "Black",
-      "title": "WOO! Tungsten Flipping Weight Black 3/8oz 3pk",
-      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Flipping_Weights/descpage-WTFW.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
       "brand": "WOO! Never Chip",
       "channel": "TW",
       "cat": "Flipping",
@@ -2606,6 +2594,18 @@
       "color": "Black",
       "title": "WOO! Tungsten Never Chip Flip Weight Black 5/16 3pk",
       "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights/descpage-WTNC.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "WOO!",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "3/8 oz",
+      "qty": 3,
+      "packUsd": 17.99,
+      "color": "Black",
+      "title": "WOO! Tungsten Flipping Weight Black 3/8oz 3pk",
+      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Flipping_Weights/descpage-WTFW.html",
       "note": "缺货（未计入有货比价）"
     },
     {
