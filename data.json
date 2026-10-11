@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-10-10",
-    "updatedAt": "2026-10-10T14:50:15+08:00",
+    "asOf": "2026-10-11",
+    "updatedAt": "2026-10-11T14:56:12+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -38,7 +38,7 @@
       },
       "notes": []
     },
-    "validatedAt": "2026-10-10T14:50:15+08:00",
+    "validatedAt": "2026-10-11T14:56:12+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -69,7 +69,7 @@
       "needsReview": 0,
       "published": 175,
       "excluded": 0,
-      "alternateFetches": 51,
+      "alternateFetches": 49,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
     }
   },
@@ -277,18 +277,6 @@
       "unitCny": 16.19,
       "yg": 9.135,
       "url": "https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Worm_Weights/descpage-FFTWW.html"
-    },
-    {
-      "brand": "Arsenal Fishing",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "3/32 oz",
-      "g": 2.658,
-      "qty": 5,
-      "packUsd": 9.49,
-      "unitCny": 12.81,
-      "yg": 4.82,
-      "url": "https://www.tacklewarehouse.com/Arsenal_Fishing_Flipping_Weight_Black_Out_Tungsten/descpage-AFBOF.html"
     },
     {
       "brand": "Nako",
@@ -1251,6 +1239,30 @@
       "url": "https://nakoshop.com/products/nako-tungsten-flipping-weights"
     },
     {
+      "brand": "Nako",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "5/16 oz",
+      "g": 8.859,
+      "qty": 5,
+      "packUsd": 20.99,
+      "unitCny": 28.34,
+      "yg": 3.199,
+      "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Worm_Weights_5pk/descpage-NWW.html"
+    },
+    {
+      "brand": "Nako",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "5/16 oz",
+      "g": 8.859,
+      "qty": 5,
+      "packUsd": 20.99,
+      "unitCny": 28.34,
+      "yg": 3.199,
+      "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Flipping_Weights/descpage-NTFW.html"
+    },
+    {
       "brand": "Flat Out",
       "channel": "TW",
       "cat": "Flipping",
@@ -1657,18 +1669,6 @@
       "unitCny": 40.48,
       "yg": 3.807,
       "url": "https://www.tacklewarehouse.com/Elite_Tungsten_Worm_Weights/descpage-ELTUNWM.html"
-    },
-    {
-      "brand": "WOO! Never Chip",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "3/8 oz",
-      "g": 10.631,
-      "qty": 2,
-      "packUsd": 12.39,
-      "unitCny": 41.82,
-      "yg": 3.933,
-      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights_Mixer_Pack_/descpage-WTNCM.html"
     },
     {
       "brand": "Gamakatsu",
@@ -2309,18 +2309,6 @@
       "note": "缺货（未计入有货比价）"
     },
     {
-      "brand": "Nako",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "5/16 oz",
-      "qty": 5,
-      "packUsd": 20.99,
-      "color": "",
-      "title": "Nako Tungsten Worm Weights 5pk 5/16oz",
-      "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Worm_Weights_5pk/descpage-NWW.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
       "brand": "Real Deal",
       "channel": "TW",
       "cat": "Worm",
@@ -2432,6 +2420,18 @@
       "brand": "Arsenal Fishing",
       "channel": "TW",
       "cat": "Flipping",
+      "size": "3/32 oz",
+      "qty": 5,
+      "packUsd": 9.49,
+      "color": "Black Out",
+      "title": "Arsenal Fishing Flip Weight Black Out 3/32oz 5pk",
+      "url": "https://www.tacklewarehouse.com/Arsenal_Fishing_Flipping_Weight_Black_Out_Tungsten/descpage-AFBOF.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Arsenal Fishing",
+      "channel": "TW",
+      "cat": "Flipping",
       "size": "3/16 oz",
       "qty": 4,
       "packUsd": 9.99,
@@ -2516,24 +2516,24 @@
       "brand": "WOO! Never Chip",
       "channel": "TW",
       "cat": "Flipping",
+      "size": "3/8 oz",
+      "qty": 3,
+      "packUsd": 6.99,
+      "color": "Black",
+      "title": "Motion Fishing Tungsten Flip Weight Black 3/8 3pk",
+      "url": "https://www.tacklewarehouse.com/Motion_Fishing_Never_Chip_Tungsten_Flipping_Weights/descpage-MNCW.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "WOO! Never Chip",
+      "channel": "TW",
+      "cat": "Flipping",
       "size": "1/2 oz",
       "qty": 2,
       "packUsd": 6.49,
       "color": "Black",
       "title": "Motion Fishing Tungsten Flip Weight Black 1/2 2pk",
       "url": "https://www.tacklewarehouse.com/Motion_Fishing_Never_Chip_Tungsten_Flipping_Weights/descpage-MNCW.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "Nako",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "5/16 oz",
-      "qty": 5,
-      "packUsd": 20.99,
-      "color": "",
-      "title": "Nako Tungsten Flipping Weights 5/16oz 5pk",
-      "url": "https://www.tacklewarehouse.com/Nako_Tungsten_Flipping_Weights/descpage-NTFW.html",
       "note": "缺货（未计入有货比价）"
     },
     {
@@ -2585,18 +2585,6 @@
       "note": "缺货（未计入有货比价）"
     },
     {
-      "brand": "WOO! Never Chip",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "5/16 oz",
-      "qty": 3,
-      "packUsd": 17.99,
-      "color": "Black",
-      "title": "WOO! Tungsten Never Chip Flip Weight Black 5/16 3pk",
-      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights/descpage-WTNC.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
       "brand": "WOO!",
       "channel": "TW",
       "cat": "Flipping",
@@ -2606,6 +2594,18 @@
       "color": "Black",
       "title": "WOO! Tungsten Flipping Weight Black 3/8oz 3pk",
       "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Flipping_Weights/descpage-WTFW.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "WOO! Never Chip",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "5/16 oz",
+      "qty": 3,
+      "packUsd": 17.99,
+      "color": "Black",
+      "title": "WOO! Tungsten Never Chip Flip Weight Black 5/16 3pk",
+      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights/descpage-WTNC.html",
       "note": "缺货（未计入有货比价）"
     },
     {
@@ -2828,7 +2828,7 @@
     },
     {
       "brand": "Nako",
-      "n": 34,
+      "n": 36,
       "sizes": "1/64 · 1/32 · 3/64 · 1/16 · 3/32 · 1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (11)",
       "sizeList": [
         "1/64 oz",
@@ -2897,7 +2897,7 @@
     },
     {
       "brand": "WOO! Never Chip",
-      "n": 10,
+      "n": 9,
       "sizes": "1/16 · 1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (7)",
       "sizeList": [
         "1/16 oz",
@@ -2909,7 +2909,7 @@
         "1/2 oz"
       ],
       "min": 3.569,
-      "med": 4.282,
+      "med": 4.441,
       "max": 8.221,
       "tier": "更贵"
     },
@@ -2928,18 +2928,6 @@
       "min": 4.212,
       "med": 4.806,
       "max": 7.993,
-      "tier": "更贵"
-    },
-    {
-      "brand": "Arsenal Fishing",
-      "n": 1,
-      "sizes": "3/32 (1)",
-      "sizeList": [
-        "3/32 oz"
-      ],
-      "min": 4.82,
-      "med": 4.82,
-      "max": 4.82,
       "tier": "更贵"
     },
     {
