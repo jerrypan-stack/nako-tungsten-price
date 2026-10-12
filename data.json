@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-10-11",
-    "updatedAt": "2026-10-11T14:56:12+08:00",
+    "asOf": "2026-10-12",
+    "updatedAt": "2026-10-12T15:06:14+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -38,7 +38,7 @@
       },
       "notes": []
     },
-    "validatedAt": "2026-10-11T14:56:12+08:00",
+    "validatedAt": "2026-10-12T15:06:14+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -67,7 +67,7 @@
       "minAgree": 2,
       "disagreements": 0,
       "needsReview": 0,
-      "published": 175,
+      "published": 174,
       "excluded": 0,
       "alternateFetches": 49,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
@@ -757,18 +757,6 @@
       "unitCny": 19.9,
       "yg": 3.743,
       "url": "https://www.tacklewarehouse.com/Flat_Out_Tungsten_Flipping_Weights/descpage-FLO.html"
-    },
-    {
-      "brand": "Xzone",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "3/16 oz",
-      "g": 5.316,
-      "qty": 4,
-      "packUsd": 11.99,
-      "unitCny": 20.23,
-      "yg": 3.806,
-      "url": "https://www.tacklewarehouse.com/Xzone_Tungsten_Worm_Weights/descpage-XRTW.html"
     },
     {
       "brand": "Nako",
@@ -2240,6 +2228,18 @@
       "brand": "Xzone",
       "channel": "TW",
       "cat": "Worm",
+      "size": "3/16 oz",
+      "qty": 4,
+      "packUsd": 11.99,
+      "color": "Black",
+      "title": "Xzone Tungsten Worm Weight Black 3/16 4pk",
+      "url": "https://www.tacklewarehouse.com/Xzone_Tungsten_Worm_Weights/descpage-XRTW.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Xzone",
+      "channel": "TW",
+      "cat": "Worm",
       "size": "1/4 oz",
       "qty": 3,
       "packUsd": 10.99,
@@ -2811,11 +2811,10 @@
     },
     {
       "brand": "Xzone",
-      "n": 8,
-      "sizes": "1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (6)",
+      "n": 7,
+      "sizes": "1/8 · 1/4 · 5/16 · 3/8 · 1/2 (5)",
       "sizeList": [
         "1/8 oz",
-        "3/16 oz",
         "1/4 oz",
         "5/16 oz",
         "3/8 oz",
