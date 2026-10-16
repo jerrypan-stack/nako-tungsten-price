@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-10-15",
-    "updatedAt": "2026-10-15T13:42:16+08:00",
+    "asOf": "2026-10-16",
+    "updatedAt": "2026-10-16T13:37:44+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -21,7 +21,7 @@
         "discounttackle.com": 36,
         "reactiontackle.com": 56,
         "wootungsten.com": 7,
-        "tacklewarehouse.com": 237
+        "tacklewarehouse.com": 238
       },
       "fail": {
         "tacklewarehouse.com_pages": [
@@ -38,7 +38,7 @@
       },
       "notes": []
     },
-    "validatedAt": "2026-10-15T13:42:16+08:00",
+    "validatedAt": "2026-10-16T13:37:44+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -67,9 +67,9 @@
       "minAgree": 2,
       "disagreements": 0,
       "needsReview": 0,
-      "published": 171,
+      "published": 170,
       "excluded": 0,
-      "alternateFetches": 51,
+      "alternateFetches": 50,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
     }
   },
@@ -345,9 +345,9 @@
       "size": "1/8 oz",
       "g": 3.544,
       "qty": 4,
-      "packUsd": 6.79,
-      "unitCny": 11.46,
-      "yg": 3.233,
+      "packUsd": 6.39,
+      "unitCny": 10.78,
+      "yg": 3.043,
       "url": "https://discounttackle.com/products/strike-king-tungsten-weights"
     },
     {
@@ -661,18 +661,6 @@
       "unitCny": 12.98,
       "yg": 2.441,
       "url": "https://www.tacklewarehouse.com/Zappu_Sasuteki_Tungsten_Sinkers/descpage-ZSSK.html"
-    },
-    {
-      "brand": "Bullet Weights",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "3/16 oz",
-      "g": 5.316,
-      "qty": 4,
-      "packUsd": 7.99,
-      "unitCny": 13.48,
-      "yg": 2.537,
-      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tungsten_Bullet_Weights/descpage-BWTBW.html"
     },
     {
       "brand": "Eagle Claw",
@@ -2146,7 +2134,7 @@
       "cat": "Worm",
       "size": "3/16 oz",
       "qty": 4,
-      "packUsd": 7.64,
+      "packUsd": 7.19,
       "color": "3/16 oz - 4 pack",
       "title": "Strike King Tour Grade Tungsten Weights | 3/16 oz - 4 pack / Black",
       "url": "https://discounttackle.com/products/strike-king-tungsten-weights",
@@ -2158,7 +2146,7 @@
       "cat": "Worm",
       "size": "1/4 oz",
       "qty": 3,
-      "packUsd": 7.64,
+      "packUsd": 7.19,
       "color": "1/4 oz - 3 pack",
       "title": "Strike King Tour Grade Tungsten Weights | 1/4 oz - 3 pack / Black",
       "url": "https://discounttackle.com/products/strike-king-tungsten-weights",
@@ -2170,7 +2158,7 @@
       "cat": "Worm",
       "size": "5/16 oz",
       "qty": 3,
-      "packUsd": 8.49,
+      "packUsd": 7.99,
       "color": "5/16 oz - 3 pack",
       "title": "Strike King Tour Grade Tungsten Weights | 5/16 oz - 3 pack / Black",
       "url": "https://discounttackle.com/products/strike-king-tungsten-weights",
@@ -2182,7 +2170,7 @@
       "cat": "Worm",
       "size": "3/8 oz",
       "qty": 3,
-      "packUsd": 8.49,
+      "packUsd": 7.99,
       "color": "3/8 oz - 3 pack",
       "title": "Strike King Tour Grade Tungsten Weights | 3/8 oz - 3 pack / Black",
       "url": "https://discounttackle.com/products/strike-king-tungsten-weights",
@@ -2194,10 +2182,22 @@
       "cat": "Worm",
       "size": "1/2 oz",
       "qty": 2,
-      "packUsd": 8.49,
+      "packUsd": 7.99,
       "color": "1/2 oz - 2 pack",
       "title": "Strike King Tour Grade Tungsten Weights | 1/2 oz - 2 pack / Black",
       "url": "https://discounttackle.com/products/strike-king-tungsten-weights",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Xzone",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "1/8 oz",
+      "qty": 4,
+      "packUsd": 8.99,
+      "color": "Black",
+      "title": "Xzone Tungsten Worm Weight Black 1/8 4pk",
+      "url": "https://www.tacklewarehouse.com/Xzone_Tungsten_Worm_Weights/descpage-XRTW.html",
       "note": "缺货（未计入有货比价）"
     },
     {
@@ -2222,6 +2222,18 @@
       "color": "Black",
       "title": "Xzone Tungsten Worm Weight Black 1/4 3pk",
       "url": "https://www.tacklewarehouse.com/Xzone_Tungsten_Worm_Weights/descpage-XRTW.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Bullet Weights",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "3/16 oz",
+      "qty": 4,
+      "packUsd": 8.49,
+      "color": "red",
+      "title": "B.W. Colored Tung Black 3/16 4pk",
+      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Colored_Tungsten_Bullet_Weight/descpage-BWCTBW.html",
       "note": "缺货（未计入有货比价）"
     },
     {
@@ -2588,24 +2600,24 @@
       "brand": "WOO! Never Chip",
       "channel": "TW",
       "cat": "Flipping",
-      "size": "3/16 oz",
-      "qty": 3,
-      "packUsd": 14.79,
-      "color": "",
-      "title": "WOO! Tungsten Flipping Wts Mixer Pack 3/16 1/4 & 5/16",
-      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights_Mixer_Pack_/descpage-WTNCM.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "WOO! Never Chip",
-      "channel": "TW",
-      "cat": "Flipping",
       "size": "5/16 oz",
       "qty": 3,
       "packUsd": 17.99,
       "color": "Black",
       "title": "WOO! Tungsten Never Chip Flip Weight Black 5/16 3pk",
       "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights/descpage-WTNC.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "WOO! Never Chip",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "3/16 oz",
+      "qty": 3,
+      "packUsd": 14.79,
+      "color": "",
+      "title": "WOO! Tungsten Flipping Wts Mixer Pack 3/16 1/4 & 5/16",
+      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights_Mixer_Pack_/descpage-WTNCM.html",
       "note": "缺货（未计入有货比价）"
     }
   ],
@@ -2663,6 +2675,21 @@
       "tier": "更便宜"
     },
     {
+      "brand": "Bullet Weights",
+      "n": 7,
+      "sizes": "1/8 · 1/4 · 3/8 · 1/2 (4)",
+      "sizeList": [
+        "1/8 oz",
+        "1/4 oz",
+        "3/8 oz",
+        "1/2 oz"
+      ],
+      "min": 2.114,
+      "med": 2.379,
+      "max": 4.759,
+      "tier": "更便宜"
+    },
+    {
       "brand": "Omega",
       "n": 1,
       "sizes": "1/2 (1)",
@@ -2672,22 +2699,6 @@
       "min": 2.379,
       "med": 2.379,
       "max": 2.379,
-      "tier": "更便宜"
-    },
-    {
-      "brand": "Bullet Weights",
-      "n": 8,
-      "sizes": "1/8 · 3/16 · 1/4 · 3/8 · 1/2 (5)",
-      "sizeList": [
-        "1/8 oz",
-        "3/16 oz",
-        "1/4 oz",
-        "3/8 oz",
-        "1/2 oz"
-      ],
-      "min": 2.114,
-      "med": 2.458,
-      "max": 4.759,
       "tier": "更便宜"
     },
     {
@@ -2736,6 +2747,18 @@
       "tier": "更便宜"
     },
     {
+      "brand": "Strike King",
+      "n": 1,
+      "sizes": "1/8 (1)",
+      "sizeList": [
+        "1/8 oz"
+      ],
+      "min": 3.043,
+      "med": 3.043,
+      "max": 3.043,
+      "tier": "更便宜"
+    },
+    {
       "brand": "Zappu Sasuteki",
       "n": 2,
       "sizes": "1/8 · 3/16 (2)",
@@ -2746,18 +2769,6 @@
       "min": 2.441,
       "med": 3.051,
       "max": 3.662,
-      "tier": "更便宜"
-    },
-    {
-      "brand": "Strike King",
-      "n": 1,
-      "sizes": "1/8 (1)",
-      "sizeList": [
-        "1/8 oz"
-      ],
-      "min": 3.233,
-      "med": 3.233,
-      "max": 3.233,
       "tier": "更便宜"
     },
     {
