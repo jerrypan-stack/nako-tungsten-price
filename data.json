@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-10-19",
-    "updatedAt": "2026-10-19T13:53:59+08:00",
+    "asOf": "2026-10-20",
+    "updatedAt": "2026-10-20T13:46:06+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -21,7 +21,7 @@
         "discounttackle.com": 36,
         "reactiontackle.com": 56,
         "wootungsten.com": 7,
-        "tacklewarehouse.com": 238
+        "tacklewarehouse.com": 237
       },
       "fail": {
         "tacklewarehouse.com_pages": [
@@ -38,7 +38,7 @@
       },
       "notes": []
     },
-    "validatedAt": "2026-10-19T13:53:59+08:00",
+    "validatedAt": "2026-10-20T13:46:06+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -69,7 +69,7 @@
       "needsReview": 0,
       "published": 167,
       "excluded": 0,
-      "alternateFetches": 49,
+      "alternateFetches": 48,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
     }
   },
@@ -625,18 +625,6 @@
       "unitCny": 26.98,
       "yg": 7.614,
       "url": "https://www.tacklewarehouse.com/Gamakatsu_G-Shield_Tungsten_Worm_Weights/descpage-GTWM.html"
-    },
-    {
-      "brand": "Mustad",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "3/16 oz",
-      "g": 5.316,
-      "qty": 4,
-      "packUsd": 6.49,
-      "unitCny": 10.95,
-      "yg": 2.06,
-      "url": "https://www.tacklewarehouse.com/Mustad_Tungsten_TitanX_Worm_Weights/descpage-MTXT.html"
     },
     {
       "brand": "Departure",
@@ -1273,6 +1261,18 @@
       "unitCny": 30.8,
       "yg": 3.477,
       "url": "https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Flipping_Weights/descpage-EBFW.html"
+    },
+    {
+      "brand": "Xzone",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "5/16 oz",
+      "g": 8.859,
+      "qty": 3,
+      "packUsd": 13.99,
+      "unitCny": 31.48,
+      "yg": 3.553,
+      "url": "https://www.tacklewarehouse.com/Xzone_Tungsten_Worm_Weights/descpage-XRTW.html"
     },
     {
       "brand": "WOO! Never Chip",
@@ -2189,18 +2189,6 @@
       "note": "缺货（未计入有货比价）"
     },
     {
-      "brand": "Xzone",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "5/16 oz",
-      "qty": 3,
-      "packUsd": 13.99,
-      "color": "Black",
-      "title": "Xzone Tungsten Worm Weight Black 5/16 3pk",
-      "url": "https://www.tacklewarehouse.com/Xzone_Tungsten_Worm_Weights/descpage-XRTW.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
       "brand": "Bullet Weights",
       "channel": "TW",
       "cat": "Worm",
@@ -2270,6 +2258,18 @@
       "color": "",
       "title": "Fitzgerald Tungsten Worm Weights 3/16oz 4pk",
       "url": "https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Worm_Weights/descpage-FFTWW.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Mustad",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "3/16 oz",
+      "qty": 4,
+      "packUsd": 6.49,
+      "color": "",
+      "title": "Mustad Tungsten TitanX Worm Weight 3/16oz 4pk",
+      "url": "https://www.tacklewarehouse.com/Mustad_Tungsten_TitanX_Worm_Weights/descpage-MTXT.html",
       "note": "缺货（未计入有货比价）"
     },
     {
@@ -2477,18 +2477,6 @@
       "note": "缺货（未计入有货比价）"
     },
     {
-      "brand": "Omega",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "1/2 oz",
-      "qty": 2,
-      "packUsd": 9.99,
-      "color": "Black",
-      "title": "Omega Tungsten Flip Weights Black 1/2oz 2pk",
-      "url": "https://www.tacklewarehouse.com/Omega_Tungsten_Flip_Weights/descpage-OTF.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
       "brand": "WOO! Never Chip",
       "channel": "TW",
       "cat": "Flipping",
@@ -2522,6 +2510,18 @@
       "color": "Black",
       "title": "Motion Fishing Tungsten Flip Weight Black 1/2 2pk",
       "url": "https://www.tacklewarehouse.com/Motion_Fishing_Never_Chip_Tungsten_Flipping_Weights/descpage-MNCW.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Omega",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "1/2 oz",
+      "qty": 2,
+      "packUsd": 9.99,
+      "color": "Black",
+      "title": "Omega Tungsten Flip Weights Black 1/2oz 2pk",
+      "url": "https://www.tacklewarehouse.com/Omega_Tungsten_Flip_Weights/descpage-OTF.html",
       "note": "缺货（未计入有货比价）"
     },
     {
@@ -2607,18 +2607,6 @@
       "title": "WOO! Tungsten Flipping Wts Mixer Pack 3/16 1/4 & 5/16",
       "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights_Mixer_Pack_/descpage-WTNCM.html",
       "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "Zappu Sasuteki",
-      "channel": "TW",
-      "cat": "Other",
-      "size": "3/16 oz",
-      "qty": 4,
-      "packUsd": 7.69,
-      "color": "",
-      "title": "Zappu Sasuteki Tungsten Sinkers 3/16 4pk",
-      "url": "https://www.tacklewarehouse.com/Zappu_Sasuteki_Tungsten_Sinkers/descpage-ZSSK.html",
-      "note": "缺货（未计入有货比价）"
     }
   ],
   "brandStats": [
@@ -2645,18 +2633,6 @@
       "min": 1.479,
       "med": 1.784,
       "max": 2.141,
-      "tier": "更便宜"
-    },
-    {
-      "brand": "Mustad",
-      "n": 1,
-      "sizes": "3/16 (1)",
-      "sizeList": [
-        "3/16 oz"
-      ],
-      "min": 2.06,
-      "med": 2.06,
-      "max": 2.06,
       "tier": "更便宜"
     },
     {
@@ -2784,16 +2760,17 @@
     },
     {
       "brand": "Xzone",
-      "n": 4,
-      "sizes": "1/4 · 3/8 · 1/2 (3)",
+      "n": 5,
+      "sizes": "1/4 · 5/16 · 3/8 · 1/2 (4)",
       "sizeList": [
         "1/4 oz",
+        "5/16 oz",
         "3/8 oz",
         "1/2 oz"
       ],
       "min": 3.331,
       "med": 3.489,
-      "max": 3.489,
+      "max": 3.553,
       "tier": "更便宜"
     },
     {
