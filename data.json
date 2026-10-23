@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-10-22",
-    "updatedAt": "2026-10-22T13:52:42+08:00",
+    "asOf": "2026-10-23",
+    "updatedAt": "2026-10-23T13:51:33+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -21,7 +21,7 @@
         "discounttackle.com": 36,
         "reactiontackle.com": 56,
         "wootungsten.com": 7,
-        "tacklewarehouse.com": 234
+        "tacklewarehouse.com": 214
       },
       "fail": {
         "tacklewarehouse.com_pages": [
@@ -39,7 +39,7 @@
       },
       "notes": []
     },
-    "validatedAt": "2026-10-22T13:52:42+08:00",
+    "validatedAt": "2026-10-23T13:51:33+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -868,18 +868,6 @@
       "url": "https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Worm_Weights/descpage-EBTW.html"
     },
     {
-      "brand": "Departure",
-      "channel": "DiscountTackle",
-      "cat": "Worm",
-      "size": "1/4 oz",
-      "g": 7.087,
-      "qty": 5,
-      "packUsd": 8.99,
-      "unitCny": 12.14,
-      "yg": 1.712,
-      "url": "https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights"
-    },
-    {
       "brand": "Bullet Weights",
       "channel": "TW",
       "cat": "Flipping",
@@ -1600,6 +1588,18 @@
       "url": "https://www.tacklewarehouse.com/Elite_Tungsten_Worm_Weights/descpage-ELTUNWM.html"
     },
     {
+      "brand": "WOO!",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "3/8 oz",
+      "g": 10.631,
+      "qty": 3,
+      "packUsd": 17.99,
+      "unitCny": 40.48,
+      "yg": 3.807,
+      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Flipping_Weights/descpage-WTFW.html"
+    },
+    {
       "brand": "Gamakatsu",
       "channel": "TW",
       "cat": "Worm",
@@ -2073,6 +2073,18 @@
       "brand": "Departure",
       "channel": "DiscountTackle",
       "cat": "Worm",
+      "size": "1/4 oz",
+      "qty": 5,
+      "packUsd": 8.99,
+      "color": "No-Chip Black",
+      "title": "Departure Outdoors Tungsten Worm Weights - 5 Pack | No-Chip Black / 1/4 oz - 5 pack",
+      "url": "https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Departure",
+      "channel": "DiscountTackle",
+      "cat": "Worm",
       "size": "5/16 oz",
       "qty": 5,
       "packUsd": 11.99,
@@ -2247,78 +2259,6 @@
       "color": "",
       "title": "Fitzgerald Tungsten Worm Weights 3/16oz 4pk",
       "url": "https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Worm_Weights/descpage-FFTWW.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "Real Deal",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "1/16 oz",
-      "qty": 5,
-      "packUsd": 3.19,
-      "color": "Black",
-      "title": "Real Deal Tung. Worm Weight Black 1/16oz 5pk",
-      "url": "https://www.tacklewarehouse.com/Real_Deal_Tungsten_Worm_Weights/descpage-RDTWW.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "Real Deal",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "1/8 oz",
-      "qty": 4,
-      "packUsd": 3.89,
-      "color": "Green Pumpkin",
-      "title": "Real Deal Tung. Worm Weight Green Pumpkin 1/8oz 4pk",
-      "url": "https://www.tacklewarehouse.com/Real_Deal_Tungsten_Worm_Weights/descpage-RDTWW.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "Real Deal",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "3/16 oz",
-      "qty": 4,
-      "packUsd": 5.09,
-      "color": "Black",
-      "title": "Real Deal Tung. Worm Weight Black 3/16oz 4pk",
-      "url": "https://www.tacklewarehouse.com/Real_Deal_Tungsten_Worm_Weights/descpage-RDTWW.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "Real Deal",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "1/4 oz",
-      "qty": 3,
-      "packUsd": 4.69,
-      "color": "Black",
-      "title": "Real Deal Tung. Worm Weight Black 1/4oz 3pk",
-      "url": "https://www.tacklewarehouse.com/Real_Deal_Tungsten_Worm_Weights/descpage-RDTWW.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "Real Deal",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "5/16 oz",
-      "qty": 3,
-      "packUsd": 5.69,
-      "color": "Black",
-      "title": "Real Deal Tung. Worm Weight Black 5/16oz 3pk",
-      "url": "https://www.tacklewarehouse.com/Real_Deal_Tungsten_Worm_Weights/descpage-RDTWW.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "Real Deal",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "1/2 oz",
-      "qty": 2,
-      "packUsd": 5.79,
-      "color": "Black",
-      "title": "Real Deal Tung. Worm Weight Black 1/2oz 2pk",
-      "url": "https://www.tacklewarehouse.com/Real_Deal_Tungsten_Worm_Weights/descpage-RDTWW.html",
       "note": "缺货（未计入有货比价）"
     },
     {
@@ -2502,66 +2442,6 @@
       "note": "缺货（未计入有货比价）"
     },
     {
-      "brand": "Real Deal",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "1/4 oz",
-      "qty": 3,
-      "packUsd": 4.59,
-      "color": "Black",
-      "title": "Real Deal Tung. Flip Weight Black 1/4oz 3pk",
-      "url": "https://www.tacklewarehouse.com/Real_Deal_Tungsten_Flipping_Weights/descpage-RDTFP.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "Real Deal",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "5/16 oz",
-      "qty": 3,
-      "packUsd": 5.49,
-      "color": "Black",
-      "title": "Real Deal Tung. Flip Weight Black 5/16oz 3pk",
-      "url": "https://www.tacklewarehouse.com/Real_Deal_Tungsten_Flipping_Weights/descpage-RDTFP.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "Real Deal",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "3/8 oz",
-      "qty": 3,
-      "packUsd": 6.29,
-      "color": "Black",
-      "title": "Real Deal Tung. Flip Weight Black 3/8oz 3pk",
-      "url": "https://www.tacklewarehouse.com/Real_Deal_Tungsten_Flipping_Weights/descpage-RDTFP.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "Real Deal",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "1/2 oz",
-      "qty": 2,
-      "packUsd": 5.69,
-      "color": "Black",
-      "title": "Real Deal Tung. Flip Weight Black 1/2oz 2pk",
-      "url": "https://www.tacklewarehouse.com/Real_Deal_Tungsten_Flipping_Weights/descpage-RDTFP.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "WOO!",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "3/8 oz",
-      "qty": 3,
-      "packUsd": 17.99,
-      "color": "Black",
-      "title": "WOO! Tungsten Flipping Weight Black 3/8oz 3pk",
-      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Flipping_Weights/descpage-WTFW.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
       "brand": "WOO! Never Chip",
       "channel": "TW",
       "cat": "Flipping",
@@ -2626,16 +2506,15 @@
     },
     {
       "brand": "Departure",
-      "n": 4,
-      "sizes": "1/16 · 1/8 · 3/16 · 1/4 (4)",
+      "n": 3,
+      "sizes": "1/16 · 1/8 · 3/16 (3)",
       "sizeList": [
         "1/16 oz",
         "1/8 oz",
-        "3/16 oz",
-        "1/4 oz"
+        "3/16 oz"
       ],
-      "min": 1.712,
-      "med": 2.282,
+      "min": 2.282,
+      "med": 2.283,
       "max": 4.564,
       "tier": "更便宜"
     },
@@ -2862,18 +2741,19 @@
     },
     {
       "brand": "WOO!",
-      "n": 6,
-      "sizes": "1/16 · 1/8 · 3/16 · 1/4 · 5/16 · 1/2 (6)",
+      "n": 7,
+      "sizes": "1/16 · 1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (7)",
       "sizeList": [
         "1/16 oz",
         "1/8 oz",
         "3/16 oz",
         "1/4 oz",
         "5/16 oz",
+        "3/8 oz",
         "1/2 oz"
       ],
-      "min": 4.212,
-      "med": 4.806,
+      "min": 3.807,
+      "med": 4.537,
       "max": 7.993,
       "tier": "更贵"
     },
