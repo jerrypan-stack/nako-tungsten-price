@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-11-02",
-    "updatedAt": "2026-11-02T15:30:11+08:00",
+    "asOf": "2026-11-03",
+    "updatedAt": "2026-11-03T15:44:29+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -39,7 +39,7 @@
       },
       "notes": []
     },
-    "validatedAt": "2026-11-02T15:30:11+08:00",
+    "validatedAt": "2026-11-03T15:44:29+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -70,7 +70,7 @@
       "needsReview": 0,
       "published": 166,
       "excluded": 0,
-      "alternateFetches": 48,
+      "alternateFetches": 47,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
     }
   },
@@ -640,18 +640,6 @@
       "url": "https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights"
     },
     {
-      "brand": "Bullet Weights",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "3/16 oz",
-      "g": 5.316,
-      "qty": 4,
-      "packUsd": 7.99,
-      "unitCny": 13.48,
-      "yg": 2.537,
-      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tungsten_Bullet_Weights/descpage-BWTBW.html"
-    },
-    {
       "brand": "Eagle Claw",
       "channel": "TW",
       "cat": "Worm",
@@ -662,6 +650,18 @@
       "unitCny": 13.48,
       "yg": 2.537,
       "url": "https://www.tacklewarehouse.com/Eagle_Claw_Lazer_Sharp_Tungsten_Worm_Weight/descpage-ECLTGW.html"
+    },
+    {
+      "brand": "Bullet Weights",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "3/16 oz",
+      "g": 5.316,
+      "qty": 4,
+      "packUsd": 8.49,
+      "unitCny": 14.33,
+      "yg": 2.695,
+      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Colored_Tungsten_Bullet_Weight/descpage-BWCTBW.html"
     },
     {
       "brand": "1st Contact",
