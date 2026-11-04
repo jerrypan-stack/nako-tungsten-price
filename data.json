@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-11-03",
-    "updatedAt": "2026-11-03T15:44:29+08:00",
+    "asOf": "2026-11-04",
+    "updatedAt": "2026-11-04T15:22:13+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -39,7 +39,7 @@
       },
       "notes": []
     },
-    "validatedAt": "2026-11-03T15:44:29+08:00",
+    "validatedAt": "2026-11-04T15:22:13+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -68,9 +68,9 @@
       "minAgree": 2,
       "disagreements": 0,
       "needsReview": 0,
-      "published": 166,
+      "published": 167,
       "excluded": 0,
-      "alternateFetches": 47,
+      "alternateFetches": 48,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
     }
   },
@@ -350,6 +350,18 @@
       "unitCny": 10.1,
       "yg": 2.851,
       "url": "https://www.tacklewarehouse.com/Denali_Kovert_Tungsten_Flipping_Weights/descpage-DENTFW.html"
+    },
+    {
+      "brand": "Strike King",
+      "channel": "DiscountTackle",
+      "cat": "Worm",
+      "size": "1/8 oz",
+      "g": 3.544,
+      "qty": 4,
+      "packUsd": 6.79,
+      "unitCny": 11.46,
+      "yg": 3.233,
+      "url": "https://discounttackle.com/products/strike-king-tungsten-weights"
     },
     {
       "brand": "1st Contact",
@@ -2097,21 +2109,9 @@
       "brand": "Strike King",
       "channel": "DiscountTackle",
       "cat": "Worm",
-      "size": "1/8 oz",
-      "qty": 4,
-      "packUsd": 6.39,
-      "color": "1/8 oz - 4 pack",
-      "title": "Strike King Tour Grade Tungsten Weights | 1/8 oz - 4 pack / Black",
-      "url": "https://discounttackle.com/products/strike-king-tungsten-weights",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "Strike King",
-      "channel": "DiscountTackle",
-      "cat": "Worm",
       "size": "3/16 oz",
       "qty": 4,
-      "packUsd": 7.19,
+      "packUsd": 7.64,
       "color": "3/16 oz - 4 pack",
       "title": "Strike King Tour Grade Tungsten Weights | 3/16 oz - 4 pack / Black",
       "url": "https://discounttackle.com/products/strike-king-tungsten-weights",
@@ -2123,7 +2123,7 @@
       "cat": "Worm",
       "size": "1/4 oz",
       "qty": 3,
-      "packUsd": 7.19,
+      "packUsd": 7.64,
       "color": "1/4 oz - 3 pack",
       "title": "Strike King Tour Grade Tungsten Weights | 1/4 oz - 3 pack / Black",
       "url": "https://discounttackle.com/products/strike-king-tungsten-weights",
@@ -2135,7 +2135,7 @@
       "cat": "Worm",
       "size": "5/16 oz",
       "qty": 3,
-      "packUsd": 7.99,
+      "packUsd": 8.49,
       "color": "5/16 oz - 3 pack",
       "title": "Strike King Tour Grade Tungsten Weights | 5/16 oz - 3 pack / Black",
       "url": "https://discounttackle.com/products/strike-king-tungsten-weights",
@@ -2147,7 +2147,7 @@
       "cat": "Worm",
       "size": "3/8 oz",
       "qty": 3,
-      "packUsd": 7.99,
+      "packUsd": 8.49,
       "color": "3/8 oz - 3 pack",
       "title": "Strike King Tour Grade Tungsten Weights | 3/8 oz - 3 pack / Black",
       "url": "https://discounttackle.com/products/strike-king-tungsten-weights",
@@ -2159,7 +2159,7 @@
       "cat": "Worm",
       "size": "1/2 oz",
       "qty": 2,
-      "packUsd": 7.99,
+      "packUsd": 8.49,
       "color": "1/2 oz - 2 pack",
       "title": "Strike King Tour Grade Tungsten Weights | 1/2 oz - 2 pack / Black",
       "url": "https://discounttackle.com/products/strike-king-tungsten-weights",
@@ -2553,6 +2553,18 @@
       "min": 2.617,
       "med": 2.854,
       "max": 3.569,
+      "tier": "更便宜"
+    },
+    {
+      "brand": "Strike King",
+      "n": 1,
+      "sizes": "1/8 (1)",
+      "sizeList": [
+        "1/8 oz"
+      ],
+      "min": 3.233,
+      "med": 3.233,
+      "max": 3.233,
       "tier": "更便宜"
     },
     {
