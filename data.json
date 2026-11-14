@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-11-13",
-    "updatedAt": "2026-11-13T15:42:31+08:00",
+    "asOf": "2026-11-14",
+    "updatedAt": "2026-11-14T15:29:26+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -21,19 +21,16 @@
         "discounttackle.com": 36,
         "reactiontackle.com": 56,
         "wootungsten.com": 7,
-        "tacklewarehouse.com": 209
+        "tacklewarehouse.com": 211
       },
       "fail": {
         "tacklewarehouse.com_pages": [
-          "https://www.tacklewarehouse.com/Evolution_Tungsten_Worm_Weights/descpage-EVWW.html",
           "https://www.tacklewarehouse.com/Evolution_Tungsten_Flipping_Weights/descpage-EVFW.html",
           "https://www.tacklewarehouse.com/Flat_Out_Tungsten_Frontloader_Punch_Weight/descpage-FFR.html",
           "https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Flippin_Weights/descpage-FFTFW.html",
           "https://www.tacklewarehouse.com/Gamakatsu_G-Shield_Tungsten_Punch_Weights_1pk/descpage-GTPW.html",
-          "https://www.tacklewarehouse.com/Red_One_System_Miller_Tungsten_Power_Punch_Shot_Weight/descpage-MPPS.html",
           "https://www.tacklewarehouse.com/Red_One_Systems_Miller_Tungsten_Punchin_Shots_Weights/descpage-PS.html",
           "https://www.tacklewarehouse.com/VMC_Tungsten_Flippin_Weights/descpage-VMCTFW.html",
-          "https://www.tacklewarehouse.com/Savage_Gear_Battletek_Series_Casting_Rods/descpage-SGBTCR.html",
           "https://www.tacklewarehouse.com/Mustad_Tungsten_TitanX_Worm_Weights/descpage-MTXT.html",
           "https://www.tacklewarehouse.com/Omega_Tungsten_Flip_Weights/descpage-OTF.html",
           "https://www.tacklewarehouse.com/Strike_King_Tour_Grade_Tungsten_Weights/descpage-SKTGT.html"
@@ -41,7 +38,7 @@
       },
       "notes": []
     },
-    "validatedAt": "2026-11-13T15:42:31+08:00",
+    "validatedAt": "2026-11-14T15:29:26+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -72,7 +69,7 @@
       "needsReview": 0,
       "published": 162,
       "excluded": 0,
-      "alternateFetches": 48,
+      "alternateFetches": 49,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
     }
   },
@@ -1122,6 +1119,18 @@
       "url": "https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Worm_Weights/descpage-FFTWW.html"
     },
     {
+      "brand": "Red One System Miller",
+      "channel": "TW",
+      "cat": "Punch",
+      "size": "5/16 oz",
+      "g": 8.859,
+      "qty": 4,
+      "packUsd": 13.99,
+      "unitCny": 23.61,
+      "yg": 2.665,
+      "url": "https://www.tacklewarehouse.com/Red_One_System_Miller_Tungsten_Power_Punch_Shot_Weight/descpage-MPPS.html"
+    },
+    {
       "brand": "Nako",
       "channel": "官网",
       "cat": "Worm",
@@ -1674,18 +1683,6 @@
       "url": "https://www.tacklewarehouse.com/Bullet_Weights_Colored_Tungsten_Bullet_Weight/descpage-BWCTBW.html"
     },
     {
-      "brand": "Bullet Weights",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "1/2 oz",
-      "g": 14.175,
-      "qty": 2,
-      "packUsd": 9.99,
-      "unitCny": 33.72,
-      "yg": 2.379,
-      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tactical_Tungsten_Flipping_Weights/descpage-BWCT.html"
-    },
-    {
       "brand": "Eagle Claw",
       "channel": "TW",
       "cat": "Worm",
@@ -2168,6 +2165,18 @@
       "note": "缺货（未计入有货比价）"
     },
     {
+      "brand": "Evolution",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "1/4 oz",
+      "qty": 4,
+      "packUsd": 6.49,
+      "color": "Watermelon",
+      "title": "Evolution Tungsten Worm Weight Watermelon Red 1/4",
+      "url": "https://www.tacklewarehouse.com/Evolution_Tungsten_Worm_Weights/descpage-EVWW.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
       "brand": "Elite Tungsten",
       "channel": "TW",
       "cat": "Worm",
@@ -2236,6 +2245,18 @@
       "packUsd": 7.99,
       "color": "Black",
       "title": "Bullet Tungsten Flipping Weights Black 1/4oz 3pk",
+      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tactical_Tungsten_Flipping_Weights/descpage-BWCT.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Bullet Weights",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "1/2 oz",
+      "qty": 2,
+      "packUsd": 9.99,
+      "color": "Black",
+      "title": "Bullet Tungsten Flipping Weights Black 1/2oz 2pk",
       "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tactical_Tungsten_Flipping_Weights/descpage-BWCT.html",
       "note": "缺货（未计入有货比价）"
     },
@@ -2387,24 +2408,24 @@
       "brand": "WOO! Never Chip",
       "channel": "TW",
       "cat": "Flipping",
-      "size": "3/16 oz",
-      "qty": 3,
-      "packUsd": 14.79,
-      "color": "",
-      "title": "WOO! Tungsten Flipping Wts Mixer Pack 3/16 1/4 & 5/16",
-      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights_Mixer_Pack_/descpage-WTNCM.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "WOO! Never Chip",
-      "channel": "TW",
-      "cat": "Flipping",
       "size": "5/16 oz",
       "qty": 3,
       "packUsd": 17.99,
       "color": "Black",
       "title": "WOO! Tungsten Never Chip Flip Weight Black 5/16 3pk",
       "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights/descpage-WTNC.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "WOO! Never Chip",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "3/16 oz",
+      "qty": 3,
+      "packUsd": 14.79,
+      "color": "",
+      "title": "WOO! Tungsten Flipping Wts Mixer Pack 3/16 1/4 & 5/16",
+      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Never_Chip_Flipping_Weights_Mixer_Pack_/descpage-WTNCM.html",
       "note": "缺货（未计入有货比价）"
     }
   ],
@@ -2463,7 +2484,7 @@
     },
     {
       "brand": "Bullet Weights",
-      "n": 7,
+      "n": 6,
       "sizes": "1/8 · 3/16 · 1/4 · 3/8 · 1/2 (5)",
       "sizeList": [
         "1/8 oz",
@@ -2473,7 +2494,7 @@
         "1/2 oz"
       ],
       "min": 2.114,
-      "med": 2.379,
+      "med": 2.458,
       "max": 4.759,
       "tier": "更便宜"
     },
@@ -2491,6 +2512,18 @@
       "min": 2.379,
       "med": 2.537,
       "max": 3.329,
+      "tier": "更便宜"
+    },
+    {
+      "brand": "Red One System Miller",
+      "n": 1,
+      "sizes": "5/16 (1)",
+      "sizeList": [
+        "5/16 oz"
+      ],
+      "min": 2.665,
+      "med": 2.665,
+      "max": 2.665,
       "tier": "更便宜"
     },
     {
