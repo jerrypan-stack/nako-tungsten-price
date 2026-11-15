@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-11-14",
-    "updatedAt": "2026-11-14T15:29:26+08:00",
+    "asOf": "2026-11-15",
+    "updatedAt": "2026-11-15T15:41:13+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -38,7 +38,7 @@
       },
       "notes": []
     },
-    "validatedAt": "2026-11-14T15:29:26+08:00",
+    "validatedAt": "2026-11-15T15:41:13+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -67,9 +67,9 @@
       "minAgree": 2,
       "disagreements": 0,
       "needsReview": 0,
-      "published": 162,
+      "published": 160,
       "excluded": 0,
-      "alternateFetches": 49,
+      "alternateFetches": 48,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
     }
   },
@@ -637,18 +637,6 @@
       "unitCny": 12.14,
       "yg": 2.283,
       "url": "https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights"
-    },
-    {
-      "brand": "Bullet Weights",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "3/16 oz",
-      "g": 5.316,
-      "qty": 4,
-      "packUsd": 7.99,
-      "unitCny": 13.48,
-      "yg": 2.537,
-      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tungsten_Bullet_Weights/descpage-BWTBW.html"
     },
     {
       "brand": "Eagle Claw",
@@ -1261,18 +1249,6 @@
       "unitCny": 33.74,
       "yg": 3.808,
       "url": "https://reactiontackle.com/products/reaction-tackle-tungsten-worm-weights-bullet-shaped-sinkers"
-    },
-    {
-      "brand": "WOO!",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "5/16 oz",
-      "g": 8.859,
-      "qty": 3,
-      "packUsd": 17.69,
-      "unitCny": 39.8,
-      "yg": 4.493,
-      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Flipping_Weights/descpage-WTFW.html"
     },
     {
       "brand": "Fitzgerald",
@@ -2117,6 +2093,18 @@
       "note": "缺货（未计入有货比价）"
     },
     {
+      "brand": "Evolution",
+      "channel": "TW",
+      "cat": "Worm",
+      "size": "1/4 oz",
+      "qty": 4,
+      "packUsd": 6.49,
+      "color": "Watermelon",
+      "title": "Evolution Tungsten Worm Weight Watermelon Red 1/4",
+      "url": "https://www.tacklewarehouse.com/Evolution_Tungsten_Worm_Weights/descpage-EVWW.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
       "brand": "Xzone",
       "channel": "TW",
       "cat": "Worm",
@@ -2165,15 +2153,15 @@
       "note": "缺货（未计入有货比价）"
     },
     {
-      "brand": "Evolution",
+      "brand": "Bullet Weights",
       "channel": "TW",
       "cat": "Worm",
-      "size": "1/4 oz",
+      "size": "3/16 oz",
       "qty": 4,
-      "packUsd": 6.49,
-      "color": "Watermelon",
-      "title": "Evolution Tungsten Worm Weight Watermelon Red 1/4",
-      "url": "https://www.tacklewarehouse.com/Evolution_Tungsten_Worm_Weights/descpage-EVWW.html",
+      "packUsd": 8.49,
+      "color": "red",
+      "title": "B.W. Colored Tung Black 3/16 4pk",
+      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Colored_Tungsten_Bullet_Weight/descpage-BWCTBW.html",
       "note": "缺货（未计入有货比价）"
     },
     {
@@ -2237,30 +2225,6 @@
       "note": "缺货（未计入有货比价）"
     },
     {
-      "brand": "Bullet Weights",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "1/4 oz",
-      "qty": 3,
-      "packUsd": 7.99,
-      "color": "Black",
-      "title": "Bullet Tungsten Flipping Weights Black 1/4oz 3pk",
-      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tactical_Tungsten_Flipping_Weights/descpage-BWCT.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "Bullet Weights",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "1/2 oz",
-      "qty": 2,
-      "packUsd": 9.99,
-      "color": "Black",
-      "title": "Bullet Tungsten Flipping Weights Black 1/2oz 2pk",
-      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tactical_Tungsten_Flipping_Weights/descpage-BWCT.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
       "brand": "Arsenal Fishing",
       "channel": "TW",
       "cat": "Flipping",
@@ -2318,6 +2282,30 @@
       "color": "Black Out",
       "title": "Arsenal Fishing Flip Weight Black Out 1/2oz 2pk",
       "url": "https://www.tacklewarehouse.com/Arsenal_Fishing_Flipping_Weight_Black_Out_Tungsten/descpage-AFBOF.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Bullet Weights",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "1/4 oz",
+      "qty": 3,
+      "packUsd": 7.99,
+      "color": "Black",
+      "title": "Bullet Tungsten Flipping Weights Black 1/4oz 3pk",
+      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tactical_Tungsten_Flipping_Weights/descpage-BWCT.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Bullet Weights",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "1/2 oz",
+      "qty": 2,
+      "packUsd": 9.99,
+      "color": "Black",
+      "title": "Bullet Tungsten Flipping Weights Black 1/2oz 2pk",
+      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tactical_Tungsten_Flipping_Weights/descpage-BWCT.html",
       "note": "缺货（未计入有货比价）"
     },
     {
@@ -2405,6 +2393,18 @@
       "note": "缺货（未计入有货比价）"
     },
     {
+      "brand": "WOO!",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "5/16 oz",
+      "qty": 3,
+      "packUsd": 17.69,
+      "color": "Black",
+      "title": "WOO! Tungsten Flipping Weight Black 5/16 3pk",
+      "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Flipping_Weights/descpage-WTFW.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
       "brand": "WOO! Never Chip",
       "channel": "TW",
       "cat": "Flipping",
@@ -2484,17 +2484,16 @@
     },
     {
       "brand": "Bullet Weights",
-      "n": 6,
-      "sizes": "1/8 · 3/16 · 1/4 · 3/8 · 1/2 (5)",
+      "n": 5,
+      "sizes": "1/8 · 1/4 · 3/8 · 1/2 (4)",
       "sizeList": [
         "1/8 oz",
-        "3/16 oz",
         "1/4 oz",
         "3/8 oz",
         "1/2 oz"
       ],
       "min": 2.114,
-      "med": 2.458,
+      "med": 2.379,
       "max": 4.759,
       "tier": "更便宜"
     },
@@ -2691,23 +2690,6 @@
       "tier": "更贵"
     },
     {
-      "brand": "WOO!",
-      "n": 6,
-      "sizes": "1/16 · 1/8 · 1/4 · 5/16 · 3/8 · 1/2 (6)",
-      "sizeList": [
-        "1/16 oz",
-        "1/8 oz",
-        "1/4 oz",
-        "5/16 oz",
-        "3/8 oz",
-        "1/2 oz"
-      ],
-      "min": 3.807,
-      "med": 4.784,
-      "max": 7.993,
-      "tier": "更贵"
-    },
-    {
       "brand": "Arsenal Fishing",
       "n": 1,
       "sizes": "3/32 (1)",
@@ -2749,6 +2731,22 @@
       "min": 3.569,
       "med": 5.075,
       "max": 7.613,
+      "tier": "更贵"
+    },
+    {
+      "brand": "WOO!",
+      "n": 5,
+      "sizes": "1/16 · 1/8 · 1/4 · 3/8 · 1/2 (5)",
+      "sizeList": [
+        "1/16 oz",
+        "1/8 oz",
+        "1/4 oz",
+        "3/8 oz",
+        "1/2 oz"
+      ],
+      "min": 3.807,
+      "med": 5.076,
+      "max": 7.993,
       "tier": "更贵"
     },
     {
