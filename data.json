@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-11-15",
-    "updatedAt": "2026-11-15T15:41:13+08:00",
+    "asOf": "2026-11-16",
+    "updatedAt": "2026-11-16T15:46:52+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -21,10 +21,11 @@
         "discounttackle.com": 36,
         "reactiontackle.com": 56,
         "wootungsten.com": 7,
-        "tacklewarehouse.com": 211
+        "tacklewarehouse.com": 201
       },
       "fail": {
         "tacklewarehouse.com_pages": [
+          "https://www.tacklewarehouse.com/Queen_Tackle_Tungsten_Worm_Weights/descpage-QTWW.html",
           "https://www.tacklewarehouse.com/Evolution_Tungsten_Flipping_Weights/descpage-EVFW.html",
           "https://www.tacklewarehouse.com/Flat_Out_Tungsten_Frontloader_Punch_Weight/descpage-FFR.html",
           "https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Flippin_Weights/descpage-FFTFW.html",
@@ -38,7 +39,7 @@
       },
       "notes": []
     },
-    "validatedAt": "2026-11-15T15:41:13+08:00",
+    "validatedAt": "2026-11-16T15:46:52+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -67,9 +68,9 @@
       "minAgree": 2,
       "disagreements": 0,
       "needsReview": 0,
-      "published": 160,
+      "published": 155,
       "excluded": 0,
-      "alternateFetches": 48,
+      "alternateFetches": 47,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
     }
   },
@@ -157,18 +158,6 @@
       "unitCny": 8.09,
       "yg": 4.564,
       "url": "https://discounttackle.com/products/departure-outdoors-tungsten-worm-weights"
-    },
-    {
-      "brand": "Flat Out",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "1/16 oz",
-      "g": 1.772,
-      "qty": 5,
-      "packUsd": 6.65,
-      "unitCny": 8.98,
-      "yg": 5.067,
-      "url": "https://www.tacklewarehouse.com/Flat_Out_Tungsten_Flipping_Weights/descpage-FLO.html"
     },
     {
       "brand": "Nako",
@@ -603,18 +592,6 @@
       "url": "https://www.tacklewarehouse.com/Fitzgerald_Fishing_Tungsten_Worm_Weights/descpage-FFTWW.html"
     },
     {
-      "brand": "Queen Tackle",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "1/8 oz",
-      "g": 3.544,
-      "qty": 3,
-      "packUsd": 11.99,
-      "unitCny": 26.98,
-      "yg": 7.613,
-      "url": "https://www.tacklewarehouse.com/Queen_Tackle_Tungsten_Worm_Weights/descpage-QTWW.html"
-    },
-    {
       "brand": "Gamakatsu",
       "channel": "TW",
       "cat": "Worm",
@@ -781,18 +758,6 @@
       "unitCny": 22.26,
       "yg": 4.187,
       "url": "https://www.tacklewarehouse.com/Flat_Out_Tungsten_Screw_In_Weights/descpage-FSI.html"
-    },
-    {
-      "brand": "Queen Tackle",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "3/16 oz",
-      "g": 5.316,
-      "qty": 3,
-      "packUsd": 11.99,
-      "unitCny": 26.98,
-      "yg": 5.075,
-      "url": "https://www.tacklewarehouse.com/Queen_Tackle_Tungsten_Worm_Weights/descpage-QTWW.html"
     },
     {
       "brand": "TMO",
@@ -1069,18 +1034,6 @@
       "unitCny": 35.98,
       "yg": 5.076,
       "url": "https://www.tacklewarehouse.com/WOO_Tungsten_Flipping_Weights/descpage-WTFW.html"
-    },
-    {
-      "brand": "Queen Tackle",
-      "channel": "TW",
-      "cat": "Worm",
-      "size": "1/4 oz",
-      "g": 7.087,
-      "qty": 2,
-      "packUsd": 11.99,
-      "unitCny": 40.47,
-      "yg": 5.71,
-      "url": "https://www.tacklewarehouse.com/Queen_Tackle_Tungsten_Worm_Weights/descpage-QTWW.html"
     },
     {
       "brand": "Queen Tackle",
@@ -1853,18 +1806,6 @@
     {
       "brand": "Queen Tackle",
       "channel": "TW",
-      "cat": "Worm",
-      "size": "1/2 oz",
-      "g": 14.175,
-      "qty": 2,
-      "packUsd": 14.99,
-      "unitCny": 50.59,
-      "yg": 3.569,
-      "url": "https://www.tacklewarehouse.com/Queen_Tackle_Tungsten_Worm_Weights/descpage-QTWW.html"
-    },
-    {
-      "brand": "Queen Tackle",
-      "channel": "TW",
       "cat": "Flipping",
       "size": "1/2 oz",
       "g": 14.175,
@@ -2556,10 +2497,9 @@
     },
     {
       "brand": "Flat Out",
-      "n": 14,
-      "sizes": "1/16 · 1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (7)",
+      "n": 13,
+      "sizes": "1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (6)",
       "sizeList": [
-        "1/16 oz",
         "1/8 oz",
         "3/16 oz",
         "1/4 oz",
@@ -2568,8 +2508,8 @@
         "1/2 oz"
       ],
       "min": 3.26,
-      "med": 3.463,
-      "max": 5.067,
+      "med": 3.457,
+      "max": 4.757,
       "tier": "更便宜"
     },
     {
@@ -2690,6 +2630,20 @@
       "tier": "更贵"
     },
     {
+      "brand": "Queen Tackle",
+      "n": 3,
+      "sizes": "1/4 · 3/8 · 1/2 (3)",
+      "sizeList": [
+        "1/4 oz",
+        "3/8 oz",
+        "1/2 oz"
+      ],
+      "min": 3.569,
+      "med": 4.441,
+      "max": 5.71,
+      "tier": "更贵"
+    },
+    {
       "brand": "Arsenal Fishing",
       "n": 1,
       "sizes": "3/32 (1)",
@@ -2715,22 +2669,6 @@
       "min": 3.805,
       "med": 4.918,
       "max": 6.424,
-      "tier": "更贵"
-    },
-    {
-      "brand": "Queen Tackle",
-      "n": 7,
-      "sizes": "1/8 · 3/16 · 1/4 · 3/8 · 1/2 (5)",
-      "sizeList": [
-        "1/8 oz",
-        "3/16 oz",
-        "1/4 oz",
-        "3/8 oz",
-        "1/2 oz"
-      ],
-      "min": 3.569,
-      "med": 5.075,
-      "max": 7.613,
       "tier": "更贵"
     },
     {
