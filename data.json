@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Nako vs 竞品 · 钨钢 ¥/克对比",
-    "asOf": "2026-11-23",
-    "updatedAt": "2026-11-23T16:47:11+08:00",
+    "asOf": "2026-11-24",
+    "updatedAt": "2026-11-24T18:47:55+08:00",
     "fx": 6.75,
     "ozToG": 28.3495,
     "maxPieceG": 14.2,
@@ -21,7 +21,7 @@
         "discounttackle.com": 36,
         "reactiontackle.com": 56,
         "wootungsten.com": 7,
-        "tacklewarehouse.com": 184
+        "tacklewarehouse.com": 193
       },
       "fail": {
         "tacklewarehouse.com_pages": [
@@ -32,11 +32,11 @@
           "https://www.tacklewarehouse.com/Gamakatsu_G-Shield_Tungsten_Punch_Weights_1pk/descpage-GTPW.html",
           "https://www.tacklewarehouse.com/Red_One_System_Miller_Tungsten_Power_Punch_Shot_Weight/descpage-MPPS.html",
           "https://www.tacklewarehouse.com/Red_One_Systems_Miller_Tungsten_Punchin_Shots_Weights/descpage-PS.html",
-          "https://www.tacklewarehouse.com/TMO_Tungsten_Flipping_Weights/descpage-TMOTF.html",
           "https://www.tacklewarehouse.com/TMO_Tungsten_Punching_Weights/descpage-TMOTP.html",
           "https://www.tacklewarehouse.com/VMC_Tungsten_Flippin_Weights/descpage-VMCTFW.html",
           "https://www.tacklewarehouse.com/WOO_Tungsten_Flipping_Weights/descpage-WTFW.html",
-          "https://www.tacklewarehouse.com/BaitFuel_Freshwater_Gel_5oz_Fish_Attractant/descpage-NBBFA.html",
+          "https://www.tacklewarehouse.com/Zappu_Sasuteki_Tungsten_Sinkers/descpage-ZSSK.html",
+          "https://www.tacklewarehouse.com/TFO_Taction_Bass_Series_Casting_Rods/descpage-TFOTCT.html",
           "https://www.tacklewarehouse.com/Mustad_Tungsten_TitanX_Worm_Weights/descpage-MTXT.html",
           "https://www.tacklewarehouse.com/Omega_Tungsten_Flip_Weights/descpage-OTF.html",
           "https://www.tacklewarehouse.com/Strike_King_Tour_Grade_Tungsten_Weights/descpage-SKTGT.html"
@@ -44,7 +44,7 @@
       },
       "notes": []
     },
-    "validatedAt": "2026-11-23T16:47:11+08:00",
+    "validatedAt": "2026-11-24T18:47:55+08:00",
     "validation": {
       "rounds": 5,
       "methodCount": 5,
@@ -73,7 +73,7 @@
       "minAgree": 2,
       "disagreements": 0,
       "needsReview": 0,
-      "published": 151,
+      "published": 155,
       "excluded": 0,
       "alternateFetches": 44,
       "method": "multi-method consensus (≥2 of 5 distinct methods)"
@@ -393,18 +393,6 @@
       "url": "https://www.tacklewarehouse.com/Epic_Baits_Tungsten_Worm_Weights/descpage-EBTW.html"
     },
     {
-      "brand": "Zappu Sasuteki",
-      "channel": "TW",
-      "cat": "Other",
-      "size": "1/8 oz",
-      "g": 3.544,
-      "qty": 4,
-      "packUsd": 7.69,
-      "unitCny": 12.98,
-      "yg": 3.662,
-      "url": "https://www.tacklewarehouse.com/Zappu_Sasuteki_Tungsten_Sinkers/descpage-ZSSK.html"
-    },
-    {
       "brand": "Bullet Weights",
       "channel": "TW",
       "cat": "Worm",
@@ -547,6 +535,18 @@
       "unitCny": 22.76,
       "yg": 6.424,
       "url": "https://www.tacklewarehouse.com/TMO_Tungsten_Worm_Weights/descpage-TMOTW.html"
+    },
+    {
+      "brand": "TMO",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "1/8 oz",
+      "g": 3.544,
+      "qty": 4,
+      "packUsd": 13.49,
+      "unitCny": 22.76,
+      "yg": 6.424,
+      "url": "https://www.tacklewarehouse.com/TMO_Tungsten_Flipping_Weights/descpage-TMOTF.html"
     },
     {
       "brand": "Fitzgerald",
@@ -775,6 +775,18 @@
       "unitCny": 27.83,
       "yg": 5.235,
       "url": "https://www.tacklewarehouse.com/TMO_Tungsten_Worm_Weights/descpage-TMOTW.html"
+    },
+    {
+      "brand": "TMO",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "3/16 oz",
+      "g": 5.316,
+      "qty": 4,
+      "packUsd": 16.49,
+      "unitCny": 27.83,
+      "yg": 5.235,
+      "url": "https://www.tacklewarehouse.com/TMO_Tungsten_Flipping_Weights/descpage-TMOTF.html"
     },
     {
       "brand": "Gamakatsu",
@@ -1015,6 +1027,18 @@
       "unitCny": 34.85,
       "yg": 4.918,
       "url": "https://www.tacklewarehouse.com/TMO_Tungsten_Worm_Weights/descpage-TMOTW.html"
+    },
+    {
+      "brand": "TMO",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "1/4 oz",
+      "g": 7.087,
+      "qty": 3,
+      "packUsd": 15.49,
+      "unitCny": 34.85,
+      "yg": 4.918,
+      "url": "https://www.tacklewarehouse.com/TMO_Tungsten_Flipping_Weights/descpage-TMOTF.html"
     },
     {
       "brand": "Queen Tackle",
@@ -1521,6 +1545,18 @@
       "url": "https://www.tacklewarehouse.com/TMO_Tungsten_Worm_Weights/descpage-TMOTW.html"
     },
     {
+      "brand": "TMO",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "3/8 oz",
+      "g": 10.631,
+      "qty": 3,
+      "packUsd": 21.99,
+      "unitCny": 49.48,
+      "yg": 4.654,
+      "url": "https://www.tacklewarehouse.com/TMO_Tungsten_Flipping_Weights/descpage-TMOTF.html"
+    },
+    {
       "brand": "Fitzgerald",
       "channel": "TW",
       "cat": "Worm",
@@ -1881,6 +1917,18 @@
       "url": "https://www.tacklewarehouse.com/TMO_Tungsten_Worm_Weights/descpage-TMOTW.html"
     },
     {
+      "brand": "TMO",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "1/2 oz",
+      "g": 14.175,
+      "qty": 2,
+      "packUsd": 19.49,
+      "unitCny": 65.78,
+      "yg": 4.641,
+      "url": "https://www.tacklewarehouse.com/TMO_Tungsten_Flipping_Weights/descpage-TMOTF.html"
+    },
+    {
       "brand": "Fitzgerald",
       "channel": "TW",
       "cat": "Worm",
@@ -2135,66 +2183,6 @@
       "note": "缺货（未计入有货比价）"
     },
     {
-      "brand": "Bullet Weights",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "1/4 oz",
-      "qty": 3,
-      "packUsd": 7.99,
-      "color": "Black",
-      "title": "Bullet Tungsten Flipping Weights Black 1/4oz 3pk",
-      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tactical_Tungsten_Flipping_Weights/descpage-BWCT.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "Bullet Weights",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "1/2 oz",
-      "qty": 2,
-      "packUsd": 9.99,
-      "color": "Black",
-      "title": "Bullet Tungsten Flipping Weights Black 1/2oz 2pk",
-      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tactical_Tungsten_Flipping_Weights/descpage-BWCT.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "Elite Tungsten",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "5/16 oz",
-      "qty": 3,
-      "packUsd": 14.99,
-      "color": "Black",
-      "title": "Elite Tungsten Flippin' Weights Black 5/16 3pk",
-      "url": "https://www.tacklewarehouse.com/Elite_Tungsten_Flippin_Weights/descpage-ELTNGFL.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "Elite Tungsten",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "3/8 oz",
-      "qty": 3,
-      "packUsd": 9.99,
-      "color": "Black",
-      "title": "Elite Tungsten Flippin' Weights Black 3/8 3pk",
-      "url": "https://www.tacklewarehouse.com/Elite_Tungsten_Flippin_Weights/descpage-ELTNGFL.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
-      "brand": "Elite Tungsten",
-      "channel": "TW",
-      "cat": "Flipping",
-      "size": "1/2 oz",
-      "qty": 2,
-      "packUsd": 15.99,
-      "color": "Black",
-      "title": "Elite Tungsten Flippin' Weights Black 1/2 2pk",
-      "url": "https://www.tacklewarehouse.com/Elite_Tungsten_Flippin_Weights/descpage-ELTNGFL.html",
-      "note": "缺货（未计入有货比价）"
-    },
-    {
       "brand": "Arsenal Fishing",
       "channel": "TW",
       "cat": "Flipping",
@@ -2252,6 +2240,66 @@
       "color": "Black Out",
       "title": "Arsenal Fishing Flip Weight Black Out 1/2oz 2pk",
       "url": "https://www.tacklewarehouse.com/Arsenal_Fishing_Flipping_Weight_Black_Out_Tungsten/descpage-AFBOF.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Bullet Weights",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "1/4 oz",
+      "qty": 3,
+      "packUsd": 7.99,
+      "color": "Black",
+      "title": "Bullet Tungsten Flipping Weights Black 1/4oz 3pk",
+      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tactical_Tungsten_Flipping_Weights/descpage-BWCT.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Bullet Weights",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "1/2 oz",
+      "qty": 2,
+      "packUsd": 9.99,
+      "color": "Black",
+      "title": "Bullet Tungsten Flipping Weights Black 1/2oz 2pk",
+      "url": "https://www.tacklewarehouse.com/Bullet_Weights_Tactical_Tungsten_Flipping_Weights/descpage-BWCT.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Elite Tungsten",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "5/16 oz",
+      "qty": 3,
+      "packUsd": 14.99,
+      "color": "Black",
+      "title": "Elite Tungsten Flippin' Weights Black 5/16 3pk",
+      "url": "https://www.tacklewarehouse.com/Elite_Tungsten_Flippin_Weights/descpage-ELTNGFL.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Elite Tungsten",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "3/8 oz",
+      "qty": 3,
+      "packUsd": 9.99,
+      "color": "Black",
+      "title": "Elite Tungsten Flippin' Weights Black 3/8 3pk",
+      "url": "https://www.tacklewarehouse.com/Elite_Tungsten_Flippin_Weights/descpage-ELTNGFL.html",
+      "note": "缺货（未计入有货比价）"
+    },
+    {
+      "brand": "Elite Tungsten",
+      "channel": "TW",
+      "cat": "Flipping",
+      "size": "1/2 oz",
+      "qty": 2,
+      "packUsd": 15.99,
+      "color": "Black",
+      "title": "Elite Tungsten Flippin' Weights Black 1/2 2pk",
+      "url": "https://www.tacklewarehouse.com/Elite_Tungsten_Flippin_Weights/descpage-ELTNGFL.html",
       "note": "缺货（未计入有货比价）"
     },
     {
@@ -2416,18 +2464,6 @@
       "tier": "更便宜"
     },
     {
-      "brand": "Zappu Sasuteki",
-      "n": 1,
-      "sizes": "1/8 (1)",
-      "sizeList": [
-        "1/8 oz"
-      ],
-      "min": 3.662,
-      "med": 3.662,
-      "max": 3.662,
-      "tier": "更便宜"
-    },
-    {
       "brand": "Nako",
       "n": 36,
       "sizes": "1/64 · 1/32 · 3/64 · 1/16 · 3/32 · 1/8 · 3/16 · 1/4 · 5/16 · 3/8 · 1/2 (11)",
@@ -2528,7 +2564,7 @@
     },
     {
       "brand": "TMO",
-      "n": 5,
+      "n": 10,
       "sizes": "1/8 · 3/16 · 1/4 · 3/8 · 1/2 (5)",
       "sizeList": [
         "1/8 oz",
